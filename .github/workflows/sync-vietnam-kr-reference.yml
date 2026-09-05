@@ -24,6 +24,81 @@ jobs:
           python-version: '3.12'
       - name: Sync Korean reference mirror
         run: python scripts/sync_vietnam_kr_reference_20260905.py
+      - name: Fix Korean preview display and legacy navigation JS
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          p = Path('index.html')
+          text = p.read_text(encoding='utf-8')
+
+          # The new Korea-style mega menu replaces the old hamburger navigation.
+          # Guard the legacy JS so it cannot stop execution before reveal/video/tab logic.
+          old_mobile = """  // ---- Mobile menu
+            const menu=document.getElementById('menu'), burger=document.getElementById('hamburger');
+            burger.addEventListener('click',()=>{const o=menu.classList.toggle('open');burger.classList.toggle('open',o);burger.setAttribute('aria-expanded',o);});
+            menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');burger.classList.remove('open');burger.setAttribute('aria-expanded','false');}));
+          """
+          safe_mobile = """  // ---- Legacy mobile menu (guarded; Korea-style mega menu is primary)
+            const menu=document.getElementById('menu'), burger=document.getElementById('hamburger');
+            if(menu&&burger){
+              burger.addEventListener('click',()=>{const o=menu.classList.toggle('open');burger.classList.toggle('open',o);burger.setAttribute('aria-expanded',o);});
+              menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');burger.classList.remove('open');burger.setAttribute('aria-expanded','false');}));
+            }
+          """
+          if old_mobile in text:
+              text = text.replace(old_mobile, safe_mobile, 1)
+
+          old_spy = """  // ---- Active section highlighting
+            const links=[...menu.querySelectorAll('a')];
+            const sections=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+            const spy=new IntersectionObserver(entries=>{
+              entries.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id));}});
+            },{rootMargin:'-40% 0px -55% 0px'});
+            sections.forEach(s=>spy.observe(s));
+          """
+          safe_spy = """  // ---- Active section highlighting (only for legacy in-page anchors)
+            const links=menu?[...menu.querySelectorAll('a')]:[];
+            const sectionLinks=links.filter(a=>(a.getAttribute('href')||'').startsWith('#'));
+            const sections=sectionLinks.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+            if(sections.length){
+              const spy=new IntersectionObserver(entries=>{
+                entries.forEach(e=>{if(e.isIntersecting){sectionLinks.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id));}});
+              },{rootMargin:'-40% 0px -55% 0px'});
+              sections.forEach(s=>spy.observe(s));
+            }
+          """
+          if old_spy in text:
+              text = text.replace(old_spy, safe_spy, 1)
+
+          # Review mirror should never hide content if animation JS fails.
+          display_fix = '''<style id="tns-kr-display-fix-20260905">
+          .reveal{opacity:1!important;transform:none!important}
+          @media(max-width:640px){
+            .section{padding:54px 0!important}
+            .lead{font-size:15px!important;line-height:1.65!important}
+            h2{font-size:28px!important}
+          }
+          </style>'''
+          if 'tns-kr-display-fix-20260905' not in text:
+              text = text.replace('</head>', display_fix + '\n</head>', 1)
+
+          # Match the Vietnam preview header: no consultation/Zalo action in the fixed top area.
+          text = re.sub(r'\s*<a class="zalo-link" href="#">💬\s*Zalo 상담</a>', '', text, count=1)
+
+          # FAQ starts collapsed, as in the Vietnamese preview.
+          text = text.replace('<div class="home-lite-faq"><details open>', '<div class="home-lite-faq"><details>', 1)
+
+          # Safety checks: the page must remain visible and interactive after generation.
+          if 'const links=menu?[...menu.querySelectorAll' not in text:
+              raise SystemExit('safe navigation JS patch missing')
+          if 'tns-kr-display-fix-20260905' not in text:
+              raise SystemExit('display visibility fallback missing')
+
+          p.write_text(text, encoding='utf-8')
+          print('Korean review display fixed: reveal fallback, safe legacy nav JS, compact mobile text, collapsed FAQ.')
+          PY
       - name: Commit generated preview
         run: |
           if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
@@ -33,5 +108,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html robots.txt xjtlu-*.html du-hoc-*.html news/index.html
-          git commit -m "Sync Korean review mirror with Vietnam preview"
+          git commit -m "Fix Korean review preview rendering"
           git push origin HEAD:preview/sync-vietnam-20260905
