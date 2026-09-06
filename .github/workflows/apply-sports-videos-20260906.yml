@@ -1,0 +1,50 @@
+name: Apply English Sports Videos
+
+on:
+  push:
+    branches:
+      - preview/sync-vietnam-20260905
+    paths:
+      - 'scripts/replace_sports_videos_20260906.py'
+      - '.github/workflows/apply-sports-videos-20260906.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply-videos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview branch
+        uses: actions/checkout@v4
+        with:
+          ref: preview/sync-vietnam-20260905
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "TNS Preview Bot"
+          git config user.email "preview-bot@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Replace sports videos
+        run: python scripts/replace_sports_videos_20260906.py
+
+      - name: Validate video IDs
+        run: |
+          grep -q 'drOy9rzNmlE' xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html
+          grep -q 'T8g0zoI9rO4' xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html
+          ! grep -q 'XciLskXWwIU' xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html
+          ! grep -q 'nVirGEvdcT8' xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html
+
+      - name: Commit generated page
+        run: |
+          git add xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html
+          if ! git diff --cached --quiet; then
+            git commit -m "fix(preview): use English SIP and Taicang sports videos"
+            git push origin HEAD:preview/sync-vietnam-20260905
+          fi
