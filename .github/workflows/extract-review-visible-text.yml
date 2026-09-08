@@ -1,5 +1,5 @@
 name: Extract Korean Review Visible Text
-# Final human QA refresh after pass 3.
+# Final human QA refresh after pass 4.
 on:
   push:
     branches: [preview/sync-vietnam-site-ko-20260908]
