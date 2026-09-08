@@ -10,15 +10,16 @@ from pathlib import Path
 from typing import Iterable
 
 import torch
-from bs4 import BeautifulSoup, Comment, NavigableString
+from bs4 import BeautifulSoup, Comment, Doctype, NavigableString
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 SOURCE = Path(sys.argv[1]).resolve()
 TARGET = Path(sys.argv[2]).resolve()
 REVIEW_HOST = "https://xjtlu-vietnam-kr.netlify.app"
 PROD_HOST = "https://xjtlu-vietnam.netlify.app"
-VI_EN_MODEL = "Helsinki-NLP/opus-mt-vi-en"
-EN_KO_MODEL = "Helsinki-NLP/opus-mt-tc-big-en-ko"
+MODEL_NAME = "facebook/nllb-200-distilled-600M"
+SRC_LANG = "vie_Latn"
+TGT_LANG = "kor_Hang"
 
 SKIP_DIRS = {".git", ".github", "scripts", "__pycache__"}
 COPY_FILE_SUFFIXES = {
@@ -39,7 +40,6 @@ SHORT_PROPER = re.compile(
     re.I,
 )
 
-# Human-reviewed/common UI vocabulary. These override machine translation.
 MANUAL_EXACT = {
     "Menu": "메뉴",
     "XJTLU Việt Nam": "XJTLU 베트남",
@@ -65,6 +65,12 @@ MANUAL_EXACT = {
     "Cập nhật": "업데이트",
     "Đóng menu": "메뉴 닫기",
     "Xem thêm": "더 보기",
+    "Trang chủ": "홈",
+    "Tìm hiểu thêm": "자세히 알아보기",
+    "Tư vấn": "상담",
+    "Tư vấn miễn phí": "무료 상담",
+    "Đăng ký tư vấn": "상담 신청",
+    "Bài viết liên quan": "관련 글",
 }
 
 POST_REPLACEMENTS = [
@@ -72,6 +78,7 @@ POST_REPLACEMENTS = [
     ("시안 자오퉁-리버풀 대학교", "시안교통리버풀대학교"),
     ("시안 자오퉁 리버풀 대학교", "시안교통리버풀대학교"),
     ("시안자오퉁리버풀대학교", "시안교통리버풀대학교"),
+    ("시안 자오퉁-리버풀 대학", "시안교통리버풀대학교"),
     ("리버풀 대학교", "리버풀대학교"),
     ("쑤저우 중국", "중국 쑤저우"),
     ("호치민 시", "호치민시"),
@@ -81,12 +88,16 @@ POST_REPLACEMENTS = [
 ]
 
 cache: dict[str, str] = dict(MANUAL_EXACT)
-intermediate_en: dict[str, str] = {}
 model_errors: list[dict[str, str]] = []
 
 
 def normalize_ws(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
+
+
+def is_vietnamese(text: str) -> bool:
+    t = normalize_ws(text)
+    return bool(VI_DIACRITICS.search(t) or VI_COMMON.search(t))
 
 
 def should_translate(text: str) -> bool:
@@ -99,26 +110,22 @@ def should_translate(text: str) -> bool:
         return False
     if re.fullmatch(r"https?://\S+", t):
         return False
-    if t.startswith("data:"):
+    if t.startswith("data:") or len(t) == 1:
         return False
-    if len(t) == 1:
-        return False
-    return True
-
-
-def is_vietnamese(text: str) -> bool:
-    t = normalize_ws(text)
-    return bool(VI_DIACRITICS.search(t) or VI_COMMON.search(t))
+    return is_vietnamese(t)
 
 
 def postprocess(text: str) -> str:
-    out = text
+    out = normalize_ws(text)
     for a, b in POST_REPLACEMENTS:
         out = out.replace(a, b)
-    return out
+    out = re.sub(r"\s+([,.!?;:])", r"\1", out)
+    out = out.replace("XJTLU Vietnam", "XJTLU 베트남")
+    out = out.replace("Xi'an Jiaotong Liverpool University", "Xi'an Jiaotong-Liverpool University")
+    return out.strip()
 
 
-def split_for_model(text: str, max_chars: int = 900) -> list[str]:
+def split_for_model(text: str, max_chars: int = 650) -> list[str]:
     text = normalize_ws(text)
     if len(text) <= max_chars:
         return [text]
@@ -126,16 +133,6 @@ def split_for_model(text: str, max_chars: int = 900) -> list[str]:
     chunks: list[str] = []
     current = ""
     for sentence in sentences:
-        if len(sentence) > max_chars:
-            words = sentence.split()
-            for word in words:
-                candidate = (current + " " + word).strip()
-                if len(candidate) > max_chars and current:
-                    chunks.append(current)
-                    current = word
-                else:
-                    current = candidate
-            continue
         candidate = (current + " " + sentence).strip()
         if len(candidate) > max_chars and current:
             chunks.append(current)
@@ -144,53 +141,51 @@ def split_for_model(text: str, max_chars: int = 900) -> list[str]:
             current = candidate
     if current:
         chunks.append(current)
-    return chunks or [text]
+    final: list[str] = []
+    for chunk in chunks:
+        if len(chunk) <= max_chars:
+            final.append(chunk)
+            continue
+        words = chunk.split()
+        cur = ""
+        for word in words:
+            candidate = (cur + " " + word).strip()
+            if len(candidate) > max_chars and cur:
+                final.append(cur)
+                cur = word
+            else:
+                cur = candidate
+        if cur:
+            final.append(cur)
+    return final or [text]
 
 
-def load_model(name: str):
-    print(f"Loading translation model: {name}", flush=True)
-    tokenizer = AutoTokenizer.from_pretrained(name)
-    model = AutoModelForSeq2SeqLM.from_pretrained(name)
+def load_model():
+    print(f"Loading direct Vietnamese→Korean model: {MODEL_NAME}", flush=True)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, src_lang=SRC_LANG)
+    model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
     model.eval()
     return tokenizer, model
 
 
-def translate_with_model(tokenizer, model, texts: list[str], batch_size: int = 12) -> list[str]:
+def translate_chunks(tokenizer, model, texts: list[str], batch_size: int = 12) -> list[str]:
     outputs: list[str] = []
+    bos = tokenizer.convert_tokens_to_ids(TGT_LANG)
     for start in range(0, len(texts), batch_size):
         batch = texts[start : start + batch_size]
-        encoded = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=512)
+        encoded = tokenizer(batch, return_tensors="pt", padding=True, truncation=True, max_length=384)
         with torch.inference_mode():
             generated = model.generate(
                 **encoded,
-                max_new_tokens=512,
-                num_beams=3,
-                early_stopping=True,
+                forced_bos_token_id=bos,
+                max_new_tokens=320,
+                num_beams=1,
             )
         outputs.extend(tokenizer.batch_decode(generated, skip_special_tokens=True))
         done = min(start + batch_size, len(texts))
         if done % 120 < batch_size or done == len(texts):
-            print(f"  model translated {done}/{len(texts)} chunks", flush=True)
+            print(f"  translated {done}/{len(texts)} chunks", flush=True)
     return outputs
-
-
-def translate_map_with_model(tokenizer, model, items: dict[str, str]) -> dict[str, str]:
-    keys: list[str] = []
-    chunks: list[str] = []
-    for key, value in items.items():
-        parts = split_for_model(value)
-        for idx, part in enumerate(parts):
-            keys.append(f"{key}\u241f{idx}\u241f{len(parts)}")
-            chunks.append(part)
-    translated_chunks = translate_with_model(tokenizer, model, chunks)
-    grouped: dict[str, list[tuple[int, str]]] = {}
-    for compound, translated in zip(keys, translated_chunks):
-        key, idx, _total = compound.rsplit("\u241f", 2)
-        grouped.setdefault(key, []).append((int(idx), translated.strip()))
-    result: dict[str, str] = {}
-    for key, parts in grouped.items():
-        result[key] = " ".join(text for _, text in sorted(parts)).strip()
-    return result
 
 
 def prime_cache(strings: Iterable[str]) -> None:
@@ -203,59 +198,49 @@ def prime_cache(strings: Iterable[str]) -> None:
         seen.add(t)
         unique.append(t)
 
-    vi_strings = {t: t for t in unique if is_vietnamese(t)}
-    en_strings = {t: t for t in unique if t not in vi_strings}
-    print(
-        f"Preparing {len(unique)} unique strings: {len(vi_strings)} Vietnamese, {len(en_strings)} English/mixed",
-        flush=True,
-    )
-
-    # Stage 1: Vietnamese -> English.
-    if vi_strings:
-        vi_tokenizer, vi_model = load_model(VI_EN_MODEL)
-        try:
-            intermediate_en.update(translate_map_with_model(vi_tokenizer, vi_model, vi_strings,))
-        except Exception as exc:  # noqa: BLE001
-            model_errors.append({"stage": "vi-en", "error": repr(exc)})
-            raise
-        finally:
-            del vi_model, vi_tokenizer
-            gc.collect()
-
-    # Stage 2: English -> Korean. Vietnamese strings use their English intermediate form;
-    # already-English strings go directly to the English->Korean model.
-    stage2: dict[str, str] = {}
+    print(f"Preparing {len(unique)} unique Vietnamese strings for direct Korean translation", flush=True)
+    keys: list[str] = []
+    chunks: list[str] = []
     for source in unique:
-        stage2[source] = intermediate_en.get(source, source)
+        parts = split_for_model(source)
+        for idx, part in enumerate(parts):
+            keys.append(f"{source}\u241f{idx}\u241f{len(parts)}")
+            chunks.append(part)
 
-    en_tokenizer, en_model = load_model(EN_KO_MODEL)
+    tokenizer, model = load_model()
     try:
-        ko_map = translate_map_with_model(en_tokenizer, en_model, stage2)
+        translated_chunks = translate_chunks(tokenizer, model, chunks)
     except Exception as exc:  # noqa: BLE001
-        model_errors.append({"stage": "en-ko", "error": repr(exc)})
+        model_errors.append({"stage": "vie-ko-direct", "error": repr(exc)})
         raise
     finally:
-        del en_model, en_tokenizer
+        del model, tokenizer
         gc.collect()
 
-    for source, translated in ko_map.items():
-        cache[source] = postprocess(translated)
-    print(f"Translation cache ready: {len(cache)} strings", flush=True)
+    grouped: dict[str, list[tuple[int, str]]] = {}
+    for compound, translated in zip(keys, translated_chunks):
+        source, idx, _total = compound.rsplit("\u241f", 2)
+        grouped.setdefault(source, []).append((int(idx), translated))
+    for source, parts in grouped.items():
+        cache[source] = postprocess(" ".join(text for _, text in sorted(parts)))
+    print(f"Translation cache ready: {len(cache)} entries", flush=True)
 
 
 def korean_translate(text: str) -> str:
     raw = text
     t = normalize_ws(raw)
-    if not should_translate(t):
+    if t in MANUAL_EXACT:
+        translated = MANUAL_EXACT[t]
+    elif should_translate(t):
+        translated = cache.get(t, t)
+    else:
         return raw
     leading = raw[: len(raw) - len(raw.lstrip())]
     trailing = raw[len(raw.rstrip()) :]
-    translated = cache.get(t, t)
     return leading + postprocess(translated) + trailing
 
 
 def copy_source_site() -> None:
-    # Replace the review site's generated public content while preserving this branch's tooling.
     for item in TARGET.iterdir():
         if item.name in {".git", ".github", "scripts"}:
             continue
@@ -274,7 +259,6 @@ def copy_source_site() -> None:
         if src.suffix.lower() in COPY_FILE_SUFFIXES:
             shutil.copy2(src, TARGET / src.name)
 
-    # Human-review mirror: never make it an indexable duplicate of the Vietnamese site.
     (TARGET / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
     sitemap = TARGET / "sitemap.xml"
     if sitemap.exists():
@@ -289,13 +273,15 @@ def strip_indexing_metadata(soup: BeautifulSoup) -> None:
     robots["content"] = "noindex, nofollow, noarchive, nosnippet"
     if soup.head:
         soup.head.insert(0, robots)
-
     for tag in soup.find_all("link", attrs={"rel": lambda x: x and "canonical" in x}):
         tag.decompose()
     for tag in soup.find_all("meta", attrs={"property": "og:url"}):
         tag.decompose()
     for tag in soup.find_all("script", attrs={"type": "application/ld+json"}):
         tag.decompose()
+    locale = soup.find("meta", attrs={"property": "og:locale"})
+    if locale:
+        locale["content"] = "ko_KR"
 
 
 def collect_html_strings(path: Path) -> list[str]:
@@ -314,7 +300,7 @@ def collect_html_strings(path: Path) -> list[str]:
 
     skip_parents = {"script", "style", "svg", "path", "noscript", "code", "pre"}
     for node in soup.find_all(string=True):
-        if isinstance(node, Comment) or not node.parent or node.parent.name in skip_parents:
+        if isinstance(node, (Comment, Doctype)) or not node.parent or node.parent.name in skip_parents:
             continue
         if should_translate(str(node)):
             out.append(str(node))
@@ -349,22 +335,21 @@ def translate_html(path: Path) -> None:
 
     skip_parents = {"script", "style", "svg", "path", "noscript", "code", "pre"}
     for node in list(soup.find_all(string=True)):
-        if isinstance(node, Comment) or not node.parent or node.parent.name in skip_parents:
+        if isinstance(node, (Comment, Doctype)) or not node.parent or node.parent.name in skip_parents:
             continue
         raw = str(node)
-        if should_translate(raw):
+        if raw.strip() in MANUAL_EXACT or should_translate(raw):
             node.replace_with(NavigableString(korean_translate(raw)))
 
     for tag in soup.find_all(True):
         for attr in ("alt", "title", "aria-label", "placeholder"):
             value = tag.get(attr)
-            if isinstance(value, str) and should_translate(value):
+            if isinstance(value, str) and (value.strip() in MANUAL_EXACT or should_translate(value)):
                 tag[attr] = korean_translate(value).strip()
         href = tag.get("href")
         if isinstance(href, str) and href.startswith(PROD_HOST):
             tag["href"] = REVIEW_HOST + href[len(PROD_HOST) :]
 
-    # Small marker so reviewers always know this is the Korean inspection copy.
     if soup.body:
         review_css = soup.new_tag("style")
         review_css["id"] = "tns-korean-review-banner-style"
@@ -382,6 +367,8 @@ def translate_html(path: Path) -> None:
         soup.body.append(banner)
 
     rendered = str(soup).replace(PROD_HOST, REVIEW_HOST)
+    if rendered.lstrip().startswith("<html"):
+        rendered = "<!DOCTYPE html>\n" + rendered
     path.write_text(rendered, encoding="utf-8")
 
 
@@ -393,10 +380,10 @@ def visible_untranslated_report(paths: Iterable[Path]) -> list[dict[str, object]
         examples: list[str] = []
         count = 0
         for node in soup.find_all(string=True):
-            if isinstance(node, Comment) or not node.parent or node.parent.name in skip_parents:
+            if isinstance(node, (Comment, Doctype)) or not node.parent or node.parent.name in skip_parents:
                 continue
             text = normalize_ws(str(node))
-            if text and VI_DIACRITICS.search(text):
+            if text and is_vietnamese(text):
                 count += 1
                 if len(examples) < 5:
                     examples.append(text[:180])
@@ -430,7 +417,7 @@ def main() -> None:
         "source_repo": "tnsuhak/XJTLU_Vietnam",
         "source_branch": "preview/homepage-youtube-7co9mt5a9yu-20260908",
         "source_commit": os.environ.get("SOURCE_COMMIT", "unknown"),
-        "translation_backend": "offline Hugging Face Marian: vi-en -> en-ko",
+        "translation_backend": "facebook/nllb-200-distilled-600M direct vie_Latn -> kor_Hang",
         "html_pages": len(html_paths),
         "unique_translations": len(cache),
         "model_errors": model_errors,
