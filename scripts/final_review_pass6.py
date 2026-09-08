@@ -8,6 +8,10 @@ particles = r'(?:에서는|에서|으로|에게|부터|까지|보다|처럼|마�
 particle_space = re.compile(r'</(b|strong)>\s+(?=' + particles + r'(?=[\s,.!?<]))')
 
 PAGE_REPL = {
+    'index.html': {
+        '<span class="line">리버풀대학교 학위</span>': '<span class="line">영국 리버풀대학교</span>',
+        '<span class="line">중국 쑤저우 · 상하이 인근</span>': '<span class="line">중국 쑤저우</span>',
+    },
     'xjtlu-ranking-2027.html': {
         "<p>XJTLU는 2006년 University of Liverpool과 Xi'an Jiaotong University가 공동 설립한 독립 대학입니다. <b>Xi'an Jiaotong-Liverpool University</b>University of Liverpool 또는 Xi'an Jiaotong University의 순위로 대체해서 볼 수 없습니다.</p>":
         "<p>XJTLU는 2006년 University of Liverpool과 Xi'an Jiaotong University가 공동 설립한 독립 대학입니다. 따라서 <b>Xi'an Jiaotong-Liverpool University</b>의 자체 순위를 봐야 하며, University of Liverpool 또는 Xi'an Jiaotong University의 순위로 대체해서 볼 수 없습니다.</p>",
