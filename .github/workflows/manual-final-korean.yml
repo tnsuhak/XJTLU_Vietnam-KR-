@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/manual_final_korean.py'
       - 'scripts/manual_final_korean_part2.py'
+      - 'scripts/final_global_cleanup.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -25,6 +26,7 @@ jobs:
         run: |
           python scripts/manual_final_korean.py
           python scripts/manual_final_korean_part2.py
+          python scripts/final_global_cleanup.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
