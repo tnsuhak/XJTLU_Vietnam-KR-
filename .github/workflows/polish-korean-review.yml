@@ -1,0 +1,75 @@
+name: Final Polish XJTLU Vietnam Korean Review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - preview/sync-vietnam-site-ko-20260908
+    paths:
+      - 'scripts/polish_korean_review.py'
+      - '.github/workflows/polish-korean-review.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: polish-korean-review-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  polish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install parser
+        run: pip install --disable-pip-version-check beautifulsoup4
+
+      - name: Polish Korean review copy
+        run: python scripts/polish_korean_review.py
+
+      - name: Validate final review copy
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          import re
+
+          pages = sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html'))
+          assert len(pages) == 24, len(pages)
+          banned = ['학금', '토주', '도주 시안', '서안교통리버풀대학교', '시안 자오퉁-리버풀 대학교', '중국 2027 여행', '연구 결과가 올라갑니다.']
+          bad=[]
+          for p in pages:
+              text=p.read_text(encoding='utf-8')
+              soup=BeautifulSoup(text,'html.parser')
+              robots=soup.find('meta', attrs={'name':'robots'})
+              assert robots and 'noindex' in robots.get('content',''), p
+              assert soup.html and soup.html.get('lang')=='ko', p
+              assert soup.find('h1'), p
+              for term in banned:
+                  if term in soup.get_text(' ', strip=True):
+                      bad.append((str(p),term))
+          assert not bad, bad
+          assert Path('robots.txt').read_text(encoding='utf-8') == 'User-agent: *\nDisallow: /\n'
+          print('Final Korean review validation passed:', len(pages), 'pages')
+          PY
+
+      - name: Commit polished review pages
+        run: |
+          git config user.name 'TNS Site Manager'
+          git config user.email 'actions@users.noreply.github.com'
+          git add '*.html' 'news/*.html'
+          if git diff --cached --quiet; then
+            echo 'No polish changes'
+            exit 0
+          fi
+          git commit -m 'Polish Korean review copy for final preview'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
