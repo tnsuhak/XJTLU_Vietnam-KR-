@@ -43,13 +43,15 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from bs4 import BeautifulSoup
+          import re
 
           pages = sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html'))
           assert len(pages) == 24, len(pages)
           banned = [
-              '학금', '토주', '도주 시안', '서안교통리버풀대학교',
+              '토주', '도주 시안', '서안교통리버풀대학교',
               '시안 자오퉁-리버풀 대학교', '중국 2027 여행',
-              '연구 결과가 올라갑니다.', '후천 시립', '생상 영상'
+              '연구 결과가 올라갑니다.', '후천 시립', '생상 영상',
+              '장학비', '지아토ング'
           ]
           bad=[]
           for p in pages:
@@ -63,6 +65,9 @@ jobs:
               for term in banned:
                   if term in visible:
                       bad.append((str(p),term))
+              # Detect standalone mistranslation '학금' but allow the correct word '장학금'.
+              if re.search(r'(?<!장)학금', visible):
+                  bad.append((str(p),'standalone 학금'))
           assert not bad, bad
           assert Path('robots.txt').read_text(encoding='utf-8') == 'User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
