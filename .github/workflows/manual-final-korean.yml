@@ -9,6 +9,7 @@ on:
       - 'scripts/final_review_pass3.py'
       - 'scripts/final_review_pass4.py'
       - 'scripts/final_review_pass5.py'
+      - 'scripts/final_review_pass6.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -33,6 +34,7 @@ jobs:
           python scripts/final_review_pass3.py
           python scripts/final_review_pass4.py
           python scripts/final_review_pass5.py
+          python scripts/final_review_pass6.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
@@ -53,10 +55,13 @@ jobs:
             '57년에서 146년','그리고 저는 제 생각에','빅 쿼리','전학생 네트워크','수석생 네트워크','모든 뉴스를 보',
             '본문은 XJTLU에서 읽습니다','베트남어로 편집','이것은 XJTLU를 연구하는 사람들에게','러셀 그룹의 설립자',
             '영어학 전생','그 후 조롱','전 학자','전문적인 힙합','이것은 주목할만한 지표입니다','아시아의 최고의 교육 중심지',
-            '실수는 시드니','호주 최고의 대학에서 재학 중인 학생 중','150여명의 전학생','대학수교수','2년 직선','3년 직선'
+            '실수는 시드니','호주 최고의 대학에서 재학 중인 학생 중','150여명의 전학생','대학수교수','2년 직선','3년 직선',
+            '</strong>이수학기','</a>학비와 장학금','</b>University of Liverpool',
+            '국제학생 학비 10% 할인</strong> 리버풀대학교','코호트 상위 5%</strong> 안내된 성적'
           ]
           bad=[]
           soups={}
+          particle_gap=re.compile(r'</(?:b|strong)>\s+(?:에서는|에서|으로|에게|부터|까지|보다|처럼|마다|조차|이|가|을|를|은|는|와|과|에|로|의|도|만|께)(?=[\s,.!?<])')
           for p in pages:
               raw=p.read_text(encoding='utf-8')
               soup=BeautifulSoup(raw,'html.parser')
@@ -73,12 +78,12 @@ jobs:
               for b in banned:
                   if b in raw or b in vis: bad.append((str(p),b))
               if re.search(r'(?<!장)학금',vis): bad.append((str(p),'standalone 학금'))
+              if particle_gap.search(raw): bad.append((str(p),'space before Korean particle after bold'))
               for tag in soup.find_all(['p','div']):
                   if tag.get_text(strip=True) in {'.', ','}:
                       bad.append((str(p),'standalone punctuation block'))
           assert not bad,bad
 
-          # Internal links and fragment targets.
           broken=[]
           for p in pages:
               soup=soups[p.resolve()]
@@ -88,7 +93,6 @@ jobs:
                       continue
                   u=urlparse(href)
                   if u.scheme in ('http','https'):
-                      # Visible external sources/consultation links should open safely.
                       if a.get('target')!='_blank' or 'noopener' not in (a.get('rel') or []):
                           broken.append((str(p),'external attrs',href))
                       continue
@@ -121,16 +125,22 @@ jobs:
 
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
           admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
+          twoplus=Path('xjtlu-2plus2-liverpool.html').read_text(encoding='utf-8')
+          ranking=Path('xjtlu-ranking-2027.html').read_text(encoding='utf-8')
           assert '99,000 RMB' in fee and '연간 99,000 RMB' in fee
           assert '31/03/2027' in fee and '10%' in fee
           assert '31/05/2027' in admissions
           assert 'GPA 3.0/4.0 + SAT 1280 또는 ACT 27 + 2 AP: 4, 4' in admissions
           assert 'IELTS 5.0' in admissions and 'TOEFL iBT 62' in admissions
           assert 'IELTS 6.5' in admissions and 'TOEFL iBT 90' in admissions
+          assert '코호트 상위 5%' in twoplus and 'STEM은 평균 80% 이상' in twoplus and '비-STEM은 평균 70% 이상' in twoplus
+          assert '30% Merit Scholarship' in twoplus and '10% Partnership Discount와 중복 적용되지 않습니다' in twoplus
+          assert '1001–1200' in ranking and '601–800' in ranking and '701–800' in ranking
           assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
           print('critical validation passed:',len(pages),'pages')
           print('internal/external link validation passed')
+          print('final Korean typography and sentence-connection validation passed')
           PY
       - name: Commit final Korean review
         run: |
@@ -138,6 +148,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Complete final human Korean review pass 5'
+          git commit -m 'Complete final human Korean review pass 6'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
