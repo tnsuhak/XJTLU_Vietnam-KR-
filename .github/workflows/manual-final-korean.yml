@@ -8,6 +8,7 @@ on:
       - 'scripts/final_global_cleanup.py'
       - 'scripts/final_review_pass3.py'
       - 'scripts/final_review_pass4.py'
+      - 'scripts/final_review_pass5.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -31,6 +32,7 @@ jobs:
           python scripts/final_global_cleanup.py
           python scripts/final_review_pass3.py
           python scripts/final_review_pass4.py
+          python scripts/final_review_pass5.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
@@ -40,28 +42,40 @@ jobs:
           pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
           assert len(pages)==24
           banned=[
-            '99,000만원','99.000만원','99,000원','99.000원','제 말은,','도천','도저','토주','후천 시립','장학비','지아토ング',
-            '비엔나티움','대도시청소년병원','출처: 청와대','무궁화','태평양 캠퍼스','타이창랑','20262027','시안 자이오통',
-            '오해가 안되죠','海의 위치','학료','브로체어','부시로','학교의 생방송','활포','다지볼','산업과 수험 기간',
-            '리버풀대학교과','리버풀대학교은','빨리 물어봐','월드클라이딩','개요를 읽어보세요',
-            '전생','형상','ተበዳሪ','신학년','중국 학생만 선택하지','57년에서 146년','그리고 저는 제 생각에','빅 쿼리',
-            '전학생 네트워크','수석생 네트워크','모든 뉴스를 보','본문은 XJTLU에서 읽습니다','베트남어로 편집',
-            '이것은 XJTLU를 연구하는 사람들에게','러셀 그룹의 설립자','영어학 전생','그 후 조롱','전 학자','전문적인 힙합'
+            '99,000만원','99.000만원','99,000원','99.000원','99.000 RMB','7,0/10','86,43%','47,16%','93,40%',
+            '>1.018<','>1.500+<','>4.816<','>3.797<','>1.244<','2 AP: 4.4','조건들을 보세요',
+            '제 말은,','도천','도저','토주','후천 시립','장학비','지아토ング','비엔나티움','대도시청소년병원',
+            '출처: 청와대','무궁화','태평양 캠퍼스','타이창랑','20262027','시안 자이오통','오해가 안되죠','海의 위치',
+            '학료','브로체어','부시로','학교의 생방송','활포','다지볼','산업과 수험 기간','리버풀대학교과','리버풀대학교은',
+            '빨리 물어봐','월드클라이딩','개요를 읽어보세요','전생','형상','ተበዳሪ','신학년','중국 학생만 선택하지',
+            '57년에서 146년','그리고 저는 제 생각에','빅 쿼리','전학생 네트워크','수석생 네트워크','모든 뉴스를 보',
+            '본문은 XJTLU에서 읽습니다','베트남어로 편집','이것은 XJTLU를 연구하는 사람들에게','러셀 그룹의 설립자',
+            '영어학 전생','그 후 조롱','전 학자','전문적인 힙합','이것은 주목할만한 지표입니다','아시아의 최고의 교육 중심지',
+            '실수는 시드니','호주 최고의 대학에서 재학 중인 학생 중','150여명의 전학생'
           ]
           bad=[]
           for p in pages:
-              soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser')
+              raw=p.read_text(encoding='utf-8')
+              soup=BeautifulSoup(raw,'html.parser')
               assert soup.html and soup.html.get('lang')=='ko',p
               robots=soup.find('meta',attrs={'name':'robots'})
               assert robots and 'noindex' in robots.get('content',''),p
               vis=soup.get_text(' ',strip=True)
               for b in banned:
-                  if b in vis: bad.append((str(p),b))
+                  if b in raw or b in vis: bad.append((str(p),b))
               if re.search(r'(?<!장)학금',vis): bad.append((str(p),'standalone 학금'))
+              for tag in soup.find_all(['p','div']):
+                  if tag.get_text(strip=True) in {'.', ','}:
+                      bad.append((str(p),'standalone punctuation block'))
           assert not bad,bad
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
-          assert '99.000 RMB' in fee or '99,000 RMB' in fee
-          assert '연간 99,000 RMB' in fee
+          admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
+          assert '99,000 RMB' in fee and '연간 99,000 RMB' in fee
+          assert '31/03/2027' in fee and '10%' in fee
+          assert '31/05/2027' in admissions
+          assert 'GPA 3.0/4.0 + SAT 1280 또는 ACT 27 + 2 AP: 4, 4' in admissions
+          assert 'IELTS 5.0' in admissions and 'TOEFL iBT 62' in admissions
+          assert 'IELTS 6.5' in admissions and 'TOEFL iBT 90' in admissions
           assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
           print('critical validation passed:',len(pages),'pages')
@@ -72,6 +86,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Complete final human Korean review pass 4'
+          git commit -m 'Complete final human Korean review pass 5'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
