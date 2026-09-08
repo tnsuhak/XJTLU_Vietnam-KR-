@@ -37,13 +37,12 @@ jobs:
       - name: Install review translation dependencies
         run: |
           python -m pip install --disable-pip-version-check --upgrade pip
+          python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu torch
           python -m pip install --disable-pip-version-check beautifulsoup4 sentencepiece sacremoses 'transformers<5'
           python - <<'PY'
-          try:
-              import torch
-              print('torch already installed:', torch.__version__)
-          except ImportError:
-              raise SystemExit(1)
+          import torch, transformers
+          print('torch:', torch.__version__)
+          print('transformers:', transformers.__version__)
           PY
 
       - name: Fetch latest approved Vietnamese preview source
