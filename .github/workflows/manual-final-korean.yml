@@ -10,6 +10,7 @@ on:
       - 'scripts/final_review_pass4.py'
       - 'scripts/final_review_pass5.py'
       - 'scripts/final_review_pass6.py'
+      - 'scripts/standardize_subpage_contacts_20260908.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -35,6 +36,7 @@ jobs:
           python scripts/final_review_pass4.py
           python scripts/final_review_pass5.py
           python scripts/final_review_pass6.py
+          python scripts/standardize_subpage_contacts_20260908.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
@@ -123,6 +125,18 @@ jobs:
                           broken.append((str(p),'missing fragment',href))
           assert not broken,broken[:30]
 
+          homepage=Path('index.html').read_text(encoding='utf-8')
+          assert 'TNS_SUBPAGE_CONTACT_START' not in homepage
+          subpages=[p for p in pages if p!=Path('index.html')]
+          assert len(subpages)==23
+          for p in subpages:
+              raw=p.read_text(encoding='utf-8')
+              assert raw.count('TNS_SUBPAGE_CONTACT_START')==1,p
+              assert 'href="tel:+842838233266"' in raw,p
+              assert 'href="tel:+842432321239"' in raw,p
+              assert 'href="https://zalo.me/0336737617"' in raw,p
+              assert '호치민 전화상담' in raw and '하노이 전화상담' in raw and 'Zalo 상담' in raw,p
+
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
           admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
           twoplus=Path('xjtlu-2plus2-liverpool.html').read_text(encoding='utf-8')
@@ -141,6 +155,7 @@ jobs:
           print('critical validation passed:',len(pages),'pages')
           print('internal/external link validation passed')
           print('final Korean typography and sentence-connection validation passed')
+          print('subpage contact validation passed:',len(subpages),'pages')
           PY
       - name: Commit final Korean review
         run: |
@@ -148,6 +163,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Complete final human Korean review pass 6'
+          git commit -m 'Standardize Korean subpage contact buttons'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
