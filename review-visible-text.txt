@@ -561,7 +561,7 @@ university-of-liverpool-vietnam.html	41	small	XJTLU와 연결해 보는 이유
 university-of-liverpool-vietnam.html	42	h2	왜 Liverpool 네트워크와 베트남의 연결이 XJTLU 학생에게 중요할까요?
 university-of-liverpool-vietnam.html	43	p	아래 사례들은
 university-of-liverpool-vietnam.html	44	b	베트남 · Liverpool · University of Liverpool
-university-of-liverpool-vietnam.html	45	p	교육, 의료, 과학기술에서 혁신과 문화로 확장되고 있습니다. 이것은 XJTLU를 연구하는 사람들에게 주목할만한 상황입니다. 왜냐하면 XJTLU는 리버풀대학교와 깊은 학술적 관계와 학위 관계를 가지고 있기 때문입니다.
+university-of-liverpool-vietnam.html	45	p	사이에서 교육, 의료, 과학기술, AI, 문화 분야의 연결이 확대되고 있음을 보여줍니다. XJTLU는 University of Liverpool과 깊은 학술·학위 관계가 있기 때문에, 이 흐름은 XJTLU를 검토하는 베트남 학생에게 참고할 만한 배경입니다.
 university-of-liverpool-vietnam.html	46	h2	주목할 연결 사례 5가지
 university-of-liverpool-vietnam.html	47	p	국가 간 관계부터 도시·대학 차원의 협력까지, Liverpool과 베트남의 연결이 교육·혁신 분야에서 구체화되고 있습니다.
 university-of-liverpool-vietnam.html	48	span	03/2025
@@ -599,7 +599,7 @@ university-of-liverpool-vietnam.html	79	p	XJTLU는 University of Liverpool과 Xi
 university-of-liverpool-vietnam.html	80	h2	XJTLU와의 연결고리는 무엇인가요?
 university-of-liverpool-vietnam.html	81	p	핵심 연결고리는 XJTLU가 위 협력들의 직접 당사자라는 뜻이 아니라, XJTLU와 University of Liverpool 사이의 공동설립·학술·학위 관계입니다.
 university-of-liverpool-vietnam.html	82	b	핵심 정리:
-university-of-liverpool-vietnam.html	83	div	XJTLU 학생은 영국 대학 모델에 따라 리버풀대학교와 연계되어 있습니다. 프로그램에 따라 졸업 요구 사항을 충족하면, 학생은 리버풀대학교와 관련된 학위 구조를 가지고 있습니다. 일부 학업은 리버풀로 2+2 경로를 가지고 있습니다. 따라서 리버풀 × 베트남은 XJTLU 이야기의 추가 배경이며, XJTLU가 베트남과 직접적인 협약을 맺고 있다는 증거가 아닙니다.
+university-of-liverpool-vietnam.html	83	div	XJTLU 학생들은 영국식 학위구조 아래 University of Liverpool과 연결되어 있습니다. 프로그램 졸업요건을 충족하면 XJTLU와 University of Liverpool 학위를 받을 수 있으며, 일부 전공은 Liverpool로 이동하는 2+2 경로를 선택할 수 있습니다.
 university-of-liverpool-vietnam.html	84	h2	자주 묻는 질문
 university-of-liverpool-vietnam.html	85	summary	이 사례들이 XJTLU와 베트남의 직접 협력을 뜻하나요?
 university-of-liverpool-vietnam.html	86	p	아니요. 사례의 직접 당사자는 영국·Liverpool·University of Liverpool·호치민시 및 베트남 기관들입니다. XJTLU와의 관련성은 University of Liverpool과의 학술·학위 관계에 있습니다.
@@ -609,7 +609,7 @@ university-of-liverpool-vietnam.html	89	summary	Liverpool에 반드시 가야 �
 university-of-liverpool-vietnam.html	90	p	아닙니다. 2+2는 일부 전공에서 선택할 수 있는 학업 경로이며, 전공별 가능 여부와 조건을 확인해야 합니다.
 university-of-liverpool-vietnam.html	91	h2	함께 보면 좋은 가이드
 university-of-liverpool-vietnam.html	92	a	리버풀과 2+2
-university-of-liverpool-vietnam.html	93	span	4+0, 2+2, 학비와 조건
+university-of-liverpool-vietnam.html	93	span	4+0 · 2+2 · Liverpool 학비와 조건
 university-of-liverpool-vietnam.html	94	a	XJTLU에서 영어 공부
 university-of-liverpool-vietnam.html	95	span	중국에서 영어로 공부하는 구조
 university-of-liverpool-vietnam.html	96	a	전공 & 진로
@@ -1368,7 +1368,7 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	302	span	Jiayi Li는 Harvard 장�
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	303	a	Harvard → Cambridge
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	304	span	XJTLU에서 이어진 장기 학업 경로
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	305	a	XJTLU → Oxford
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	306	span	영어학 전생의 이야기입니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	306	span	영어 전공 졸업생 사례
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	307	strong	데이터 출처
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	308	section	2025 대학원 진학률과 진학대학 데이터는 XJTLU 공식 Graduate Destinations 자료를 기준으로 정리했습니다. 필요한 경우 아래 공식 출처에서 직접 확인할 수 있습니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	309	a	XJTLU Graduate Destinations →
@@ -1462,7 +1462,7 @@ xjtlu-nganh-hoc-nghe-nghiep.html	83	p	공급망, 제조업, 산업 기술, 혁�
 xjtlu-nganh-hoc-nghe-nghiep.html	84	h2	2026년 학술조직 개편
 xjtlu-nganh-hoc-nghe-nghiep.html	85	p	2026년 9월부터 XJTLU는 일부 학술조직을 재편했습니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	86	strong	Academy of Artificial Intelligence and Advanced Technology
-xjtlu-nganh-hoc-nghe-nghiep.html	87	p	그리고
+xjtlu-nganh-hoc-nghe-nghiep.html	87	p	및
 xjtlu-nganh-hoc-nghe-nghiep.html	88	strong	Academy of Life and Natural Sciences
 xjtlu-nganh-hoc-nghe-nghiep.html	89	p	현재 공식 홈페이지에서는 위 명칭을 사용합니다. 과거 브로셔나 기사에서는 School of Advanced Technology, School of Science, Wisdom Lake Academy of Pharmacy 등 이전 명칭이 보일 수 있습니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	90	div	학술조직 명칭이 바뀌었다고 전공 자체가 반드시 바뀐 것은 아닙니다. 희망 전공의 캠퍼스, 학위구조, 2+2 가능 여부는 2027 전공 페이지에서 확인하세요.
@@ -1509,7 +1509,7 @@ xjtlu-nganh-hoc-nghe-nghiep.html	130	div	·
 xjtlu-nganh-hoc-nghe-nghiep.html	131	a	XJTLU Graduate Destinations
 xjtlu-nganh-hoc-nghe-nghiep.html	132	div	·
 xjtlu-nganh-hoc-nghe-nghiep.html	133	a	Academy of Life and Natural Sciences
-xjtlu-nganh-hoc-nghe-nghiep.html	134	div	· XJTLU 2027 Mini Brochure (08/2026). 프로그램 목록 및 학술 구조는 계속 업데이트 될 수 있습니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	134	div	· XJTLU 2027 Mini Brochure (08/2026). 프로그램 목록 및 학술 구조는 계속 업데이트될 수 있습니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	135	div	한글 검수판 · 검색 비노출
 xjtlu-ranking-2027.html	1	[document]	html
 xjtlu-ranking-2027.html	2	title	[한글 검수판] XJTLU 순위 2027 | QS·THE·ARWU
@@ -1549,7 +1549,7 @@ xjtlu-ranking-2027.html	35	small	뉴스 보기 →
 xjtlu-ranking-2027.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 xjtlu-ranking-2027.html	37	div	XJTLU 순위 · 2026–2027 업데이트
 xjtlu-ranking-2027.html	38	h1	XJTLU 2027 순위: QS, THE, ARWU
-xjtlu-ranking-2027.html	39	p	시안교통리버풀대학교의 순위는 각 시스템이 다른 방법을 사용하기 때문에 순위 사이에는 상당한 차이가 있습니다. 이것은 리버풀대학교 또는 Xi'an Jiaotong University와 XJTLU를 잘못 읽지 않는 숫자입니다.
+xjtlu-ranking-2027.html	39	p	XJTLU의 세계대학 순위는 평가기관마다 방법론이 달라 결과 차이가 큽니다. 또한 XJTLU와 공동설립 대학인 University of Liverpool, Xi'an Jiaotong University의 순위를 서로 혼동하지 않아야 합니다.
 xjtlu-ranking-2027.html	40	div	빠른 답변
 xjtlu-ranking-2027.html	41	h2	XJTLU는 자체 순위가 있나요, 아니면 리버풀대학교 순위를 사용하나요?
 xjtlu-ranking-2027.html	42	strong	XJTLU는 별도의 순위를 가지고 있습니다.
@@ -1570,7 +1570,7 @@ xjtlu-ranking-2027.html	56	p	XJTLU는 2006년 University of Liverpool과 Xi'an J
 xjtlu-ranking-2027.html	57	b	Xi'an Jiaotong-Liverpool University
 xjtlu-ranking-2027.html	58	p	University of Liverpool 또는 Xi'an Jiaotong University의 순위로 대체해서 볼 수 없습니다.
 xjtlu-ranking-2027.html	59	b	학위와 대학 순위는 서로 다른 개념입니다.
-xjtlu-ranking-2027.html	60	div	XJTLU 졸업생들은 리버풀대학교와 같은 학위를 받을 수 있지만, 그렇다고 해서 XJTLU와 리버풀대학교는 대학 순위에서 같은 학교라는 의미는 아닙니다.
+xjtlu-ranking-2027.html	60	div	졸업요건을 충족한 XJTLU 학생이 University of Liverpool 학위를 받을 수 있어도, XJTLU와 University of Liverpool이 대학순위에서 같은 학교라는 뜻은 아닙니다.
 xjtlu-ranking-2027.html	61	h2	QS, THE, ARWU 순위는 왜 다르게 나오나요?
 xjtlu-ranking-2027.html	62	p	QS는 학계·고용주 평판, 연구, 국제화 등을 보고, THE는 교육·연구환경·연구품질·국제화·산학협력을 평가하며, ARWU는 연구성과와 정량 학술지표 비중이 큽니다. 그래서 비교적 젊은 XJTLU는 평가체계별 순위 구간이 크게 다를 수 있습니다.
 xjtlu-ranking-2027.html	63	th	평가기관
@@ -1589,7 +1589,7 @@ xjtlu-ranking-2027.html	75	h2	XJTLU 선택에서 순위가 가장 중요한가�
 xjtlu-ranking-2027.html	76	p	순위 하나만으로 결정하지 않는 것이 좋습니다. 베트남 학생에게는 희망 전공, 수업 언어, 학위구조, 비용·장학금, 캠퍼스 위치, 2+2 가능 여부, 졸업 후 진로가 더 직접적인 판단 요소일 수 있습니다.
 xjtlu-ranking-2027.html	77	p	XJTLU는 비교적 젊은 대학이므로 종합순위뿐 아니라 연구 성장, 전공별 강점, 두 공동설립 대학과의 학술 생태계도 함께 보는 것이 좋습니다.
 xjtlu-ranking-2027.html	78	h2	University of Liverpool과 Xi'an Jiaotong University는 XJTLU와 어떻게 연관되어 있나요?
-xjtlu-ranking-2027.html	79	p	두 학교는 XJTLU의 공동 설립자이다. 리버풀대학교는 영국에서 러셀 그룹의 설립자이며, Xi'an Jiaotong 대학은 중국에서 C9 리그의 설립자이다. 그러나, 두 학교의 순위는 XJTLU 순위와 비교하여 개인 데이터로 이루어져 있지 않다.
+xjtlu-ranking-2027.html	79	p	두 대학은 XJTLU의 공동설립 대학입니다. University of Liverpool은 Russell Group 회원이며 Xi'an Jiaotong University는 C9 League 회원이지만, 두 대학의 순위는 XJTLU 순위와 별개의 데이터입니다.
 xjtlu-ranking-2027.html	80	a	XJTLU 베트남 메인
 xjtlu-ranking-2027.html	81	a	2027 중국 유학 가이드
 xjtlu-ranking-2027.html	82	a	XJTLU 학비 & 장학금
@@ -1605,7 +1605,7 @@ xjtlu-ranking-2027.html	91	a	University of Liverpool – XJTLU partnership
 xjtlu-ranking-2027.html	92	div	※ 대학순위는 매년 변동될 수 있으므로 상담·지원 전 최신 자료를 다시 확인하세요.
 xjtlu-ranking-2027.html	93	div	한글 검수판 · 검색 비노출
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	1	[document]	html
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	2	title	[한글 검수판] 인도네시아의 700명의 XJTLU 학생: 동남아시아를 끌어들이는 형상
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	2	title	[한글 검수판] 인도네시아 학생 700명 이상 | XJTLU 동남아 네트워크
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	3	a	XJTLU 베트남
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	4	button	메뉴
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	5	span	☰
@@ -1642,44 +1642,44 @@ news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	35	small	뉴스 보기 →
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	37	div	동남아시아 · 국제 학생
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	38	h1	인도네시아 학생 700명 이상: XJTLU가 동남아 학생에게 주목받는 이유
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	39	p	자카르타에서 새로운 XJTLU 포럼은 학교가 동남아시아에서 확고한 영향력을 확대하고 있음을 보여줍니다. 베트남 학생에게는, 이것은 중국에서 영어 학습 모델의 수용 정도에 대한 주목할만한 신호입니다. 리버풀대학교와 관련된 학위를 취득합니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	39	p	자카르타에서 열린 XJTLU 교육 포럼과 인도네시아 학생 커뮤니티의 성장은 XJTLU가 동남아시아에서 영향력을 넓히고 있음을 보여줍니다. 베트남 학생에게는 중국에서 영어로 공부하고 University of Liverpool과 연결된 학위구조를 갖는 모델이 동남아 시장에서 어느 정도 받아들여지고 있는지 보여주는 사례입니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	40	b	~700
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	41	span	인도네시아의 XJTLU에서 공부하고 있는 학생
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	41	span	XJTLU 재학 중인 인도네시아 학생
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	42	b	1.500+
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	43	span	신학년 인도네시아의 기록
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	43	span	인도네시아 신규 지원 규모
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	44	b	~450
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	45	span	인도네시아의 전학생 네트워크의 일원
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	45	span	인도네시아 동문 네트워크 회원
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	46	span	편집자: XJTLU 베트남
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	47	span	28/08/2026
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	48	span	기자: XJTLU 공식 뉴스 · 2026년 6월 25일
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	49	p	Xian Jiaotong-Liverpool University (XJTLU) 는 인도네시아에서 첫 번째 교육 포럼을 두 날 동안 개최했습니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	49	p	Xi'an Jiaotong-Liverpool University(XJTLU)는 인도네시아에서 첫 교육 포럼을 이틀간 개최했습니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	50	p	가장 주목할 만한 점은 이벤트 규모뿐만 아니라 XJTLU에서 공부하는 인도네시아 학생 수입니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	51	b	인도네시아의 700명의 학생
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	52	p	학교는 국제적인 학생의 가장 큰 모임이 되었습니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	53	b	인도네시아에서 1500여건이 등록되었습니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	51	b	인도네시아 학생 약 700명
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	52	p	인도네시아는 XJTLU의 주요 국제학생 커뮤니티 중 하나로 성장했습니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	53	b	학교 자료에는 새 학년도 인도네시아 지원이 1,500건 이상이라고 소개되어 있습니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	54	p	.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	55	h2	중국 학생만 선택하지 않습니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	56	p	이 수치들은 XJTLU가 동남아 학생에게 실질적인 선택이 되고 있음을 보여준다. 이것은 특히 XJTLU의 대부분의 프로그램은 영어로 교육되고 있으며, 학생은 여전히 아시아의 가장 큰 경제 및 기술 시장인 중국에서 살면서 공부할 수 있는 기회를 가지고 있기 때문에 특히 주목할 만하다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	57	p	XJTLU는 Xian Jiaotong University와 리버풀대학교가 설립한 프로그램이다. 여러 프로그램으로 졸업생들은 University of Liverpool의 학위를 받고 XJTLU의 학위를 적용 프로그램 구조에 따라 받을 수 있다. 이 모델은 영국, 미국, 호주 또는 중국어 중학을 선택하는 것과 비교해서 상당히 다른 위치를 만들어 낸다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	58	b	베트남 학생에게는 중요한 것은
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	59	div	인도네시아의 많은 학생이 XJTLU가 베트남에서 비슷한 규모를 가지고 있다는 것을 의미하지는 않습니다. 그러나 이것은 학교의 교육 모델이 중요한 규모로 큰 동남아 시장에서 받아들여지고 있다는 명백한 증거입니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	55	h2	XJTLU는 중국 학생만의 선택지가 아닙니다
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	56	p	이 수치들은 XJTLU가 동남아 학생에게도 실질적인 선택지가 되고 있음을 보여줍니다. 국제학생 학위과정은 영어로 운영되며, 학생들은 중국에서 생활하고 공부하면서 아시아의 큰 경제·기술시장도 경험할 수 있습니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	57	p	XJTLU는 Xi'an Jiaotong University와 University of Liverpool이 공동 설립한 대학입니다. 프로그램 졸업요건을 충족하면 XJTLU와 University of Liverpool 학위를 받을 수 있는 구조를 갖고 있습니다. 이는 전통적인 영국·미국·호주 유학이나 중국어 중심 중국 유학과는 다른 선택입니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	58	b	베트남 학생이 볼 포인트
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	59	div	인도네시아 학생 규모가 베트남에서도 그대로 재현된다는 뜻은 아닙니다. 다만 XJTLU의 교육모델이 큰 동남아 시장 중 하나에서 상당한 규모로 받아들여지고 있다는 점은 참고할 만합니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	60	h2	XJTLU는 ASEAN 네트워크를 구축하고 있습니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	61	p	자카르타 여행에서 XJTLU는 또한 BINUS 대학과 Universitas Indonesia와 협력했다. 교류에는 여름 학교, 학생 교환 프로그램 및 중국과 ASEAN 관련 학술적 인 ተበዳሪ 등이 포함되어 있습니다. 이것은 동남아시아의 학교의 전략이 입학뿐만 아니라 더 넓은 학술 및 직업 네트워크로 향하는 것을 보여줍니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	62	p	XJTLU는 인도네시아의 전학생의 네트워크가 현재
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	61	p	자카르타 방문에서 XJTLU는 BINUS University와 Universitas Indonesia 등과 교류했습니다. 여름학교, 학생교환, 중국·ASEAN 관련 학술교류 등으로 협력 범위를 넓히고 있으며, 동남아 전략이 학생모집을 넘어 학술·진로 네트워크로 확장되고 있음을 보여줍니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	62	p	XJTLU의 인도네시아 동문 네트워크는 현재
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	63	b	450명의 회원
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	64	p	자카르타에서 열린 이번 회담에는 70명이 넘는 학생이 참석했습니다. 중국에 위치한 국제 대학으로, ASEAN 국가에서 자체적인 대학생 커뮤니티를 구축하는 것은 시장의 성장에 대한 주목할만한 신호입니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	65	h2	왜 인도네시아의 이야기는 베트남이 지켜봐야 할 것인가?
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	66	p	베트남과 인도네시아는 교육 시스템, 가정 소득 및 학교 선택에 대해 다르므로 인도네시아의 추세는 베트남에서 동일하게 반복될 것이라고 가정해서는 안 됩니다. 그러나 두 시장은 공통점을 가지고 있습니다. 부모와 학생은 점점 더 미국, 영국 또는 호주보다 합리적인 비용으로 국제 프로그램에 관심이 있지만 여전히 영어 요소, 국제 학위 및 경계를 넘어 직업 기회를 유지하는 것입니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	64	p	자카르타 행사에는 70명 이상의 동문·학생이 참석했습니다. 중국에 위치한 국제대학이 ASEAN 국가에서 자체 동문 커뮤니티를 확대하고 있다는 점은 학교의 지역 네트워크 성장 신호로 볼 수 있습니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	65	h2	왜 인도네시아 사례를 베트남 학생이 볼 만할까요?
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	66	p	베트남과 인도네시아의 교육환경과 가계소득, 대학선택 기준은 서로 다르므로 같은 흐름이 그대로 반복된다고 볼 수는 없습니다. 다만 두 시장 모두 전통적인 미국·영국·호주 유학보다 비용을 관리하면서 영어수업, 국제학위, 해외 진로 가능성을 유지할 수 있는 선택지에 관심이 커지고 있다는 공통점이 있습니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	67	p	베트남 학생이 비즈니스, AI, 데이터 과학, 물류, 기술 또는 리버풀대학교와 연계된 프로그램을 고려하고 있는 경우, XJTLU의 동남아 학생 커뮤니티의 성장은 추적할만한 신호입니다. 다음으로 살펴볼 것은 XJTLU가 인도네시아와 같은 방향으로 베트남에서의 입학 활동과 파트너 네트워크를 확장하는지 여부입니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	68	b	공식 출처
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	69	div	이 문서는 XJTLU의 전문 번역이 아닌 베트남어 편집입니다. 주요 자료와 사건은 2026년 6월 25일 공식 학교 게시물에서 비교되었습니다.
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	70	a	본문은 XJTLU에서 읽습니다
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	71	b	XJTLU에 대해 더 알아보세요
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	69	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다. 주요 수치와 사건은 2026년 6월 25일 학교 공식 게시물을 기준으로 확인했습니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	70	a	XJTLU 공식 원문 보기 →
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	71	b	XJTLU 관련 가이드
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	72	a	2027년 입학 조건
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	73	a	학비 & 장학금
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	74	a	중국 리버풀대학교 / XJTLU →
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	75	a	← 모든 XJTLU 뉴스
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	76	div	TNS Worldwide · XJTLU 베트남 · 베트남 학생 및 부모를 위한 콘텐츠
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	76	div	TNS Worldwide · XJTLU 베트남 · 한국어 검수판
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	77	div	한글 검수판 · 검색 비노출
 news/index.html	1	[document]	html
 news/index.html	2	title	[한글 검수판] XJTLU 뉴스
@@ -1722,7 +1722,7 @@ news/index.html	38	h1	XJTLU 뉴스
 news/index.html	39	p	XJTLU 공식 자료에서 베트남 학생·학부모에게 도움이 될 만한 업데이트를 선별해 한국어로 요약했습니다. 각 기사에서 공식 원문을 함께 확인할 수 있습니다.
 news/index.html	40	div	08/08/2026
 news/index.html	41	a	호주로 이어지는 XJTLU 졸업생 네트워크: 시드니·멜버른·브리즈번
-news/index.html	42	p	XJTLU는 2025년 호주 최고의 대학에서 600여 명의 학생이 재학할 수 있다고 밝혔다. 그 전생 네트워크는 시드니, 멜버른, 브리즈번에 집중되어 있습니다.
+news/index.html	42	p	XJTLU는 호주 주요 대학으로 진학한 학생과 졸업생 네트워크를 소개하며 시드니, 멜버른, 브리즈번 등에서 이어지는 동문 활동을 전했습니다.
 news/index.html	43	a	자세히 보기 →
 news/index.html	44	div	01/08/2026
 news/index.html	45	a	XJTLU에서 칭화대학교로: 인도네시아 학생의 진학 사례
@@ -1733,7 +1733,7 @@ news/index.html	49	a	2026년 XJTLU 학부 졸업생 3,797명, 리버풀대학교
 news/index.html	50	p	2026년 졸업식에서 3,797명의 학부생이 XJTLU 학위를 받았고, 이 가운데 1,244명이 First Class Honours를 받았습니다.
 news/index.html	51	a	자세히 보기 →
 news/index.html	52	div	03/07/2026
-news/index.html	53	a	XJTLU에서 Vivo: 인도네시아의 전생들이 베트남 시장에 대해 책임지고 있습니다
+news/index.html	53	a	XJTLU에서 Vivo로: 동남아 시장에서 일하는 인도네시아 졸업생
 news/index.html	54	p	Della Senjaya는 XJTLU Marketing 졸업 후 Vivo에서 근무하며 인도네시아·말레이시아·베트남·필리핀 등 동남아 시장 관련 업무를 하고 있습니다.
 news/index.html	55	a	자세히 보기 →
 news/index.html	56	div	25/06/2026
@@ -1741,7 +1741,7 @@ news/index.html	57	a	인도네시아 학생 700명 이상: XJTLU가 동남아 �
 news/index.html	58	p	XJTLU는 700명 이상의 인도네시아 학생 커뮤니티를 소개하며 동남아시아 지역에서의 학생 네트워크 확대를 보여주고 있습니다.
 news/index.html	59	a	자세히 보기 →
 news/index.html	60	div	13/05/2026
-news/index.html	61	a	500여명의 XJTLU 전생들이 싱가포르에 왔습니다. 동남아시아 중심부에서
+news/index.html	61	a	싱가포르에서 이어지는 XJTLU 동문·진학 네트워크
 news/index.html	62	p	XJTLU는 싱가포르에서 활동하는 500명 이상의 졸업생과 현지 대학 진학 사례 등 동남아 중심지에서 확대되는 네트워크를 소개했습니다.
 news/index.html	63	a	자세히 보기 →
 news/index.html	64	div	13/05/2026
@@ -1754,7 +1754,7 @@ news/index.html	70	p	XJTLU 전 학생 Yiran Du는 하버드에서 교육 석사�
 news/index.html	71	a	자세히 보기 →
 news/index.html	72	div	10/01/2026
 news/index.html	73	a	XJTLU에서 Harvard 전액 장학금까지: Stanford·Yale·Oxford offer 사례
-news/index.html	74	p	바이오메디컬 통계학 전생 Jiayi Li는 하버드 대학에서 석사 과정에 전공 장학금을 받았으며, 스탠퍼드, 예일, 옥스퍼드에서 제안도 받았다.
+news/index.html	74	p	Biomedical Statistics 전공 Jiayi Li는 Harvard 석사 전액 장학금을 받고 Stanford, Yale, Oxford에서도 offer를 받았습니다.
 news/index.html	75	a	자세히 보기 →
 news/index.html	76	div	22/07/2025
 news/index.html	77	a	XJTLU → University of Pennsylvania: PwC·연구 경험과 미국 대학원 진학
@@ -1772,7 +1772,7 @@ news/index.html	88	div	이 페이지는 한국어 검수를 위한 편집본이�
 news/index.html	89	div	TNS Worldwide · XJTLU 베트남
 news/index.html	90	div	한글 검수판 · 검색 비노출
 news/xjtlu-alumni-australia-2026.html	1	[document]	html
-news/xjtlu-alumni-australia-2026.html	2	title	[한글 검수판] 약 600명의 XJTLU 학생이 2025년 호주로 베트남으로 재학할 것입니다.
+news/xjtlu-alumni-australia-2026.html	2	title	[한글 검수판] 호주로 이어지는 XJTLU 졸업생 네트워크
 news/xjtlu-alumni-australia-2026.html	3	a	XJTLU 베트남
 news/xjtlu-alumni-australia-2026.html	4	button	메뉴
 news/xjtlu-alumni-australia-2026.html	5	span	☰
@@ -1807,40 +1807,40 @@ news/xjtlu-alumni-australia-2026.html	33	a	XJTLU에서 영어로 대학 공부�
 news/xjtlu-alumni-australia-2026.html	34	a	XJTLU 뉴스
 news/xjtlu-alumni-australia-2026.html	35	small	뉴스 보기 →
 news/xjtlu-alumni-australia-2026.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-alumni-australia-2026.html	37	div	호주 · 졸업생 · 더 공부
+news/xjtlu-alumni-australia-2026.html	37	div	호주 · 졸업생 · 대학원 진학
 news/xjtlu-alumni-australia-2026.html	38	h1	호주로 이어지는 XJTLU 졸업생 네트워크: 시드니·멜버른·브리즈번
-news/xjtlu-alumni-australia-2026.html	39	p	시드니 하버에서 열린 Alumni Event에서 XJTLU는 호주에서 학생 및 전학생 네트워크를 주목할만한 규모로 발표했습니다.
+news/xjtlu-alumni-australia-2026.html	39	p	시드니 하버에서 열린 XJTLU Alumni Event에서 학교는 호주에서 성장한 XJTLU 학생·졸업생 네트워크를 소개했습니다.
 news/xjtlu-alumni-australia-2026.html	40	div	기자: XJTLU 공식 뉴스 · 08/08/2026
-news/xjtlu-alumni-australia-2026.html	41	p	2026년 8월 6일, 더
-news/xjtlu-alumni-australia-2026.html	42	b	100명의 전생 XJTLU
-news/xjtlu-alumni-australia-2026.html	43	p	이 학교가 20주년을 맞이한 시드니 하버에서 열리는 행사에 참석했습니다. 이 행사는 남반구에서 첫 번째 Next Together의 행사를 시작하였습니다.
-news/xjtlu-alumni-australia-2026.html	44	p	이 행사에서 XJTLU는 호주 대학이 오랫동안 대학을 졸업하고 더 많은 공부를 원하는 주요 목적지 중 하나라고 말했습니다.
-news/xjtlu-alumni-australia-2026.html	45	b	2025년에는 600여명의 학생이
-news/xjtlu-alumni-australia-2026.html	46	p	그리고 저는 제 생각에
+news/xjtlu-alumni-australia-2026.html	41	p	2026년 8월 6일,
+news/xjtlu-alumni-australia-2026.html	42	b	100명 이상의 XJTLU 졸업생
+news/xjtlu-alumni-australia-2026.html	43	p	이 시드니 하버에서 열린 20주년 기념 행사에 참석했습니다. 이 행사는 남반구에서 열린 첫 ‘Next Together’ 행사였습니다.
+news/xjtlu-alumni-australia-2026.html	44	p	XJTLU는 호주가 졸업 후 대학원 진학과 커리어를 이어가는 주요 목적지 중 하나라고 소개했습니다.
+news/xjtlu-alumni-australia-2026.html	45	b	2025년에는 XJTLU 학생 600명 이상이
+news/xjtlu-alumni-australia-2026.html	46	p	호주 주요 대학으로 진학했으며 대표적으로
 news/xjtlu-alumni-australia-2026.html	47	b	UNSW, 멜버른 대학교, 시드니 대학교
 news/xjtlu-alumni-australia-2026.html	48	p	.
-news/xjtlu-alumni-australia-2026.html	49	h2	단순히 학업에 대한 교육만이 아니라 직업 네트워크가 형성되었습니다.
+news/xjtlu-alumni-australia-2026.html	49	h2	학업뿐 아니라 커리어 네트워크도 형성되고 있습니다
 news/xjtlu-alumni-australia-2026.html	50	p	XJTLU에 따르면 호주에서 졸업생들은 금융, 기술, 컨설팅, 의료, 건축 및 공공 연구 분야에서 일하고 있습니다.
 news/xjtlu-alumni-australia-2026.html	51	b	시드니, 멜버른, 브리즈번
-news/xjtlu-alumni-australia-2026.html	52	p	그리고
-news/xjtlu-alumni-australia-2026.html	53	b	61%의 졸업생들은 중등 경영자직을 맡고 있습니다.
+news/xjtlu-alumni-australia-2026.html	52	p	등에서 동문이 활동하고 있으며,
+news/xjtlu-alumni-australia-2026.html	53	b	학교 자료에서는 졸업생의 61%가 중간관리자급 이상 직책에서 일하고 있다고 소개합니다.
 news/xjtlu-alumni-australia-2026.html	54	p	.
-news/xjtlu-alumni-australia-2026.html	55	p	XJTLU는 은행, 빅 쿼리, 기술 플랫폼 및 CSIRO와 같은 연구 기관에서 일하는 Alumni 사례를 제시했습니다.
-news/xjtlu-alumni-australia-2026.html	56	b	베트남 학생의 주목할 만한 점:
-news/xjtlu-alumni-australia-2026.html	57	div	만약 장기적인 목표는 아시아에서 공부하는 것이지만 호주에서 재학하거나 커리어를 개발하는 것을 선택한다면, 이 졸업자 데이터는 XJTLU가 호주 주요 도시에서 실질적인 네트워크를 형성했다는 것을 보여줍니다.
+news/xjtlu-alumni-australia-2026.html	55	p	XJTLU는 은행, 글로벌 기업, 기술 플랫폼, CSIRO와 같은 연구기관에서 일하는 동문 사례를 소개했습니다.
+news/xjtlu-alumni-australia-2026.html	56	b	베트남 학생이 볼 포인트:
+news/xjtlu-alumni-australia-2026.html	57	div	장기적으로 아시아에서 공부한 뒤 호주에서 대학원 진학이나 커리어를 이어가고 싶다면, 이 데이터는 XJTLU가 호주 주요 도시에서 실질적인 동문 네트워크를 형성하고 있음을 보여줍니다.
 news/xjtlu-alumni-australia-2026.html	58	h2	호주 대학과의 연결도 계속되고 있습니다.
-news/xjtlu-alumni-australia-2026.html	59	p	시드니 여행에서 XJTLU는 University of Sydney와 UNSW와 협력했다. 시드니 이후, 연쇄 활동은 멜버른, 오클랜드, 웰링턴으로 이어졌다.
+news/xjtlu-alumni-australia-2026.html	59	p	시드니 방문에서 XJTLU는 University of Sydney와 UNSW 등 현지 대학과도 교류했습니다. 이후 20주년 관련 활동은 멜버른, 오클랜드, 웰링턴으로 이어졌습니다.
 news/xjtlu-alumni-australia-2026.html	60	b	공식 출처
-news/xjtlu-alumni-australia-2026.html	61	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-alumni-australia-2026.html	62	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-alumni-australia-2026.html	63	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-alumni-australia-2026.html	61	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-alumni-australia-2026.html	62	a	XJTLU 공식 원문 보기 →
+news/xjtlu-alumni-australia-2026.html	63	b	XJTLU 관련 가이드
 news/xjtlu-alumni-australia-2026.html	64	a	졸업 후 진학 결과
 news/xjtlu-alumni-australia-2026.html	65	a	입학 조건 →
 news/xjtlu-alumni-australia-2026.html	66	a	XJTLU & Liverpool →
-news/xjtlu-alumni-australia-2026.html	67	a	← 모든 뉴스를 보
+news/xjtlu-alumni-australia-2026.html	67	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-alumni-australia-2026.html	68	div	한글 검수판 · 검색 비노출
 news/xjtlu-alumni-singapore-2026.html	1	[document]	html
-news/xjtlu-alumni-singapore-2026.html	2	title	[한글 검수판] 500여명의 XJTLU 전생들이 싱가포르에 왔습니다.
+news/xjtlu-alumni-singapore-2026.html	2	title	[한글 검수판] 싱가포르에서 이어지는 XJTLU 동문·진학 네트워크
 news/xjtlu-alumni-singapore-2026.html	3	a	XJTLU 베트남
 news/xjtlu-alumni-singapore-2026.html	4	button	메뉴
 news/xjtlu-alumni-singapore-2026.html	5	span	☰
@@ -1876,38 +1876,38 @@ news/xjtlu-alumni-singapore-2026.html	34	a	XJTLU 뉴스
 news/xjtlu-alumni-singapore-2026.html	35	small	뉴스 보기 →
 news/xjtlu-alumni-singapore-2026.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-alumni-singapore-2026.html	37	div	싱가포르 · 졸업생 · 동남아
-news/xjtlu-alumni-singapore-2026.html	38	h1	500여명의 XJTLU 전생들이 싱가포르에 왔습니다. 동남아시아 중심부에서
-news/xjtlu-alumni-singapore-2026.html	39	p	싱가포르 국립대학교에서 20주년 기념 행사에서 XJTLU는 싱가포르가 학생과 대학생의 중요성이 높아지고 있는 것을 보여주는 숫자를 발표했습니다.
+news/xjtlu-alumni-singapore-2026.html	38	h1	싱가포르에서 이어지는 XJTLU 동문·진학 네트워크
+news/xjtlu-alumni-singapore-2026.html	39	p	National University of Singapore(NUS)에서 열린 XJTLU 20주년 행사에서 학교는 싱가포르에서 커지는 학생·동문 네트워크 관련 수치를 소개했습니다.
 news/xjtlu-alumni-singapore-2026.html	40	div	기자: XJTLU 공식 뉴스 · 2026년 5월 13일
-news/xjtlu-alumni-singapore-2026.html	41	p	2026년 4월, XJTLU는 20주년 기념 Alumni Event을 개최했습니다.
+news/xjtlu-alumni-singapore-2026.html	41	p	2026년 4월 XJTLU는
 news/xjtlu-alumni-singapore-2026.html	42	b	National University of Singapore (NUS)
-news/xjtlu-alumni-singapore-2026.html	43	p	더 많은
-news/xjtlu-alumni-singapore-2026.html	44	b	70명의 전생
-news/xjtlu-alumni-singapore-2026.html	45	p	참여하세요.
-news/xjtlu-alumni-singapore-2026.html	46	p	XJTLU에 따르면 학교는 더 많은
-news/xjtlu-alumni-singapore-2026.html	47	b	싱가포르에 500명의 졸업생들이 도착했습니다.
-news/xjtlu-alumni-singapore-2026.html	48	p	학업이나 직업적인 발전을 위해
-news/xjtlu-alumni-singapore-2026.html	49	b	현재 싱가포르에서 공부하고 있거나 일하고 있는 150명의 졸업생들이 있습니다.
-news/xjtlu-alumni-singapore-2026.html	50	p	, 컴퓨터 과학, 전자공학, 비즈니스 등 다양한 전문적인 기반을 가지고 있습니다.
-news/xjtlu-alumni-singapore-2026.html	51	h2	싱가포르의 재학생 수가 급격히 증가하고 있습니다.
-news/xjtlu-alumni-singapore-2026.html	52	p	XJTLU는 싱가포르에서 재학중인 학생의 수치가 증가한
-news/xjtlu-alumni-singapore-2026.html	53	b	57년에서 146년으로 3년 동안
+news/xjtlu-alumni-singapore-2026.html	43	p	에서 20주년 Alumni Event를 열었고,
+news/xjtlu-alumni-singapore-2026.html	44	b	70명 이상의 XJTLU 동문
+news/xjtlu-alumni-singapore-2026.html	45	p	이 행사에 참석했습니다.
+news/xjtlu-alumni-singapore-2026.html	46	p	XJTLU에 따르면 현재
+news/xjtlu-alumni-singapore-2026.html	47	b	500명 이상의 XJTLU 졸업생이 싱가포르와 연결되어 있으며
+news/xjtlu-alumni-singapore-2026.html	48	p	학업 또는 커리어를 위해
+news/xjtlu-alumni-singapore-2026.html	49	b	약 150명의 졸업생이 현재 싱가포르에서 공부하거나 일하고 있습니다.
+news/xjtlu-alumni-singapore-2026.html	50	p	, 컴퓨터과학, 전자공학, 비즈니스 등 다양한 전공 배경을 갖고 있습니다.
+news/xjtlu-alumni-singapore-2026.html	51	h2	싱가포르 대학 진학 사례도 빠르게 늘었습니다
+news/xjtlu-alumni-singapore-2026.html	52	p	XJTLU가 소개한 싱가포르 진학 학생 수는
+news/xjtlu-alumni-singapore-2026.html	53	b	3년 사이 57명에서 146명으로 증가
 news/xjtlu-alumni-singapore-2026.html	54	p	이것은 주목할만한 지표입니다. 싱가포르는 아시아의 최고의 교육 중심지이자 동남아 학생의 국제적인 일자리 시장 중 하나입니다.
-news/xjtlu-alumni-singapore-2026.html	55	b	베트남 학생의 주목할 만한 점:
-news/xjtlu-alumni-singapore-2026.html	56	div	XJTLU는 영국이나 중국과만 연결되는 것이 아닙니다. 싱가포르의 수석생 네트워크는 졸업 후 학생이 동남아시아의 국제 센터에서 공부를 계속하고 경력을 쌓을 수 있음을 보여줍니다.
+news/xjtlu-alumni-singapore-2026.html	55	b	베트남 학생이 볼 포인트:
+news/xjtlu-alumni-singapore-2026.html	56	div	XJTLU는 영국이나 중국만으로 연결되는 대학이 아닙니다. 싱가포르의 동문·진학 네트워크는 졸업 후 동남아시아의 국제 교육·비즈니스 중심지에서 학업이나 커리어를 이어갈 수 있는 사례를 보여줍니다.
 news/xjtlu-alumni-singapore-2026.html	57	h2	점점 더 명확한 지역 네트워크
-news/xjtlu-alumni-singapore-2026.html	58	p	싱가포르에서의 행사는 XJTLU의 20주년 기념 글로벌 활동의 순서 안에 있습니다. 베트남 학생에게는 더 넓은 경로를 더 잘 보여준다: 쑤저우에서 공부하고, 학위와 국제 경험을 쌓아, 중국, 영국, 싱가포르 또는 다른 지역 시장에서 계속 공부하거나 일할 수 있습니다.
+news/xjtlu-alumni-singapore-2026.html	58	p	싱가포르 행사는 XJTLU 20주년 글로벌 활동의 일부입니다. 베트남 학생 입장에서는 쑤저우에서 공부하고 국제적인 경험을 쌓은 뒤 중국·영국·싱가포르 등 다른 시장으로 학업과 커리어를 이어가는 경로를 보여주는 사례입니다.
 news/xjtlu-alumni-singapore-2026.html	59	b	공식 출처
-news/xjtlu-alumni-singapore-2026.html	60	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-alumni-singapore-2026.html	61	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-alumni-singapore-2026.html	62	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-alumni-singapore-2026.html	60	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-alumni-singapore-2026.html	61	a	XJTLU 공식 원문 보기 →
+news/xjtlu-alumni-singapore-2026.html	62	b	XJTLU 관련 가이드
 news/xjtlu-alumni-singapore-2026.html	63	a	졸업 후 진학 결과
 news/xjtlu-alumni-singapore-2026.html	64	a	입학 조건 →
 news/xjtlu-alumni-singapore-2026.html	65	a	학비 & 장학금
-news/xjtlu-alumni-singapore-2026.html	66	a	← 모든 뉴스를 보
+news/xjtlu-alumni-singapore-2026.html	66	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-alumni-singapore-2026.html	67	div	한글 검수판 · 검색 비노출
 news/xjtlu-class-2026-liverpool-degrees.html	1	[document]	html
-news/xjtlu-class-2026-liverpool-degrees.html	2	title	[한글 검수판] 2026년 리버풀대학교에서 3,797명의 학생이 학위를 받게 됩니다.
+news/xjtlu-class-2026-liverpool-degrees.html	2	title	[한글 검수판] XJTLU 2026 졸업생 3,797명 리버풀대학교 학위 수여
 news/xjtlu-class-2026-liverpool-degrees.html	3	a	XJTLU 베트남
 news/xjtlu-class-2026-liverpool-degrees.html	4	button	메뉴
 news/xjtlu-class-2026-liverpool-degrees.html	5	span	☰
@@ -1942,43 +1942,43 @@ news/xjtlu-class-2026-liverpool-degrees.html	33	a	XJTLU에서 영어로 대학 �
 news/xjtlu-class-2026-liverpool-degrees.html	34	a	XJTLU 뉴스
 news/xjtlu-class-2026-liverpool-degrees.html	35	small	뉴스 보기 →
 news/xjtlu-class-2026-liverpool-degrees.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-class-2026-liverpool-degrees.html	37	div	졸업자 · 리버풀대학교
+news/xjtlu-class-2026-liverpool-degrees.html	37	div	졸업 · University of Liverpool
 news/xjtlu-class-2026-liverpool-degrees.html	38	h1	2026년 XJTLU 학부 졸업생 3,797명, 리버풀대학교 학위 수여
-news/xjtlu-class-2026-liverpool-degrees.html	39	p	2026 졸업식 자료는 XJTLU의 학위 제도가 어떻게 큰 규모로 작동하는지 잘 보여줍니다.
+news/xjtlu-class-2026-liverpool-degrees.html	39	p	2026 졸업식 자료는 XJTLU와 University of Liverpool의 학위구조가 실제로 대규모 졸업생에게 적용되고 있음을 보여줍니다.
 news/xjtlu-class-2026-liverpool-degrees.html	40	b	4.816
-news/xjtlu-class-2026-liverpool-degrees.html	41	span	졸업생들의 총수
+news/xjtlu-class-2026-liverpool-degrees.html	41	span	전체 졸업생
 news/xjtlu-class-2026-liverpool-degrees.html	42	b	3.797
-news/xjtlu-class-2026-liverpool-degrees.html	43	span	리버풀대학교생과 XJTLU 학위를 받은
+news/xjtlu-class-2026-liverpool-degrees.html	43	span	XJTLU 학위 + University of Liverpool 학위
 news/xjtlu-class-2026-liverpool-degrees.html	44	b	1.244
-news/xjtlu-class-2026-liverpool-degrees.html	45	span	1등급 명예
+news/xjtlu-class-2026-liverpool-degrees.html	45	span	First Class Honours
 news/xjtlu-class-2026-liverpool-degrees.html	46	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 7월 27일 2026
-news/xjtlu-class-2026-liverpool-degrees.html	47	p	XJTLU 졸업식은 27일부터 2026년 7월 31일까지 개최되며,
+news/xjtlu-class-2026-liverpool-degrees.html	47	p	XJTLU의 2026 졸업식은 7월 27일부터 31일까지 열렸으며,
 news/xjtlu-class-2026-liverpool-degrees.html	48	b	4,816명의 학생
-news/xjtlu-class-2026-liverpool-degrees.html	49	p	그 안에
-news/xjtlu-class-2026-liverpool-degrees.html	50	b	3,797명의 대학생
-news/xjtlu-class-2026-liverpool-degrees.html	51	p	XJTLU의 학사 및 졸업 자격증을 취득하고
-news/xjtlu-class-2026-liverpool-degrees.html	52	b	리버풀대학교에서 학사 학위를 받았습니다.
+news/xjtlu-class-2026-liverpool-degrees.html	49	p	이 가운데
+news/xjtlu-class-2026-liverpool-degrees.html	50	b	3,797명의 학부생이
+news/xjtlu-class-2026-liverpool-degrees.html	51	p	XJTLU 학위를 받고 동시에
+news/xjtlu-class-2026-liverpool-degrees.html	52	b	University of Liverpool 학사 학위를 받았습니다.
 news/xjtlu-class-2026-liverpool-degrees.html	53	p	.
-news/xjtlu-class-2026-liverpool-degrees.html	54	p	XJTLU는 이 대학생 중
-news/xjtlu-class-2026-liverpool-degrees.html	55	b	1,244명의 수상자가 1등급 명예상자로 인정받았습니다.
-news/xjtlu-class-2026-liverpool-degrees.html	56	p	또한, 리버풀대학교에서 938명의 석사과정 및 81명의 박사과정 연구원이 대학원을 받았으며, 217명의 석사과정 학생은 명성을 얻었습니다.
-news/xjtlu-class-2026-liverpool-degrees.html	57	h2	왜 3797이라는 숫자가 주목할 만한 것일까요?
-news/xjtlu-class-2026-liverpool-degrees.html	58	p	많은 베트남 학생이 XJTLU를 처음 들었을 때 종종 질문을 던집니다. '중국에서 공부하는 것은 리버풀대학교가 실제로 제공되는가?' 2026 졸업 문서는 실제적인 답이, 수천 명의 학생이 같은 해에 이 구조에 따라 학위를 받았기 때문입니다.
+news/xjtlu-class-2026-liverpool-degrees.html	54	p	XJTLU는 이 학부 졸업생 가운데
+news/xjtlu-class-2026-liverpool-degrees.html	55	b	1,244명이 First Class Honours를 받았다고 발표했습니다.
+news/xjtlu-class-2026-liverpool-degrees.html	56	p	또한 938명의 석사 졸업생과 81명의 박사 졸업생이 학위를 받았으며, 석사 졸업생 중 217명은 Distinction을 받았습니다.
+news/xjtlu-class-2026-liverpool-degrees.html	57	h2	왜 3,797명이라는 숫자가 주목할 만할까요?
+news/xjtlu-class-2026-liverpool-degrees.html	58	p	XJTLU를 처음 접하는 학생들은 중국에서 공부해도 University of Liverpool 학위를 실제로 받을 수 있는지 궁금해합니다. 2026 졸업식 자료에서는 같은 해 3,797명의 학부생이 이 학위구조에 따라 졸업한 것을 확인할 수 있습니다.
 news/xjtlu-class-2026-liverpool-degrees.html	59	b	참고로
-news/xjtlu-class-2026-liverpool-degrees.html	60	div	학위 조건과 구조는 학위 수준이나 프로그램에 따라 다를 수 있습니다. 학문을 선택할 때 학생은 특정 프로그램에 대한 학위를 정확하게 검사해야합니다.
-news/xjtlu-class-2026-liverpool-degrees.html	61	h2	베트남 학생의 모델의 강점
-news/xjtlu-class-2026-liverpool-degrees.html	62	p	XJTLU는 중국에서의 교육 환경을, 영어 교육과정을, 리버풀대학교와 관련된 학술 시스템을 결합합니다. 영국, 호주, 미국, 아시아를 비교하는 가정으로, 국제 학위 요소를 유지하려는 경우 고려할만한 모델입니다. 그러나 중국에서 대부분의 시간을 공부합니다.
+news/xjtlu-class-2026-liverpool-degrees.html	60	div	학위 수여조건과 구조는 프로그램에 따라 다를 수 있으므로 지원 전 희망 전공의 공식 학위구조를 확인해야 합니다.
+news/xjtlu-class-2026-liverpool-degrees.html	61	h2	베트남 학생이 볼 수 있는 장점
+news/xjtlu-class-2026-liverpool-degrees.html	62	p	XJTLU는 중국에서의 학업환경, 영어수업, University of Liverpool과 연결된 학위구조를 결합합니다. 영국·호주·미국 등과 비교하면서 국제학위 요소를 유지하되 중국에서 주로 공부하고 싶은 학생이 검토할 수 있는 모델입니다.
 news/xjtlu-class-2026-liverpool-degrees.html	63	b	공식 출처
-news/xjtlu-class-2026-liverpool-degrees.html	64	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-class-2026-liverpool-degrees.html	65	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-class-2026-liverpool-degrees.html	66	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-class-2026-liverpool-degrees.html	64	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-class-2026-liverpool-degrees.html	65	a	XJTLU 공식 원문 보기 →
+news/xjtlu-class-2026-liverpool-degrees.html	66	b	XJTLU 관련 가이드
 news/xjtlu-class-2026-liverpool-degrees.html	67	a	XJTLU & University of Liverpool →
 news/xjtlu-class-2026-liverpool-degrees.html	68	a	학비 & 장학금
 news/xjtlu-class-2026-liverpool-degrees.html	69	a	입학 조건 →
-news/xjtlu-class-2026-liverpool-degrees.html	70	a	← 모든 뉴스를 보
+news/xjtlu-class-2026-liverpool-degrees.html	70	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-class-2026-liverpool-degrees.html	71	div	한글 검수판 · 검색 비노출
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	1	[document]	html
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	2	title	[한글 검수판] XJTLU에서 Vivo: 베트남 시장의 전생
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	2	title	[한글 검수판] XJTLU에서 Vivo로 | 동남아 시장에서 일하는 졸업생
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	3	a	XJTLU 베트남
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	4	button	메뉴
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	5	span	☰
@@ -2013,39 +2013,39 @@ news/xjtlu-della-vivo-vietnam-southeast-asia.html	33	a	XJTLU에서 영어로 대
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	34	a	XJTLU 뉴스
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	35	small	뉴스 보기 →
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	37	div	동남아 · 고용 · 비보
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	38	h1	XJTLU에서 Vivo: 인도네시아의 전생들이 베트남 시장에 대해 책임지고 있습니다
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	39	p	데라 센자야는 XJTLU에서 마케팅을 전공하고 있으며 현재 인도네시아 비보에서 디지털 제품 활동을 지원하고 있으며 인도네시아, 말레이시아, 베트남 및 필리핀에서 디지털 제품을 지원하고 있습니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	37	div	동남아 · 취업 · Vivo
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	38	h1	XJTLU에서 Vivo로: 동남아 시장에서 일하는 인도네시아 졸업생
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	39	p	Della Senjaya는 XJTLU Marketing 졸업 후 Vivo Indonesia에서 Internet Product Assistant로 근무하며 인도네시아, 말레이시아, 베트남, 필리핀 시장 관련 업무를 지원하고 있습니다.
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 03/07/2026
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	41	p	데라 센자야는 인도네시아의 전생이며, 2021년 XJTLU에 입학하여
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	41	p	Della Senjaya는 인도네시아 출신으로 2021년 XJTLU에 입학해
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	42	b	BA Marketing
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	43	p	졸업 후, 그녀는 입대했다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	43	p	졸업 후
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	44	b	Vivo Indonesia
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	45	p	인터넷 제품 보조로
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	46	p	XJTLU의 공식 인터뷰에 따르면, 데라의 현재 활동은 인도네시아에만 집중되지 않습니다. 그녀는 다양한 동남아 시장에서 디지털 제품을 홍보하는 데 도움을줍니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	45	p	에서 Internet Product Assistant로 일하고 있습니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	46	p	XJTLU 공식 인터뷰에 따르면 Della의 업무는 인도네시아에만 한정되지 않으며 여러 동남아 시장의 디지털 제품 관련 업무를 지원합니다.
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	47	b	인도네시아, 말레이시아, 베트남, 필리핀
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	48	p	베트남 학생에게는 이 사례는 주목할 만한 사례입니다. 왜냐하면 중국에서의 학업 경험이 베트남과 ASEAN 시장에 직접적으로 관련된 직업을 가질 수 있다는 것을 보여주기 때문입니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	49	h2	중국어는 실무에 대한 실질적인 장점으로 자리잡았습니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	50	p	데라는 인도네시아의 비보에 입학했을 때, 두 번째 인터뷰는 중국어로 이루어졌다고 말했습니다. 학창시 동안 중국어 능력과 친숙함을 통해 그녀는 자신있게 의사소통을 할 수 있었고 결국 제안을 받았습니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	51	p	그녀는 또한 화웨이, 비보, 오포 등 중국 기업들이 동남아시아에서 빠르게 확장하고 있다고 말했습니다. 그 상황에서 현지 직원들은 현지 시장에 대해 이해하고 중국 팀과 소통할 수 있게 될 수 있습니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	52	b	베트남 학생의 주목할 만한 점:
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	53	div	XJTLU의 마케팅 BA는 단순히 영어로 마케팅을 배우는 것이 아닙니다. 중국에서 생활하는 경험, 중국어를 더 배우는, 다국적 팀 프로젝트를 수행하는, 그리고 기업 활동에 참여하는 것이 베트남과 동남아시아로 확장하는 중국 기업에 근무하는 데 유리할 수 있습니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	54	h2	왜 델라가 다른 선택보다는 중국을 선택했나요?
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	55	p	XJTLU에 입학하기 전에, Della는 호주 몬래시 대학교를 고려했다. 그러나 그녀는 아시아 시장에서 경력을 쌓고 중국에서의 공부가 그 목표에 더 적합하다고 평가했다. XJTLU에서 동안 그녀는 교외 활동, 클럽, 중국어 학습 및 비즈니스 여행에 참여했습니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	56	p	이 경우 모든 XJTLU 학생이 Vivo나 대기업에 들어갈 것이라는 것을 의미하지는 않습니다. 하지만, 이것은 이 길을 보여주는 구체적인 예입니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	57	b	중국에서 영어를 공부하고 중국어를 더 발전시키고 시장에 대한 이해가 이루어지고 동남아시아의 중국 기업에 대한 업무
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	48	p	베트남 학생에게는 중국에서 쌓은 학업·언어·시장 경험이 ASEAN 관련 커리어로 이어질 수 있음을 보여주는 구체적인 사례입니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	49	h2	중국어가 실제 채용 과정에서 도움이 된 사례
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	50	p	Della는 Vivo Indonesia 채용 과정에서 두 번째 인터뷰가 중국어로 진행됐다고 설명했습니다. XJTLU 재학 중 쌓은 중국어 능력과 중국 환경에 대한 익숙함이 의사소통에 도움이 됐고, 최종적으로 offer를 받았습니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	51	p	그녀는 Huawei, Vivo, Oppo 같은 중국 기업이 동남아시아에서 빠르게 확장하고 있어 현지 시장을 이해하면서 중국 팀과 소통할 수 있는 인력이 중요하다고 설명했습니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	52	b	베트남 학생이 볼 포인트:
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	53	div	XJTLU의 BA Marketing은 영어로 전공을 공부하는 것에 더해 중국 생활, 중국어 학습, 다국적 팀 프로젝트와 기업활동 경험을 쌓을 수 있습니다. 이런 경험은 베트남·동남아로 확장하는 중국계 기업을 목표로 할 때 참고할 만합니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	54	h2	왜 Della는 중국 유학을 선택했을까요?
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	55	p	XJTLU 입학 전 Della는 Monash University도 고려했지만 아시아 시장에서 커리어를 쌓는 목표에는 중국에서 공부하는 것이 더 맞는다고 판단했습니다. XJTLU 재학 중에는 비교과활동, 동아리, 중국어 학습, 비즈니스 관련 활동에 참여했습니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	56	p	물론 이 사례가 모든 XJTLU 학생의 취업 결과를 보장하는 것은 아닙니다. 다만 아래와 같은 경로가 실제로 가능하다는 구체적인 사례입니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	57	b	중국에서 영어로 전공 공부 → 중국어와 시장 이해 확대 → 동남아 시장의 중국계 기업 커리어
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	58	p	.
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	59	b	공식 출처
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	60	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	61	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	62	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	60	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	61	a	XJTLU 공식 원문 보기 →
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	62	b	XJTLU 관련 가이드
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	63	a	졸업 후 진학 결과
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	64	a	입학 조건 →
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	65	a	학비 & 장학금
-news/xjtlu-della-vivo-vietnam-southeast-asia.html	66	a	← 모든 뉴스를 보
+news/xjtlu-della-vivo-vietnam-southeast-asia.html	66	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-della-vivo-vietnam-southeast-asia.html	67	div	한글 검수판 · 검색 비노출
 news/xjtlu-filmmaking-to-columbia-university.html	1	[document]	html
-news/xjtlu-filmmaking-to-columbia-university.html	2	title	[한글 검수판] 영화제작과에서 콜롬비아 대학까지
+news/xjtlu-filmmaking-to-columbia-university.html	2	title	[한글 검수판] XJTLU Filmmaking → Columbia | 미국 영화대학 합격
 news/xjtlu-filmmaking-to-columbia-university.html	3	a	XJTLU 베트남
 news/xjtlu-filmmaking-to-columbia-university.html	4	button	메뉴
 news/xjtlu-filmmaking-to-columbia-university.html	5	span	☰
@@ -2080,14 +2080,14 @@ news/xjtlu-filmmaking-to-columbia-university.html	33	a	XJTLU에서 영어로 대
 news/xjtlu-filmmaking-to-columbia-university.html	34	a	XJTLU 뉴스
 news/xjtlu-filmmaking-to-columbia-university.html	35	small	뉴스 보기 →
 news/xjtlu-filmmaking-to-columbia-university.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-filmmaking-to-columbia-university.html	37	div	영화 제작 · 콜롬비아 · 미국
+news/xjtlu-filmmaking-to-columbia-university.html	37	div	Filmmaking · Columbia · 미국
 news/xjtlu-filmmaking-to-columbia-university.html	38	h1	XJTLU Filmmaking → Columbia: 미국 주요 영화대학 합격 사례
-news/xjtlu-filmmaking-to-columbia-university.html	39	p	Yue Ren은 콜롬비아 대학교에서 창의적인 제작 제안을 받았고, 미국 영화 연구소, Chapman 대학교, 로요라 메리모운트 대학교에서 선택권을 받았다.
+news/xjtlu-filmmaking-to-columbia-university.html	39	p	Yue Ren은 XJTLU Filmmaking 졸업 후 Columbia University, American Film Institute, Chapman University, Loyola Marymount University 등 미국 영화대학에서 offer를 받았습니다.
 news/xjtlu-filmmaking-to-columbia-university.html	40	div	기자: XJTLU 공식 뉴스 · 01/07/2025
-news/xjtlu-filmmaking-to-columbia-university.html	41	p	유레엔은 학부생입니다
+news/xjtlu-filmmaking-to-columbia-university.html	41	p	Yue Ren은 XJTLU에서
 news/xjtlu-filmmaking-to-columbia-university.html	42	b	Filmmaking
-news/xjtlu-filmmaking-to-columbia-university.html	43	p	XJTLU의 영화 및 창조 기술 아카데미에서. 공식 인터뷰에 따르면, 레는 미국에서 대학을 수여했습니다.
-news/xjtlu-filmmaking-to-columbia-university.html	44	p	제안은
+news/xjtlu-filmmaking-to-columbia-university.html	43	p	을 공부했습니다. XJTLU 공식 인터뷰에서는 미국 여러 영화대학에서 받은 진학결과를 소개합니다.
+news/xjtlu-filmmaking-to-columbia-university.html	44	p	주요 offer는
 news/xjtlu-filmmaking-to-columbia-university.html	45	b	Columbia University – Creative Producing
 news/xjtlu-filmmaking-to-columbia-university.html	46	p	,
 news/xjtlu-filmmaking-to-columbia-university.html	47	b	American Film Institute – Producing
@@ -2095,26 +2095,26 @@ news/xjtlu-filmmaking-to-columbia-university.html	48	p	,
 news/xjtlu-filmmaking-to-columbia-university.html	49	b	Chapman University – Film and Television Producing
 news/xjtlu-filmmaking-to-columbia-university.html	50	p	그리고
 news/xjtlu-filmmaking-to-columbia-university.html	51	b	40,000달러의 장학금
-news/xjtlu-filmmaking-to-columbia-university.html	52	p	, 그리고 로요라 메리마운트 대학교 영화 및 TV 제작
-news/xjtlu-filmmaking-to-columbia-university.html	53	h2	STEM와 비즈니스만이 좋은 학습 결과를 가져온 것은 아닙니다.
-news/xjtlu-filmmaking-to-columbia-university.html	54	p	XJTLU의 많은 주요 이야기는 종종 비즈니스, 데이터 과학 또는 하버드, 옥스퍼드, Cambridge 같은 학교에 초점을 맞추고 있습니다. Yue Ren의 사례는 창의적인 분야에서 학생이
+news/xjtlu-filmmaking-to-columbia-university.html	52	p	, 그리고 Loyola Marymount University의 Film and TV Production 과정입니다.
+news/xjtlu-filmmaking-to-columbia-university.html	53	h2	STEM·비즈니스뿐 아니라 창작 분야도 대학원 진학 사례가 있습니다
+news/xjtlu-filmmaking-to-columbia-university.html	54	p	XJTLU의 진학사례는 비즈니스·데이터·과학 분야가 자주 언급되지만 Yue Ren의 사례는 창작 분야 학생도
 news/xjtlu-filmmaking-to-columbia-university.html	55	b	영화, 미디어, 제작
-news/xjtlu-filmmaking-to-columbia-university.html	56	p	또한, 최고의 전문학교에 경쟁력을 쌓을 수 있습니다.
-news/xjtlu-filmmaking-to-columbia-university.html	57	b	베트남 학생의 주목할 만한 점:
-news/xjtlu-filmmaking-to-columbia-university.html	58	div	예술과 영화의 기록, 포트폴리오, 실제 제작 경험, 그리고 개인적인 시각을 표현하는 능력은 특히 중요한 역할을 한다. Yue Ren은 또한 시간표, 포트폴리오 및 모크 인터뷰를 조기에 준비하는 것을 강조했다.
-news/xjtlu-filmmaking-to-columbia-university.html	59	h2	XJTLU는 실제 생산에 관련된 모델링을 강조합니다.
-news/xjtlu-filmmaking-to-columbia-university.html	60	p	인터뷰에서, 레인은 학생이 영화 제작 과정에서 다양한 역할을 경험하고 전문적인 힙합과 실용적인 제작 수업을 높이 평가한다고 말했다. 레는 2028년 컬럼비아 대학교에서 MFA 프로그램을 완료할 예정이다.
+news/xjtlu-filmmaking-to-columbia-university.html	56	p	분야에서 경쟁력 있는 포트폴리오를 쌓아 전문 대학원에 진학할 수 있음을 보여줍니다.
+news/xjtlu-filmmaking-to-columbia-university.html	57	b	베트남 학생이 볼 포인트:
+news/xjtlu-filmmaking-to-columbia-university.html	58	div	영화·예술 분야에서는 포트폴리오, 실제 제작경험, 자신의 시각을 표현하는 능력이 특히 중요합니다. Yue Ren은 지원일정, 포트폴리오, 모의인터뷰를 일찍 준비하는 것이 중요하다고 조언했습니다.
+news/xjtlu-filmmaking-to-columbia-university.html	59	h2	실제 제작경험을 중시하는 Filmmaking 과정
+news/xjtlu-filmmaking-to-columbia-university.html	60	p	인터뷰에서 Yue Ren은 영화제작 과정에서 다양한 역할을 경험하고 실무 중심의 제작수업을 해본 점을 높이 평가했습니다. 그는 Columbia University에서 MFA 과정을 이어갈 예정이라고 소개됐습니다.
 news/xjtlu-filmmaking-to-columbia-university.html	61	b	공식 출처
-news/xjtlu-filmmaking-to-columbia-university.html	62	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-filmmaking-to-columbia-university.html	63	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-filmmaking-to-columbia-university.html	64	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-filmmaking-to-columbia-university.html	62	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-filmmaking-to-columbia-university.html	63	a	XJTLU 공식 원문 보기 →
+news/xjtlu-filmmaking-to-columbia-university.html	64	b	XJTLU 관련 가이드
 news/xjtlu-filmmaking-to-columbia-university.html	65	a	졸업 후 진학 결과
 news/xjtlu-filmmaking-to-columbia-university.html	66	a	입학 조건 →
 news/xjtlu-filmmaking-to-columbia-university.html	67	a	XJTLU & Liverpool →
-news/xjtlu-filmmaking-to-columbia-university.html	68	a	← 모든 뉴스를 보
+news/xjtlu-filmmaking-to-columbia-university.html	68	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-filmmaking-to-columbia-university.html	69	div	한글 검수판 · 검색 비노출
 news/xjtlu-harvard-cambridge-linguistics.html	1	[document]	html
-news/xjtlu-harvard-cambridge-linguistics.html	2	title	[한글 검수판] XJTLU에서 하버드까지,
+news/xjtlu-harvard-cambridge-linguistics.html	2	title	[한글 검수판] XJTLU → Harvard → Cambridge | Linguistics 진학
 news/xjtlu-harvard-cambridge-linguistics.html	3	a	XJTLU 베트남
 news/xjtlu-harvard-cambridge-linguistics.html	4	button	메뉴
 news/xjtlu-harvard-cambridge-linguistics.html	5	span	☰
@@ -2153,29 +2153,29 @@ news/xjtlu-harvard-cambridge-linguistics.html	37	div	Harvard · Cambridge · Lin
 news/xjtlu-harvard-cambridge-linguistics.html	38	h1	XJTLU → Harvard → Cambridge: 언어학에서 이어진 학업 경로
 news/xjtlu-harvard-cambridge-linguistics.html	39	p	Yiran Du는 XJTLU를 졸업하고 하버드에서 교육 석사를 마쳤으며 현재 케임브리지 대학교에서 교육 박사 과정을 계속하고 있습니다.
 news/xjtlu-harvard-cambridge-linguistics.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 4월 3일 2026
-news/xjtlu-harvard-cambridge-linguistics.html	41	p	Yiran Du, 2023년 XJTLU 전생,
+news/xjtlu-harvard-cambridge-linguistics.html	41	p	Yiran Du는 2023년 XJTLU 졸업생으로
 news/xjtlu-harvard-cambridge-linguistics.html	42	b	하버드 대학교에서 교육 석사 학위
-news/xjtlu-harvard-cambridge-linguistics.html	43	p	그리고 현재는
+news/xjtlu-harvard-cambridge-linguistics.html	43	p	를 마친 뒤 현재
 news/xjtlu-harvard-cambridge-linguistics.html	44	b	케임브리지 대학교에서 교육 박사
 news/xjtlu-harvard-cambridge-linguistics.html	45	p	.
-news/xjtlu-harvard-cambridge-linguistics.html	46	p	XJTLU의 응용 언어학부에서 열린 Career Talk에서, Du는 언어학 플랫폼이 교육, 심리학, 신경과학, 인공지능과 같은 다양한 분야에 어떻게 개방될 수 있는지에 대해 이야기했습니다.
-news/xjtlu-harvard-cambridge-linguistics.html	47	h2	하나의 길 대신 산업적인 경로가
-news/xjtlu-harvard-cambridge-linguistics.html	48	p	이 이야기의 주목할 점은 언어학이 언어 교육에 대한 학문으로서의 학문으로서의 것이 아니라 교육적 신경과학, 쌍언어 학습, 교육에서의 AI와 연결되는 방향을 제시한다는 것입니다.
-news/xjtlu-harvard-cambridge-linguistics.html	49	b	베트남 학생께:
-news/xjtlu-harvard-cambridge-linguistics.html	50	div	만약 여러분이 대학에서 진학하고 싶다면, 기초 분야는 관련 연구, 양적 방법, 프로그래밍 또는 연구 경험을 통해 확장될 수 있습니다. 초기 학문의 이름은 반드시 최종적인 목적지에 제한되지 않습니다.
-news/xjtlu-harvard-cambridge-linguistics.html	51	h2	XJTLU에서 미국과 영국 교육 시스템까지
-news/xjtlu-harvard-cambridge-linguistics.html	52	p	XJTLU → 하버드 → Cambridge 여행은 학생이 XJTLU에서 학사 학위를 더 긴 국제 학술 경로의 기초로 사용할 수 있음을 보여줍니다. 물론, 이것은 XJTLU 학생의 기본 성과가 아니라 개인 성과가 눈에 띄는 것입니다.
+news/xjtlu-harvard-cambridge-linguistics.html	46	p	XJTLU Applied Linguistics에서 열린 Career Talk에서 Du는 언어학이 교육, 심리학, 신경과학, AI 등 다양한 분야로 확장될 수 있다고 이야기했습니다.
+news/xjtlu-harvard-cambridge-linguistics.html	47	h2	언어학에서 다양한 연구분야로 확장
+news/xjtlu-harvard-cambridge-linguistics.html	48	p	이 사례는 언어학이 언어교육에만 머무르지 않고 교육신경과학, 이중언어 학습, 교육 분야의 AI 등으로 확장될 수 있음을 보여줍니다.
+news/xjtlu-harvard-cambridge-linguistics.html	49	b	학생이 볼 포인트:
+news/xjtlu-harvard-cambridge-linguistics.html	50	div	대학원 진학을 목표로 한다면 학부 전공을 기반으로 관련 연구, 정량적 방법론, 프로그래밍, 연구경험 등을 더해 분야를 확장할 수 있습니다. 학부 전공명이 최종 진로를 반드시 제한하는 것은 아닙니다.
+news/xjtlu-harvard-cambridge-linguistics.html	51	h2	XJTLU에서 미국·영국 대학원으로
+news/xjtlu-harvard-cambridge-linguistics.html	52	p	XJTLU → Harvard → Cambridge로 이어진 이 사례는 XJTLU 학부를 장기적인 국제 학업경로의 기반으로 활용할 수 있음을 보여줍니다. 다만 이는 모든 학생의 일반적인 결과가 아니라 개인의 뛰어난 성취 사례입니다.
 news/xjtlu-harvard-cambridge-linguistics.html	53	b	공식 출처
-news/xjtlu-harvard-cambridge-linguistics.html	54	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-harvard-cambridge-linguistics.html	55	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-harvard-cambridge-linguistics.html	56	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-harvard-cambridge-linguistics.html	54	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-harvard-cambridge-linguistics.html	55	a	XJTLU 공식 원문 보기 →
+news/xjtlu-harvard-cambridge-linguistics.html	56	b	XJTLU 관련 가이드
 news/xjtlu-harvard-cambridge-linguistics.html	57	a	입학 조건 →
 news/xjtlu-harvard-cambridge-linguistics.html	58	a	학비 & 장학금
 news/xjtlu-harvard-cambridge-linguistics.html	59	a	XJTLU & Liverpool →
-news/xjtlu-harvard-cambridge-linguistics.html	60	a	← 모든 뉴스를 보
+news/xjtlu-harvard-cambridge-linguistics.html	60	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-harvard-cambridge-linguistics.html	61	div	한글 검수판 · 검색 비노출
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	1	[document]	html
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	2	title	[한글 검수판] XJTLU에서 하버드까지, XJTLU 베트남에 대한 전공 장학금
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	2	title	[한글 검수판] XJTLU → Harvard 전액 장학금 | Stanford·Yale·Oxford offer
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	3	a	XJTLU 베트남
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	4	button	메뉴
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	5	span	☰
@@ -2210,37 +2210,37 @@ news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	33	a	XJTLU에서 �
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	34	a	XJTLU 뉴스
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	35	small	뉴스 보기 →
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	37	div	학업 · 최고의 대학
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	37	div	학업 · 세계 상위권 대학
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	38	h1	XJTLU에서 Harvard 전액 장학금까지: Stanford·Yale·Oxford offer 사례
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	39	p	XJTLU는 세계 최고의 대학원 프로그램에 경쟁하는 출발점이 될 수 있음을 보여주는 분명한 예입니다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	39	p	XJTLU 학부에서 연구경험을 쌓은 뒤 세계 상위권 대학원에 지원한 대표적인 학생 사례입니다.
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 1월 10일 2026
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	41	p	제이리, 전 학자
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	41	p	Jiayi Li는 XJTLU 졸업생으로
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	42	b	BSc Biomedical Statistics (Biostatistics)
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	43	p	이 대학에서
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	44	b	하버드 대학교의 전액 장학금
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	45	p	컴퓨터 생물학과 양자 유전학 석사과정을 위해
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	46	p	XJTLU에 따르면, 리는 또한
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	43	p	를 전공한 뒤
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	44	b	Harvard University 석사 전액 장학금
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	45	p	을 받았습니다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	46	p	XJTLU에 따르면 Li는
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	47	b	Stanford University, Yale University
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	48	p	그리고
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	48	p	와
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	49	b	University of Oxford
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	50	p	그녀는 앞으로는 컴퓨팅 생물학, 데이터, 인공지능 도구를 결합한 연구 방향을 발전시키는 것을 선택했습니다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	50	p	향후 계산생물학, 데이터, AI 도구를 결합하는 연구방향을 발전시키고자 한다고 소개했습니다.
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	51	h2	하지만 주목할 만한 점은 하버드라는 이름만이 아닙니다.
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	52	p	이 사례는 베트남 학생에게 주목할 만한 것으로 Li의 기록은 통계, 생명과학, 계산 등 다양한 분야에 기반을 두고 있다. 이 기록은 또한 바이오정보학, AI for science, 데이터-driven health research 등 분야에 점점 더 적합해졌다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	52	p	Li의 학업경로는 통계, 생명과학, 컴퓨팅을 결합한 융합형 프로필이라는 점도 주목할 만합니다. Bioinformatics, AI for Science, 데이터 기반 헬스 연구 등과 연결되는 방향입니다.
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	53	b	중요한 메시지:
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	54	div	한 학생의 결과가 다른 학생의 결과를 보장하지 않습니다. 하지만 한 학생이 하버드, 스탠포드, 예일, 옥스퍼드에서 제안을 받았다는 것은 XJTLU 학생이 충분한 학력과 연구 성과를 가지고 있다면 명문대 그룹에서 경쟁력을 쌓을 수 있음을 보여줍니다.
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	55	h2	XJTLU는 누구와 어울릴까요?
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	56	p	아시아에서 영어로 공부하고 있지만 미국 및 영국에서 장기적인 취득을 목표로 하는 학생은 XJTLU를 선택 중 하나로 볼 수 있습니다. 가장 중요한 것은 올바른 학문을 선택하고 조기에 연구에 참여하고 깊이 있는 학력서를 구축하는 것입니다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	54	div	한 학생의 결과가 다른 학생의 결과를 보장하지는 않습니다. 다만 Harvard, Stanford, Yale, Oxford에서 동시에 좋은 결과를 받은 사례는 학업성적과 연구성과를 충분히 쌓은 XJTLU 학생이 상위권 대학원에 경쟁력 있게 지원할 수 있음을 보여줍니다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	55	h2	어떤 학생에게 참고가 될까요?
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	56	p	아시아에서 영어로 학부를 공부하면서 장기적으로 미국·영국 상위권 대학원 진학을 목표로 한다면 참고할 만한 사례입니다. 중요한 것은 적합한 전공을 고르고 일찍부터 연구·프로젝트에 참여해 깊이 있는 학업 프로필을 만드는 것입니다.
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	57	b	공식 출처
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	58	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	59	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	60	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	58	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	59	a	XJTLU 공식 원문 보기 →
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	60	b	XJTLU 관련 가이드
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	61	a	2027년 입학 조건
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	62	a	학비 & 장학금
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	63	a	XJTLU & University of Liverpool →
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	64	a	← 모든 뉴스를 보
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	64	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	65	div	한글 검수판 · 검색 비노출
 news/xjtlu-thai-graduate-cp-group.html	1	[document]	html
-news/xjtlu-thai-graduate-cp-group.html	2	title	[한글 검수판] XJTLU에서 CP 그룹: 태국 XJTLU 학생의 경력
+news/xjtlu-thai-graduate-cp-group.html	2	title	[한글 검수판] XJTLU에서 CP Group으로 | 태국 졸업생 커리어
 news/xjtlu-thai-graduate-cp-group.html	3	a	XJTLU 베트남
 news/xjtlu-thai-graduate-cp-group.html	4	button	메뉴
 news/xjtlu-thai-graduate-cp-group.html	5	span	☰
@@ -2275,33 +2275,33 @@ news/xjtlu-thai-graduate-cp-group.html	33	a	XJTLU에서 영어로 대학 공부�
 news/xjtlu-thai-graduate-cp-group.html	34	a	XJTLU 뉴스
 news/xjtlu-thai-graduate-cp-group.html	35	small	뉴스 보기 →
 news/xjtlu-thai-graduate-cp-group.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-thai-graduate-cp-group.html	37	div	동남아 · 일자리
+news/xjtlu-thai-graduate-cp-group.html	37	div	동남아 · 취업
 news/xjtlu-thai-graduate-cp-group.html	38	h1	XJTLU에서 CP Group으로: 태국 졸업생의 커리어 사례
-news/xjtlu-thai-graduate-cp-group.html	39	p	Pathikorn Luangpaiboonsri는 2025년 XJTLU를 졸업하고 태국 최대 기업에서 경영 연습생으로 방콕으로 돌아왔다.
+news/xjtlu-thai-graduate-cp-group.html	39	p	Pathikorn Luangpaiboonsri는 2025년 XJTLU BA Business Administration 졸업 후 방콕 CP Group에서 Management Trainee로 커리어를 시작했습니다.
 news/xjtlu-thai-graduate-cp-group.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 5월 13일 2026
-news/xjtlu-thai-graduate-cp-group.html	41	p	Pathikorn Luangpaiboonsri, 태국 전 학자
+news/xjtlu-thai-graduate-cp-group.html	41	p	Pathikorn Luangpaiboonsri는 태국 출신으로
 news/xjtlu-thai-graduate-cp-group.html	42	b	BA Business Administration
-news/xjtlu-thai-graduate-cp-group.html	43	p	XJTLU에서 현재
-news/xjtlu-thai-graduate-cp-group.html	44	b	Charoen Pokphand Group (CP 그룹) 에서 경영 연습생
-news/xjtlu-thai-graduate-cp-group.html	45	p	방콕에서요.
-news/xjtlu-thai-graduate-cp-group.html	46	p	졸업하기 전에 그는 대기업 인턴십, 원격 컨설팅 프로젝트 및 산업 간 비즈니스 협업으로 실무적인 기록을 구축했습니다. XJTLU에 따르면 이러한 경험은 수업에서의 마케팅 및 경영 지식을 태국으로 돌아온 후 작업으로 연결하도록 도와줍니다.
-news/xjtlu-thai-graduate-cp-group.html	47	h2	중국에 머무르면 XJTLU 경험을 할 필요는 없습니다.
-news/xjtlu-thai-graduate-cp-group.html	48	p	패티콘의 사례는 베트남 학생에게 다른 방향을 제시하기 때문에 의미가 있습니다. 중국에서 영어로 공부하고, 국제적인 경험을 쌓아, 이후 동남아 시장으로 돌아와 대기업에 일합니다.
+news/xjtlu-thai-graduate-cp-group.html	43	p	를 XJTLU에서 졸업하고 현재
+news/xjtlu-thai-graduate-cp-group.html	44	b	Charoen Pokphand Group(CP Group)에서 Management Trainee로 근무합니다
+news/xjtlu-thai-graduate-cp-group.html	45	p	방콕에서 커리어를 이어가고 있습니다.
+news/xjtlu-thai-graduate-cp-group.html	46	p	졸업 전에는 대기업 인턴십, 원격 컨설팅 프로젝트, 다양한 산업의 비즈니스 프로젝트를 경험했습니다. XJTLU는 이런 경험이 수업에서 배운 마케팅·경영 지식을 실제 업무로 연결하는 데 도움이 됐다고 소개합니다.
+news/xjtlu-thai-graduate-cp-group.html	47	h2	XJTLU 경험이 반드시 중국 취업으로만 이어지는 것은 아닙니다
+news/xjtlu-thai-graduate-cp-group.html	48	p	Pathikorn의 사례는 중국에서 영어로 공부하고 국제적인 경험을 쌓은 뒤 자국인 태국으로 돌아가 대기업 커리어를 시작한 경로를 보여줍니다.
 news/xjtlu-thai-graduate-cp-group.html	49	b	주목할 만한 점:
-news/xjtlu-thai-graduate-cp-group.html	50	div	XJTLU의 장점은 학위 뿐만 아니라 비즈니스, 마케팅 및 관리 분야에 있어서 인턴십 기회와 실제 프로젝트가 학기간에 중요한 인력 양성을 할 수 있습니다.
-news/xjtlu-thai-graduate-cp-group.html	51	h2	XJTLU와 CP 그룹은 또한 협력의 확대를 하고 있습니다.
-news/xjtlu-thai-graduate-cp-group.html	52	p	XJTLU와 CP 그룹은 태국 교육 협력 개발을 진행했습니다. 이는 학교가 국제 입학을 중심으로 하는 것이 아니라 동남아 기업과 시장에 대한 연계 네트워크를 구축하고 있음을 보여줍니다.
+news/xjtlu-thai-graduate-cp-group.html	50	div	비즈니스·마케팅·경영 전공에서는 학위뿐 아니라 인턴십과 실제 프로젝트를 통해 재학 중 실무경험을 쌓는 것이 중요하다는 점을 보여주는 사례입니다.
+news/xjtlu-thai-graduate-cp-group.html	51	h2	XJTLU와 CP Group의 협력도 확대되고 있습니다
+news/xjtlu-thai-graduate-cp-group.html	52	p	XJTLU와 CP Group은 태국 관련 교육협력을 확대해 왔습니다. 이는 학교가 학생모집뿐 아니라 동남아 기업·시장과의 연계 네트워크도 구축하고 있음을 보여줍니다.
 news/xjtlu-thai-graduate-cp-group.html	53	b	공식 출처
-news/xjtlu-thai-graduate-cp-group.html	54	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-thai-graduate-cp-group.html	55	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-thai-graduate-cp-group.html	56	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-thai-graduate-cp-group.html	54	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-thai-graduate-cp-group.html	55	a	XJTLU 공식 원문 보기 →
+news/xjtlu-thai-graduate-cp-group.html	56	b	XJTLU 관련 가이드
 news/xjtlu-thai-graduate-cp-group.html	57	a	입학 조건 →
 news/xjtlu-thai-graduate-cp-group.html	58	a	학비 & 장학금
 news/xjtlu-thai-graduate-cp-group.html	59	a	XJTLU & Liverpool →
-news/xjtlu-thai-graduate-cp-group.html	60	a	← 모든 뉴스를 보
+news/xjtlu-thai-graduate-cp-group.html	60	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-thai-graduate-cp-group.html	61	div	한글 검수판 · 검색 비노출
 news/xjtlu-to-oxford-english-literature.html	1	[document]	html
-news/xjtlu-to-oxford-english-literature.html	2	title	[한글 검수판] XJTLU에서 옥스퍼드: 베트남 영어 전공자
+news/xjtlu-to-oxford-english-literature.html	2	title	[한글 검수판] XJTLU → Oxford | English Studies 졸업생
 news/xjtlu-to-oxford-english-literature.html	3	a	XJTLU 베트남
 news/xjtlu-to-oxford-english-literature.html	4	button	메뉴
 news/xjtlu-to-oxford-english-literature.html	5	span	☰
@@ -2338,30 +2338,30 @@ news/xjtlu-to-oxford-english-literature.html	35	small	뉴스 보기 →
 news/xjtlu-to-oxford-english-literature.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-to-oxford-english-literature.html	37	div	인문학 · 옥스퍼드
 news/xjtlu-to-oxford-english-literature.html	38	h1	XJTLU → Oxford: 영어 전공 졸업생의 진학 사례
-news/xjtlu-to-oxford-english-literature.html	39	p	STEM 또는 비즈니스뿐만 아니라: XJTLU 전생은 옥스퍼드 대학교에서 영국 문학 학문 과정을 계속했습니다.
-news/xjtlu-to-oxford-english-literature.html	40	div	에디션: XJTLU 베트남 · 8월 30일 2026 · 원천: XJTLU 공식 뉴스 · 02/07/2025
-news/xjtlu-to-oxford-english-literature.html	41	p	유지 첸, 학부 졸업
+news/xjtlu-to-oxford-english-literature.html	39	p	STEM이나 비즈니스뿐 아니라 인문학 전공에서도 상위권 대학원 진학 사례가 있습니다. XJTLU English Studies 졸업생은 University of Oxford에서 영문학 관련 대학원 과정을 이어갔습니다.
+news/xjtlu-to-oxford-english-literature.html	40	div	편집: XJTLU 베트남 · 2026년 8월 30일 · 출처: XJTLU 공식 뉴스 · 02/07/2025
+news/xjtlu-to-oxford-english-literature.html	41	p	Yuzhi Chen은 XJTLU에서
 news/xjtlu-to-oxford-english-literature.html	42	b	English Studies
-news/xjtlu-to-oxford-english-literature.html	43	p	2024년 XJTLU에서
-news/xjtlu-to-oxford-english-literature.html	44	b	1700~1830년 옥스퍼드 대학교에서
+news/xjtlu-to-oxford-english-literature.html	43	p	를 2024년에 졸업한 뒤
+news/xjtlu-to-oxford-english-literature.html	44	b	University of Oxford의 English 1700–1830 과정으로 진학했습니다
 news/xjtlu-to-oxford-english-literature.html	45	p	.
-news/xjtlu-to-oxford-english-literature.html	46	p	XJTLU에서 네 년 동안, Chen는 영국 문학에 집중하고 시인 Percy Bysshe Shelley의 중국 입학을 연구하는 프로젝트를 수행했습니다. 그녀는 또한 문학과 관련된 연극 및 학술 활동에 참여했습니다.
-news/xjtlu-to-oxford-english-literature.html	47	h2	인문학 그룹에 대한 예시
-news/xjtlu-to-oxford-english-literature.html	48	p	XJTLU의 국제 성공 이야기는 종종 비즈니스, 데이터 과학 또는 기술에서 많이 언급됩니다. 첸의 사례는 인문학 그룹 학생은 또한 최고의 대학에서 심화 된 프로그램을 진행하기 위해 학력 기록을 구축 할 수 있음을 보여줍니다.
-news/xjtlu-to-oxford-english-literature.html	49	b	베트남 학생께:
-news/xjtlu-to-oxford-english-literature.html	50	div	장기적인 목표는 영국에서 석사 학위를 취득하는 경우 또는 최고의 연구 기관에서, 적절한 학문을 선택하고 학사 학위 연구 프로젝트를 구축하는 것은 학교 이름만큼이나 중요할 수 있습니다.
-news/xjtlu-to-oxford-english-literature.html	51	h2	영어 교육 환경의 가치
-news/xjtlu-to-oxford-english-literature.html	52	p	국제 학생에게는 XJTLU는 중국 내에서 영어 전문 환경을 제공합니다. 언어와 인문학 분야와 함께, 이는 개인 프로필이 충분히 강하다면 영국 대학원 시스템에 계속 갈 수 있는 기반을 만들 수 있습니다.
+news/xjtlu-to-oxford-english-literature.html	46	p	XJTLU에서 4년 동안 Chen은 영문학에 집중했고 Percy Bysshe Shelley와 중국의 관계를 다룬 연구 프로젝트를 수행했습니다. 문학 관련 연극과 학술활동에도 참여했습니다.
+news/xjtlu-to-oxford-english-literature.html	47	h2	인문학 전공의 진학 사례
+news/xjtlu-to-oxford-english-literature.html	48	p	XJTLU의 진학사례는 비즈니스·데이터·기술 분야가 자주 언급되지만, Chen의 사례는 인문학 학생도 연구와 학업경험을 쌓아 상위권 대학의 심화과정에 지원할 수 있음을 보여줍니다.
+news/xjtlu-to-oxford-english-literature.html	49	b	학생이 볼 포인트:
+news/xjtlu-to-oxford-english-literature.html	50	div	장기적으로 영국 석사나 연구중심 대학원 진학이 목표라면 적합한 전공을 선택하고 학부 때 연구 프로젝트를 쌓는 것이 대학 이름만큼 중요할 수 있습니다.
+news/xjtlu-to-oxford-english-literature.html	51	h2	영어수업 환경의 장점
+news/xjtlu-to-oxford-english-literature.html	52	p	XJTLU 국제학생 학위과정은 중국에서 영어로 공부하는 환경을 제공합니다. 언어·인문학 분야에서도 학업 프로필을 충분히 쌓으면 영국 대학원으로 이어가는 기반으로 활용할 수 있습니다.
 news/xjtlu-to-oxford-english-literature.html	53	b	공식 출처
-news/xjtlu-to-oxford-english-literature.html	54	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-to-oxford-english-literature.html	55	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-to-oxford-english-literature.html	56	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-to-oxford-english-literature.html	54	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-to-oxford-english-literature.html	55	a	XJTLU 공식 원문 보기 →
+news/xjtlu-to-oxford-english-literature.html	56	b	XJTLU 관련 가이드
 news/xjtlu-to-oxford-english-literature.html	57	a	입학 조건 →
 news/xjtlu-to-oxford-english-literature.html	58	a	XJTLU & Liverpool →
-news/xjtlu-to-oxford-english-literature.html	59	a	← 모든 뉴스를 보
+news/xjtlu-to-oxford-english-literature.html	59	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-to-oxford-english-literature.html	60	div	한글 검수판 · 검색 비노출
 news/xjtlu-to-tsinghua-indonesian-student.html	1	[document]	html
-news/xjtlu-to-tsinghua-indonesian-student.html	2	title	[한글 검수판] XJTLU에서 XJTLU까지: 인도네시아 XJTLU 베트남
+news/xjtlu-to-tsinghua-indonesian-student.html	2	title	[한글 검수판] XJTLU에서 칭화대학교로 | 인도네시아 학생 사례
 news/xjtlu-to-tsinghua-indonesian-student.html	3	a	XJTLU 베트남
 news/xjtlu-to-tsinghua-indonesian-student.html	4	button	메뉴
 news/xjtlu-to-tsinghua-indonesian-student.html	5	span	☰
@@ -2398,31 +2398,31 @@ news/xjtlu-to-tsinghua-indonesian-student.html	35	small	뉴스 보기 →
 news/xjtlu-to-tsinghua-indonesian-student.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-to-tsinghua-indonesian-student.html	37	div	동남아시아 · 학술
 news/xjtlu-to-tsinghua-indonesian-student.html	38	h1	XJTLU에서 칭화대학교로: 인도네시아 학생의 진학 사례
-news/xjtlu-to-tsinghua-indonesian-student.html	39	p	메타 호르멘은 XJTLU에서 명확한 커리어 계획을 가지고 시작했고, 4년 후, Tsinghua 대학에서 경영학 석사 학위를 받았다.
+news/xjtlu-to-tsinghua-indonesian-student.html	39	p	Metta Hormen은 XJTLU에서 BA Marketing을 공부하며 다양한 실무경험을 쌓은 뒤 Tsinghua University의 Master’s in Management offer를 받았습니다.
 news/xjtlu-to-tsinghua-indonesian-student.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 01/08/2026
-news/xjtlu-to-tsinghua-indonesian-student.html	41	p	메타 호르멘, 인도네시아의 학부 학생
+news/xjtlu-to-tsinghua-indonesian-student.html	41	p	Metta Hormen은 인도네시아 출신으로
 news/xjtlu-to-tsinghua-indonesian-student.html	42	b	BA Marketing
-news/xjtlu-to-tsinghua-indonesian-student.html	43	p	XJTLU의 International Business School Suzhou (IBSS) 에서
-news/xjtlu-to-tsinghua-indonesian-student.html	44	b	츠구와 대학교에서 경영학 석사
+news/xjtlu-to-tsinghua-indonesian-student.html	43	p	를 XJTLU International Business School Suzhou(IBSS)에서 공부한 뒤
+news/xjtlu-to-tsinghua-indonesian-student.html	44	b	Tsinghua University Master’s in Management offer를 받았습니다
 news/xjtlu-to-tsinghua-indonesian-student.html	45	p	.
-news/xjtlu-to-tsinghua-indonesian-student.html	46	p	XJTLU의 공식 기사에 따르면, Hormen의 과정은 점수에 의존하는 것이 아닙니다. 학기 동안 그녀는 상담, 투자 연구 및 기술 산업에서 인턴십을 통해 경험을 쌓았으며, 실제 업무 환경에서 의사소통 능력과 적응력을 개발했습니다.
-news/xjtlu-to-tsinghua-indonesian-student.html	47	h2	동남아시아 학생의 사례가
-news/xjtlu-to-tsinghua-indonesian-student.html	48	p	이 이야기는 베트남 학생과 매우 관련이 있습니다. 호르멘은 동남아시아 출신으로 중국에서 영어를 공부하는 것을 선택했기 때문에 대학을 졸업한 후 그녀는 XJTLU를 최종 목적지로 보는 것이 아니라 중국 최고의 대학으로 향했습니다.
+news/xjtlu-to-tsinghua-indonesian-student.html	46	p	XJTLU 공식 기사에 따르면 Hormen은 학업성적뿐 아니라 컨설팅, 투자리서치, 기술산업 관련 인턴십을 통해 실무경험을 쌓고 의사소통과 적응력을 키웠습니다.
+news/xjtlu-to-tsinghua-indonesian-student.html	47	h2	동남아 학생에게도 참고할 만한 진학 사례
+news/xjtlu-to-tsinghua-indonesian-student.html	48	p	Hormen은 동남아 출신 학생으로 중국에서 영어로 학부를 공부한 뒤 다시 중국의 상위권 대학원으로 진학했습니다. 베트남 학생에게도 XJTLU를 최종 목적지가 아니라 다음 학업단계의 기반으로 활용한 사례라는 점에서 참고할 만합니다.
 news/xjtlu-to-tsinghua-indonesian-student.html	49	b	주목할 만한 점:
-news/xjtlu-to-tsinghua-indonesian-student.html	50	div	XJTLU는 중국에서의 영어 학습 경로를 만들 수 있습니다. → 국제적인 연습 및 경험을 쌓을 수 있습니다. → 중국 또는 세계 최고의 대학에 경쟁합니다. 그러나 결과는 학생의 프로파일에 달려 있습니다.
-news/xjtlu-to-tsinghua-indonesian-student.html	51	h2	왜 베트남이 이 이야기를 지켜봐야 할까요?
-news/xjtlu-to-tsinghua-indonesian-student.html	52	p	영어와 중국 시장에 대한 이해와 기업 경험을 결합하려는 학생에게는, 이 모델은 중국어 통한 전통적인 중국을 공부하는 것과 상당히 다를 수 있습니다. 또한 교외 경험을 구축하기 위해 4년 이상의 대학을 사용하는 것의 가치를 보여줍니다.
+news/xjtlu-to-tsinghua-indonesian-student.html	50	div	XJTLU에서 영어로 학부 공부 → 인턴십·프로젝트 등 국제적인 경험 축적 → 중국 또는 해외 상위권 대학원 지원. 다만 실제 결과는 개인의 학업성적과 경험, 지원전략에 따라 달라집니다.
+news/xjtlu-to-tsinghua-indonesian-student.html	51	h2	왜 베트남 학생이 이 사례를 볼 만할까요?
+news/xjtlu-to-tsinghua-indonesian-student.html	52	p	영어 학위과정, 중국 시장에 대한 이해, 기업 실무경험을 함께 쌓고 싶은 학생에게는 전통적인 중국어 중심 유학과 다른 선택이 될 수 있습니다. 또한 학부 재학기간을 인턴십과 프로젝트 등 프로필 구축에 활용한 사례이기도 합니다.
 news/xjtlu-to-tsinghua-indonesian-student.html	53	b	공식 출처
-news/xjtlu-to-tsinghua-indonesian-student.html	54	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-to-tsinghua-indonesian-student.html	55	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-to-tsinghua-indonesian-student.html	56	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-to-tsinghua-indonesian-student.html	54	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-to-tsinghua-indonesian-student.html	55	a	XJTLU 공식 원문 보기 →
+news/xjtlu-to-tsinghua-indonesian-student.html	56	b	XJTLU 관련 가이드
 news/xjtlu-to-tsinghua-indonesian-student.html	57	a	2027년 입학 조건
 news/xjtlu-to-tsinghua-indonesian-student.html	58	a	학비 & 장학금
 news/xjtlu-to-tsinghua-indonesian-student.html	59	a	XJTLU & Liverpool →
-news/xjtlu-to-tsinghua-indonesian-student.html	60	a	← 모든 뉴스를 보
+news/xjtlu-to-tsinghua-indonesian-student.html	60	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-to-tsinghua-indonesian-student.html	61	div	한글 검수판 · 검색 비노출
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	1	[document]	html
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	2	title	[한글 검수판] XJTLU에서 펜실베이니아 대학교에
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	2	title	[한글 검수판] XJTLU → University of Pennsylvania | PwC·연구 경험
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	3	a	XJTLU 베트남
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	4	button	메뉴
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	5	span	☰
@@ -2457,34 +2457,34 @@ news/xjtlu-to-upenn-behavioral-decision-sciences.html	33	a	XJTLU에서 영어로
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	34	a	XJTLU 뉴스
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	35	small	뉴스 보기 →
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	37	div	미국 펜실베이니아 대학교
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	37	div	미국 · University of Pennsylvania
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	38	h1	XJTLU → University of Pennsylvania: PwC·연구 경험과 미국 대학원 진학
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	39	p	Yunzhou Zhong는 XJTLU에서 정보 관리 및 정보 시스템 기반을 졸업하고, 펜실베이니아 대학에서 행동 및 결정 과학 석사를 계속했습니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	39	p	Yunzhou Zhong는 XJTLU BSc Information Management and Information Systems 졸업 후 University of Pennsylvania의 Master of Behavioral and Decision Sciences로 진학했습니다.
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	40	div	기자: XJTLU 공식 뉴스 · 7월 22일 2025
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	41	p	Yunzhou Zhong 졸업
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	41	p	Yunzhou Zhong는
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	42	b	BSc Information Management and Information Systems
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	43	p	XJTLU의 국제 비즈니스 스쿨 수즈오
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	44	p	XJTLU에 따르면, 강사 상담사는 Zhong을
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	43	p	를 XJTLU International Business School Suzhou(IBSS)에서 졸업했습니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	44	p	XJTLU에 따르면 Zhong은 재학 중 교수진의 진로지원을 받으며
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	45	b	PwC
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	46	p	그 후 조롱은 프로그램에 참여했습니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	46	p	인턴십 경험을 쌓았고 이후
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	47	b	Summer Undergraduate Research Fellowships (SURF)
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	48	p	그리고 그 후에는 회의 논문을 공동으로 작성하고 미국 대학들과의 연구 협력을 할 수 있는 기회가 있었습니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	48	p	에 참여해 연구경험을 쌓았습니다. 이후 학술회의 논문 공동작성과 미국 대학과의 연구협력 기회도 얻었습니다.
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	49	h2	실무 경험에서 UPenn 대학원 과정까지
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	50	p	졸업 후, Zhong은 학업을 계속했다
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	51	b	펜실베이니아 대학교의 행동과 의사 결정 과학 석사
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	52	p	이 사례는 성적에 대한 성적 뿐만 아니라 실습, 연구, 교수와의 관계로 강화될 수 있다는 것을 보여준다.
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	53	b	베트남 학생의 주목할 만한 점:
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	54	div	만약 여러분이 미국에서 경쟁력 있는 대학원 프로그램을 목표로 한다면 학부 학위 때부터 연구와 연습 기회를 활용하면 더 깊이 있는 프로필을 만들 수 있습니다.
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	55	h2	하버드, 옥스퍼드, Cambridge 같은 곳의 다른 경로
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	56	p	XJTLU 베트남 웹사이트는 하버드, 옥스퍼드, Cambridge, 츠링후아 대학에서 재학 중인 사례를 소개했다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	50	p	졸업 후 Zhong은
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	51	b	University of Pennsylvania의 Master of Behavioral and Decision Sciences로 진학했습니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	52	p	이 사례는 대학원 지원 프로필이 성적뿐 아니라 인턴십, 연구경험, 교수진과의 학술적 교류를 통해 강화될 수 있음을 보여줍니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	53	b	베트남 학생이 볼 포인트:
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	54	div	미국의 경쟁력 있는 대학원 프로그램을 목표로 한다면 학부 때부터 연구와 인턴십 기회를 활용해 더 깊이 있는 프로필을 만드는 것이 중요합니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	55	h2	다른 상위권 대학원 진학 사례와 함께 보기
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	56	p	XJTLU 베트남에서는 Harvard, Oxford, Cambridge, Tsinghua 등으로 이어진 다른 졸업생 사례도 함께 소개합니다.
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	57	b	비즈니스, 정보 시스템, 행동 결정 과학
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	58	p	전통적인 학술적 과정에 집중하기 보다는
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	58	p	전공에 따라 연구·인턴십·프로젝트를 함께 쌓는 다양한 경로를 비교해 보세요.
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	59	b	공식 출처
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	60	div	이 글은 XJTLU 공식 뉴스 보기 → 베트남어로 편집되었습니다.
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	61	a	본문은 XJTLU에서 읽습니다
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	62	b	XJTLU에 대해 더 알아보세요
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	60	div	이 글은 XJTLU 공식 뉴스를 바탕으로 한국어 검수를 위해 재구성한 편집본입니다.
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	61	a	XJTLU 공식 원문 보기 →
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	62	b	XJTLU 관련 가이드
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	63	a	졸업 후 진학 결과
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	64	a	입학 조건 →
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	65	a	학비 & 장학금
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	66	a	← 모든 뉴스를 보
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	66	a	← XJTLU 뉴스 전체 보기
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	67	div	한글 검수판 · 검색 비노출
