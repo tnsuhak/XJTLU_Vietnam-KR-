@@ -38,7 +38,9 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from bs4 import BeautifulSoup
+          from urllib.parse import urlparse, unquote
           import re
+
           pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
           assert len(pages)==24
           banned=[
@@ -51,15 +53,22 @@ jobs:
             '57년에서 146년','그리고 저는 제 생각에','빅 쿼리','전학생 네트워크','수석생 네트워크','모든 뉴스를 보',
             '본문은 XJTLU에서 읽습니다','베트남어로 편집','이것은 XJTLU를 연구하는 사람들에게','러셀 그룹의 설립자',
             '영어학 전생','그 후 조롱','전 학자','전문적인 힙합','이것은 주목할만한 지표입니다','아시아의 최고의 교육 중심지',
-            '실수는 시드니','호주 최고의 대학에서 재학 중인 학생 중','150여명의 전학생'
+            '실수는 시드니','호주 최고의 대학에서 재학 중인 학생 중','150여명의 전학생','대학수교수','2년 직선','3년 직선'
           ]
           bad=[]
+          soups={}
           for p in pages:
               raw=p.read_text(encoding='utf-8')
               soup=BeautifulSoup(raw,'html.parser')
+              soups[p.resolve()]=soup
               assert soup.html and soup.html.get('lang')=='ko',p
               robots=soup.find('meta',attrs={'name':'robots'})
               assert robots and 'noindex' in robots.get('content',''),p
+              assert len(soup.find_all('h1'))==1,(p,'h1 count',len(soup.find_all('h1')))
+              title=soup.title.get_text(' ',strip=True) if soup.title else ''
+              assert title and '[한글 검수판]' in title,(p,'title')
+              desc=soup.find('meta',attrs={'name':'description'})
+              assert desc and len(desc.get('content','').strip())>=35,(p,'meta description')
               vis=soup.get_text(' ',strip=True)
               for b in banned:
                   if b in raw or b in vis: bad.append((str(p),b))
@@ -68,6 +77,48 @@ jobs:
                   if tag.get_text(strip=True) in {'.', ','}:
                       bad.append((str(p),'standalone punctuation block'))
           assert not bad,bad
+
+          # Internal links and fragment targets.
+          broken=[]
+          for p in pages:
+              soup=soups[p.resolve()]
+              for a in soup.find_all('a',href=True):
+                  href=a['href'].strip()
+                  if not href or href.startswith(('mailto:','tel:','javascript:')):
+                      continue
+                  u=urlparse(href)
+                  if u.scheme in ('http','https'):
+                      # Visible external sources/consultation links should open safely.
+                      if a.get('target')!='_blank' or 'noopener' not in (a.get('rel') or []):
+                          broken.append((str(p),'external attrs',href))
+                      continue
+                  if u.scheme or u.netloc:
+                      continue
+                  path=unquote(u.path)
+                  frag=unquote(u.fragment)
+                  if path.startswith('/'):
+                      target=Path(path.lstrip('/'))
+                  else:
+                      target=(p.parent / path) if path else p
+                  if not path:
+                      target=p
+                  elif path.endswith('/'):
+                      target=target/'index.html'
+                  elif target.suffix=='':
+                      target=target/'index.html'
+                  target=target.resolve()
+                  if not target.exists():
+                      broken.append((str(p),'missing target',href))
+                      continue
+                  if frag and target.suffix.lower()=='.html':
+                      ts=soups.get(target)
+                      if ts is None:
+                          ts=BeautifulSoup(target.read_text(encoding='utf-8'),'html.parser')
+                          soups[target]=ts
+                      if ts.find(id=frag) is None:
+                          broken.append((str(p),'missing fragment',href))
+          assert not broken,broken[:30]
+
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
           admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
           assert '99,000 RMB' in fee and '연간 99,000 RMB' in fee
@@ -79,6 +130,7 @@ jobs:
           assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
           print('critical validation passed:',len(pages),'pages')
+          print('internal/external link validation passed')
           PY
       - name: Commit final Korean review
         run: |
