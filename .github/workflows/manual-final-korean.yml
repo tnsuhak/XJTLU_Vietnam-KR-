@@ -1,0 +1,59 @@
+name: Human Final Korean Review
+on:
+  push:
+    branches: [preview/sync-vietnam-site-ko-20260908]
+    paths:
+      - 'scripts/manual_final_korean.py'
+      - '.github/workflows/manual-final-korean.yml'
+permissions:
+  contents: write
+concurrency:
+  group: human-final-ko-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  final:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install --disable-pip-version-check beautifulsoup4
+      - name: Apply human Korean mappings
+        run: python scripts/manual_final_korean.py
+      - name: Validate critical facts and review settings
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
+          assert len(pages)==24
+          banned=['99,000만원','99.000만원','99,000원','99.000원','제 말은,','도천','도저','토주','후천 시립','학금','장학비','지아토ング']
+          bad=[]
+          for p in pages:
+              soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser')
+              assert soup.html and soup.html.get('lang')=='ko',p
+              robots=soup.find('meta',attrs={'name':'robots'})
+              assert robots and 'noindex' in robots.get('content',''),p
+              vis=soup.get_text(' ',strip=True)
+              for b in banned:
+                  if b=='학금':
+                      import re
+                      if re.search(r'(?<!장)학금',vis): bad.append((str(p),b))
+                  elif b in vis: bad.append((str(p),b))
+          assert not bad,bad
+          assert '99.000 RMB' in Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
+          assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
+          assert not Path('sitemap.xml').exists()
+          print('critical validation passed')
+          PY
+      - name: Commit final Korean review
+        run: |
+          git config user.name 'TNS Site Manager'
+          git config user.email 'actions@users.noreply.github.com'
+          git add '*.html' 'news/*.html'
+          if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
+          git commit -m 'Apply human Korean final review translations'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
