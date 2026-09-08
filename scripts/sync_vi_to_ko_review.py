@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import html as html_lib
 import json
 import os
 import re
@@ -26,6 +25,7 @@ COPY_FILE_SUFFIXES = {
 VI_DIACRITICS = re.compile(r"[ăâđêôơưĂÂĐÊÔƠƯàáảãạằắẳẵặầấẩẫậèéẻẽẹềếểễệìíỉĩịòóỏõọồốổỗộờớởỡợùúủũụừứửữựỳýỷỹỵÀÁẢÃẠẰẮẲẴẶẦẤẨẪẬÈÉẺẼẸỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌỒỐỔỖỘỜỚỞỠỢÙÚỦŨỤỪỨỬỮỰỲÝỶỸỴ]")
 LETTER_RE = re.compile(r"[A-Za-zÀ-ỹ가-힣]")
 SHORT_PROPER = re.compile(r"^(XJTLU|QS|THE|ARWU|C9|AI|STEM|IELTS|TOEFL|VND|RMB|GBP|USD|TNS|SOS|Zalo|SIP|XEC|HCMC|TP\. ?HCM)$", re.I)
+SEP = "__TNSSEP9F3A__"
 
 MANUAL_EXACT = {
     "Menu": "메뉴",
@@ -47,21 +47,25 @@ MANUAL_EXACT = {
     "Nguồn": "출처",
     "Nguồn chính thức": "공식 출처",
     "Tài liệu nguồn": "자료 출처",
+    "Đọc thêm": "더 보기",
+    "Quay lại": "돌아가기",
+    "Cập nhật": "업데이트",
 }
 
 POST_REPLACEMENTS = [
     ("서안교통리버풀대학교", "시안교통리버풀대학교"),
     ("시안 자오퉁-리버풀 대학교", "시안교통리버풀대학교"),
     ("시안 자오퉁 리버풀 대학교", "시안교통리버풀대학교"),
-    ("Xi'an Jiaotong-Liverpool University", "Xi'an Jiaotong-Liverpool University"),
     ("리버풀 대학교", "리버풀대학교"),
     ("쑤저우 중국", "중국 쑤저우"),
     ("호치민 시", "호치민시"),
+    ("SOS 인터내셔널", "SOS International"),
+    ("TNS 월드와이드", "TNS Worldwide"),
 ]
 
 session = requests.Session()
-session.headers.update({"User-Agent": "Mozilla/5.0 TNS-Korean-Review-Sync/1.0"})
-cache: dict[str, str] = {}
+session.headers.update({"User-Agent": "Mozilla/5.0 TNS-Korean-Review-Sync/2.0"})
+cache: dict[str, str] = dict(MANUAL_EXACT)
 failures: list[dict[str, str]] = []
 
 
@@ -79,57 +83,102 @@ def should_translate(text: str) -> bool:
         return False
     if t.startswith("data:"):
         return False
+    if len(t) == 1:
+        return False
     return True
 
 
-def google_translate(text: str) -> str:
-    raw = text
-    t = normalize_ws(text)
-    if t in MANUAL_EXACT:
-        return MANUAL_EXACT[t]
-    if t in cache:
-        return cache[t]
+def postprocess(text: str) -> str:
+    for a, b in POST_REPLACEMENTS:
+        text = text.replace(a, b)
+    return text
 
-    # Preserve the exact leading/trailing whitespace of the DOM text node.
-    leading = raw[: len(raw) - len(raw.lstrip())]
-    trailing = raw[len(raw.rstrip()) :]
-    core = raw.strip()
-    if not should_translate(core):
-        return raw
 
+def translate_remote(text: str, record_failure: bool = True) -> str | None:
     params = {
         "client": "gtx",
         "sl": "auto",
         "tl": "ko",
         "dt": "t",
-        "q": core,
+        "q": text,
     }
-    translated = None
     last_error = None
-    for attempt in range(5):
+    for attempt in range(4):
         try:
-            r = session.get("https://translate.googleapis.com/translate_a/single", params=params, timeout=25)
+            r = session.get("https://translate.googleapis.com/translate_a/single", params=params, timeout=20)
             r.raise_for_status()
             data = r.json()
-            translated = "".join(part[0] for part in data[0] if part and part[0])
-            break
+            out = "".join(part[0] for part in data[0] if part and part[0])
+            return postprocess(out)
         except Exception as exc:  # noqa: BLE001
             last_error = exc
-            time.sleep(0.8 * (attempt + 1))
+            time.sleep(0.5 * (attempt + 1))
+    if record_failure:
+        failures.append({"text": text[:300], "error": str(last_error)})
+    return None
+
+
+def prime_cache(strings: Iterable[str]) -> None:
+    unique: list[str] = []
+    seen = set(cache)
+    for raw in strings:
+        t = normalize_ws(raw)
+        if not should_translate(t) or t in seen:
+            continue
+        seen.add(t)
+        unique.append(t)
+
+    print(f"Priming translation cache for {len(unique)} unique strings", flush=True)
+    batches: list[list[str]] = []
+    current: list[str] = []
+    current_len = 0
+    for text in unique:
+        # Google unofficial endpoint is safest below ~4k characters per request.
+        extra = len(text) + len(SEP) + 4
+        if current and (len(current) >= 16 or current_len + extra > 3300):
+            batches.append(current)
+            current = []
+            current_len = 0
+        current.append(text)
+        current_len += extra
+    if current:
+        batches.append(current)
+
+    for idx, batch in enumerate(batches, 1):
+        payload = (f"\n{SEP}\n").join(batch)
+        translated = translate_remote(payload, record_failure=False)
+        parts = []
+        if translated is not None:
+            parts = re.split(rf"\s*{re.escape(SEP)}\s*", translated)
+        if len(parts) == len(batch):
+            for source, target in zip(batch, parts):
+                cache[source] = postprocess(target.strip())
+        else:
+            # Fallback only for the unusual batch where the separator was altered.
+            for source in batch:
+                one = translate_remote(source, record_failure=True)
+                cache[source] = postprocess(one.strip()) if one is not None else source
+        if idx % 10 == 0 or idx == len(batches):
+            print(f"  translated batch {idx}/{len(batches)}", flush=True)
+        time.sleep(0.03)
+
+
+def google_translate(text: str) -> str:
+    raw = text
+    t = normalize_ws(raw)
+    if not should_translate(t):
+        return raw
+
+    leading = raw[: len(raw) - len(raw.lstrip())]
+    trailing = raw[len(raw.rstrip()) :]
+    translated = cache.get(t)
     if translated is None:
-        failures.append({"text": core[:300], "error": str(last_error)})
-        translated = core
-
-    for a, b in POST_REPLACEMENTS:
-        translated = translated.replace(a, b)
-
-    cache[t] = translated
-    time.sleep(0.015)
-    return leading + translated + trailing
+        translated = translate_remote(t, record_failure=True) or t
+        cache[t] = translated
+    return leading + postprocess(translated) + trailing
 
 
 def copy_source_site() -> None:
-    # Remove previously generated site files/directories, but preserve branch tooling.
     for item in TARGET.iterdir():
         if item.name in {".git", ".github", "scripts"}:
             continue
@@ -142,14 +191,12 @@ def copy_source_site() -> None:
         if src.name in SKIP_DIRS:
             continue
         if src.is_dir():
-            # Only copy folders that contain public site assets/content.
             if src.name == "news" or src.name in {"assets", "images", "img", "static"}:
                 shutil.copytree(src, TARGET / src.name)
             continue
         if src.suffix.lower() in COPY_FILE_SUFFIXES:
             shutil.copy2(src, TARGET / src.name)
 
-    # Review environment must never be indexed.
     (TARGET / "robots.txt").write_text("User-agent: *\nDisallow: /\n", encoding="utf-8")
     sitemap = TARGET / "sitemap.xml"
     if sitemap.exists():
@@ -173,12 +220,58 @@ def strip_indexing_metadata(soup: BeautifulSoup) -> None:
         tag.decompose()
 
 
+def collect_html_strings(path: Path) -> list[str]:
+    soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
+    out: list[str] = []
+    if soup.title and soup.title.string:
+        out.append(str(soup.title.string))
+    for meta_key in ("description", "twitter:title", "twitter:description"):
+        tag = soup.find("meta", attrs={"name": meta_key})
+        if tag and tag.get("content"):
+            out.append(tag["content"])
+    for prop in ("og:title", "og:description", "og:site_name"):
+        tag = soup.find("meta", attrs={"property": prop})
+        if tag and tag.get("content"):
+            out.append(tag["content"])
+    skip_parents = {"script", "style", "svg", "path", "noscript", "code", "pre"}
+    for node in soup.find_all(string=True):
+        if isinstance(node, Comment) or not node.parent or node.parent.name in skip_parents:
+            continue
+        if should_translate(str(node)):
+            out.append(str(node))
+    for tag in soup.find_all(True):
+        for attr in ("alt", "title", "aria-label", "placeholder"):
+            value = tag.get(attr)
+            if isinstance(value, str) and should_translate(value):
+                out.append(value)
+    return out
+
+
+def collect_json_strings(path: Path) -> list[str]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    out: list[str] = []
+
+    def walk(obj):
+        if isinstance(obj, dict):
+            for v in obj.values():
+                walk(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                walk(v)
+        elif isinstance(obj, str) and not obj.startswith(("http://", "https://")) and should_translate(obj):
+            out.append(obj)
+
+    walk(data)
+    return out
+
+
 def translate_html(path: Path) -> None:
-    original = path.read_text(encoding="utf-8")
-    soup = BeautifulSoup(original, "html.parser")
+    soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
     if soup.html:
         soup.html["lang"] = "ko"
-
     strip_indexing_metadata(soup)
 
     if soup.title and soup.title.string:
@@ -197,12 +290,8 @@ def translate_html(path: Path) -> None:
             tag["content"] = google_translate(tag["content"]).strip()
 
     skip_parents = {"script", "style", "svg", "path", "noscript", "code", "pre"}
-    nodes = list(soup.find_all(string=True))
-    for node in nodes:
-        if isinstance(node, Comment):
-            continue
-        parent = node.parent
-        if not parent or parent.name in skip_parents:
+    for node in list(soup.find_all(string=True)):
+        if isinstance(node, Comment) or not node.parent or node.parent.name in skip_parents:
             continue
         raw = str(node)
         if should_translate(raw):
@@ -217,7 +306,6 @@ def translate_html(path: Path) -> None:
         if isinstance(href, str) and href.startswith(PROD_HOST):
             tag["href"] = REVIEW_HOST + href[len(PROD_HOST) :]
 
-    # Make review status visible without altering layout structure.
     if soup.body:
         review_css = soup.new_tag("style")
         review_css["id"] = "tns-korean-review-banner-style"
@@ -233,8 +321,7 @@ def translate_html(path: Path) -> None:
         banner.string = "한글 검수판 · 검색 비노출"
         soup.body.append(banner)
 
-    rendered = str(soup)
-    rendered = rendered.replace(PROD_HOST, REVIEW_HOST)
+    rendered = str(soup).replace(PROD_HOST, REVIEW_HOST)
     path.write_text(rendered, encoding="utf-8")
 
 
@@ -250,7 +337,7 @@ def translate_json_file(path: Path) -> None:
         if isinstance(obj, list):
             return [walk(v) for v in obj]
         if isinstance(obj, str):
-            if obj.startswith("http://") or obj.startswith("https://"):
+            if obj.startswith(("http://", "https://")):
                 return obj.replace(PROD_HOST, REVIEW_HOST)
             return google_translate(obj).strip() if should_translate(obj) else obj
         return obj
@@ -273,12 +360,20 @@ def count_untranslated(paths: Iterable[Path]) -> list[dict[str, object]]:
 def main() -> None:
     copy_source_site()
     html_paths = sorted(TARGET.glob("*.html")) + sorted((TARGET / "news").glob("*.html"))
-    for i, path in enumerate(html_paths, 1):
-        print(f"[{i}/{len(html_paths)}] translating {path.relative_to(TARGET)}", flush=True)
-        translate_html(path)
+    json_paths = sorted((TARGET / "news").glob("*.json"))
 
-    for json_path in sorted((TARGET / "news").glob("*.json")):
-        translate_json_file(json_path)
+    strings: list[str] = []
+    for path in html_paths:
+        strings.extend(collect_html_strings(path))
+    for path in json_paths:
+        strings.extend(collect_json_strings(path))
+    prime_cache(strings)
+
+    for i, path in enumerate(html_paths, 1):
+        print(f"[{i}/{len(html_paths)}] rendering Korean {path.relative_to(TARGET)}", flush=True)
+        translate_html(path)
+    for path in json_paths:
+        translate_json_file(path)
 
     report = {
         "source_repo": "tnsuhak/XJTLU_Vietnam",
@@ -287,12 +382,11 @@ def main() -> None:
         "html_pages": len(html_paths),
         "unique_translations": len(cache),
         "translation_failures": failures,
-        "untranslated_scan": count_untranslated(html_paths + list((TARGET / "news").glob("*.json"))),
+        "untranslated_scan": count_untranslated(html_paths + json_paths),
         "review_policy": "noindex,nofollow + robots Disallow /",
     }
     (TARGET / "review-sync-report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
-
     if failures:
         raise SystemExit(f"Translation service failures: {len(failures)}")
 
