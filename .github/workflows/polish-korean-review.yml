@@ -7,6 +7,7 @@ on:
       - preview/sync-vietnam-site-ko-20260908
     paths:
       - 'scripts/polish_korean_review.py'
+      - 'scripts/final_raw_cleanup.py'
       - '.github/workflows/polish-korean-review.yml'
 
 permissions:
@@ -33,18 +34,23 @@ jobs:
         run: pip install --disable-pip-version-check beautifulsoup4
 
       - name: Polish Korean review copy
-        run: python scripts/polish_korean_review.py
+        run: |
+          python scripts/polish_korean_review.py
+          python scripts/final_raw_cleanup.py
 
       - name: Validate final review copy
         run: |
           python - <<'PY'
           from pathlib import Path
           from bs4 import BeautifulSoup
-          import re
 
           pages = sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html'))
           assert len(pages) == 24, len(pages)
-          banned = ['학금', '토주', '도주 시안', '서안교통리버풀대학교', '시안 자오퉁-리버풀 대학교', '중국 2027 여행', '연구 결과가 올라갑니다.']
+          banned = [
+              '학금', '토주', '도주 시안', '서안교통리버풀대학교',
+              '시안 자오퉁-리버풀 대학교', '중국 2027 여행',
+              '연구 결과가 올라갑니다.', '후천 시립', '생상 영상'
+          ]
           bad=[]
           for p in pages:
               text=p.read_text(encoding='utf-8')
@@ -53,11 +59,13 @@ jobs:
               assert robots and 'noindex' in robots.get('content',''), p
               assert soup.html and soup.html.get('lang')=='ko', p
               assert soup.find('h1'), p
+              visible=soup.get_text(' ', strip=True)
               for term in banned:
-                  if term in soup.get_text(' ', strip=True):
+                  if term in visible:
                       bad.append((str(p),term))
           assert not bad, bad
           assert Path('robots.txt').read_text(encoding='utf-8') == 'User-agent: *\nDisallow: /\n'
+          assert not Path('sitemap.xml').exists()
           print('Final Korean review validation passed:', len(pages), 'pages')
           PY
 
