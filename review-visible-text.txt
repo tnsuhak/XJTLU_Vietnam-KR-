@@ -554,71 +554,71 @@ university-of-liverpool-vietnam.html	34	a	XJTLU 뉴스
 university-of-liverpool-vietnam.html	35	small	뉴스 보기 →
 university-of-liverpool-vietnam.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 university-of-liverpool-vietnam.html	37	div	리버풀 × 베트남
-university-of-liverpool-vietnam.html	38	h1	리버풀대학교는 베트남과 어떻게 연결되고 있나?
-university-of-liverpool-vietnam.html	39	p	2025~2026년, 영국, 리버풀, 베트남의 연결은 교육, 의료, 과학기술, 데이터, AI 등 분야에서 크게 확대될 것입니다.
+university-of-liverpool-vietnam.html	38	h1	리버풀대학교는 베트남과 어떻게 연결되고 있나요?
+university-of-liverpool-vietnam.html	39	p	2025~2026년 영국, Liverpool, 베트남의 연결은 교육, 의료, 과학기술, 데이터, AI 등 여러 분야에서 크게 확대되었습니다.
 university-of-liverpool-vietnam.html	40	div	업데이트: 2026년 9월 5일
-university-of-liverpool-vietnam.html	41	small	먼저 알아야 할 점
-university-of-liverpool-vietnam.html	42	h2	이건 비엔나티움과 XJTLU의 직접적인 협업이 아닙니다.
-university-of-liverpool-vietnam.html	43	p	아래의 표지판은
-university-of-liverpool-vietnam.html	44	b	베트남, 리버풀, 리버풀대학교
-university-of-liverpool-vietnam.html	45	p	교육, 의료, 과학기술에서 혁신과 문화로 확장되고 있습니다. 이것은 XJTLU를 연구하는 사람들에게 주목할만한 상황입니다. 왜냐하면 XJTLU는 리버풀대학교과 깊은 학술적 관계와 학위 관계를 가지고 있기 때문입니다.
-university-of-liverpool-vietnam.html	46	h2	5가지 놀라운 연결점
-university-of-liverpool-vietnam.html	47	p	국가적 관계에서 도시와 대학 협력에 이르기까지 리버풀은 베트남의 혁신적 교육 생태계에서 더욱 잘 나타나고 있습니다.
+university-of-liverpool-vietnam.html	41	small	XJTLU와 연결해 보는 이유
+university-of-liverpool-vietnam.html	42	h2	왜 Liverpool 네트워크와 베트남의 연결이 XJTLU 학생에게 중요할까요?
+university-of-liverpool-vietnam.html	43	p	아래 사례들은
+university-of-liverpool-vietnam.html	44	b	베트남 · Liverpool · University of Liverpool
+university-of-liverpool-vietnam.html	45	p	교육, 의료, 과학기술에서 혁신과 문화로 확장되고 있습니다. 이것은 XJTLU를 연구하는 사람들에게 주목할만한 상황입니다. 왜냐하면 XJTLU는 리버풀대학교와 깊은 학술적 관계와 학위 관계를 가지고 있기 때문입니다.
+university-of-liverpool-vietnam.html	46	h2	주목할 연결 사례 5가지
+university-of-liverpool-vietnam.html	47	p	국가 간 관계부터 도시·대학 차원의 협력까지, Liverpool과 베트남의 연결이 교육·혁신 분야에서 구체화되고 있습니다.
 university-of-liverpool-vietnam.html	48	span	03/2025
 university-of-liverpool-vietnam.html	49	h3	리버풀 의료 생태계 × 호치민시
-university-of-liverpool-vietnam.html	50	div	유아 · 의료 혁신 · 연구
-university-of-liverpool-vietnam.html	51	p	리버풀의 알더 헤이 어린이병원은 1차 대도시청소년병원과 임상 서비스, 연구 및 개발에 대한 협약을 체결했다. 이 시기에 리버풀의 의료 혁신 생태계 전문가들은 대도시청과 협력하는 것을 강화했다.
-university-of-liverpool-vietnam.html	52	a	소스: 알더 헤이 어린이병원
+university-of-liverpool-vietnam.html	50	div	소아의료 · 의료혁신 · 연구
+university-of-liverpool-vietnam.html	51	p	Liverpool의 Alder Hey Children’s Hospital은 호치민시 Children’s Hospital 1과 임상서비스, 연구, 혁신 분야 협력을 위한 협약을 체결했습니다.
+university-of-liverpool-vietnam.html	52	a	출처: Alder Hey Children’s Hospital
 university-of-liverpool-vietnam.html	53	span	29/10/2025
 university-of-liverpool-vietnam.html	54	h3	영국 × 베트남
-university-of-liverpool-vietnam.html	55	div	종합 전략 파트너
-university-of-liverpool-vietnam.html	56	p	베트남과 영국은 무역, 교육, 과학기술 및 기타 많은 분야를 포함하는 협력 기둥으로 종합 전략 파트너십으로 관계를 강화했습니다.
+university-of-liverpool-vietnam.html	55	div	포괄적 전략적 동반자 관계
+university-of-liverpool-vietnam.html	56	p	베트남과 영국은 양국 관계를 포괄적 전략적 동반자 관계로 격상하고 무역, 교육, 과학기술 등 다양한 분야의 협력을 확대하기로 했습니다.
 university-of-liverpool-vietnam.html	57	a	출처: 영국 정부
 university-of-liverpool-vietnam.html	58	span	30/10/2025
 university-of-liverpool-vietnam.html	59	h3	리버풀 × 호치민시
-university-of-liverpool-vietnam.html	60	div	보건 · 교육 · 교육 · 과학 · 기술
-university-of-liverpool-vietnam.html	61	p	리버풀 시·도와 리버풀 대도시는 이 세 분야에 대한 협력 지정을 체결하여 두 지역 간의 연결을 확대하였다.
-university-of-liverpool-vietnam.html	62	a	출처: 청와대
+university-of-liverpool-vietnam.html	60	div	보건 · 교육 · 과학기술
+university-of-liverpool-vietnam.html	61	p	Liverpool City Region과 호치민시는 보건, 교육, 과학기술 분야 협력을 위한 MOU를 체결했습니다.
+university-of-liverpool-vietnam.html	62	a	출처: 호치민시 외교부
 university-of-liverpool-vietnam.html	63	span	29/01/2026
 university-of-liverpool-vietnam.html	64	h3	리버풀 문화축제
-university-of-liverpool-vietnam.html	65	div	도시2시티 · 문화 · 지역사회 교류
-university-of-liverpool-vietnam.html	66	p	리버풀과 호치민시는 리버풀 시티 협회와 함께 리버풀 문화축제 (Liverpool Culture Festival) 를 시작하여 리버풀 시티 협의체, 영국 대사관, 영국 협의체 등이 참여하였다. 이 행사는 리버풀의 음악, 예술 및 이미지를 베트남 대중에게 더 가까이 다가올 수 있게 하였다.
-university-of-liverpool-vietnam.html	67	a	리버풀 문화
+university-of-liverpool-vietnam.html	65	div	City2City · 문화 · 지역사회 교류
+university-of-liverpool-vietnam.html	66	p	Liverpool과 호치민시는 자매도시 협력의 일환으로 Liverpool Culture Festival을 열었으며 Liverpool City Council, 영국대사관, British Council 등이 참여했습니다. 음악·예술·문화를 통해 양 도시의 교류를 알리는 행사였습니다.
+university-of-liverpool-vietnam.html	67	a	출처: Culture Liverpool
 university-of-liverpool-vietnam.html	68	span	30/01/2026
 university-of-liverpool-vietnam.html	69	h3	University of Liverpool × UMP 호치민시
-university-of-liverpool-vietnam.html	70	div	데이터 과학 · AI · 디지털 건강 · 공동 연구
-university-of-liverpool-vietnam.html	71	p	리버풀대학교와 호치민시 의과대학 (UMP HCMC) 는 공공 보건, 디지털 보건, 의학 뉴스, 전문 교환 및 AI 데이터 혁신을 포함한 장기 협력에 대한 업무 협약을 체결했습니다.
+university-of-liverpool-vietnam.html	70	div	데이터과학 · AI · 디지털헬스 · 공동연구
+university-of-liverpool-vietnam.html	71	p	University of Liverpool과 University of Medicine and Pharmacy at Ho Chi Minh City(UMP HCMC)는 공중보건, 디지털헬스, 데이터과학, AI, 연구·전문가 교류 등을 포함한 장기 협력을 위한 MOU를 체결했습니다.
 university-of-liverpool-vietnam.html	72	a	리버풀대학교
-university-of-liverpool-vietnam.html	73	h2	왜 베트남 학생에게 이 점이 주목할 만한가?
-university-of-liverpool-vietnam.html	74	h3	리버풀은 베트남에서 멀지 않습니다.
-university-of-liverpool-vietnam.html	75	p	지역과 대학의 관계는 실제 학문적 가치가 있는 분야에서 리버풀과 베트남을 더 접하고 있습니다.
-university-of-liverpool-vietnam.html	76	h3	인공지능, 데이터, 의료는 실제 분야입니다.
-university-of-liverpool-vietnam.html	77	p	UMP 협업은 데이터, AI 및 디지털 헬스 관련 분야를 중심으로 많은 국제 학생이 관심을 갖는 생명과학 분야 그룹과 가까운 주제입니다.
-university-of-liverpool-vietnam.html	78	h3	리버풀 생태계는 XJTLU에 의미가 있습니다.
-university-of-liverpool-vietnam.html	79	p	XJTLU는 리버풀대학교와 Xi'an Jiaotong University가 공동 설립한 곳이다. 따라서 리버풀의 베트남에서의 연결 확대가 취업 또는 입학 약속이 아닌 점검할 가치가 있는 곳이다.
-university-of-liverpool-vietnam.html	80	h2	XJTLU는 어떤 관련이 있을까요?
-university-of-liverpool-vietnam.html	81	p	연결점은 XJTLU가 위의 세 가지 협정을 체결하는 데에 있지 않고, 리버풀대학교와 XJTLU의 학술적 관계에 있습니다.
-university-of-liverpool-vietnam.html	82	b	간단한 설명:
-university-of-liverpool-vietnam.html	83	div	XJTLU 학생은 영국 대학 모델에 따라 리버풀대학교과 연계되어 있습니다. 프로그램에 따라 졸업 요구 사항을 충족하면, 학생은 리버풀대학교과 관련된 학위 구조를 가지고 있습니다. 일부 학업은 리버풀로 2+2 경로를 가지고 있습니다. 따라서 리버풀 × 베트남은 XJTLU 이야기의 추가 배경이며, XJTLU가 베트남과 직접적인 협약을 맺고 있다는 증거가 아닙니다.
-university-of-liverpool-vietnam.html	84	h2	빨리 물어봐
-university-of-liverpool-vietnam.html	85	summary	이 일은 XJTLU와 베트남의 직접적인 협업인가요?
-university-of-liverpool-vietnam.html	86	p	이 협업은 영국, 베트남, 리버풀, 리버풀대학교와 HCMC를 대상으로 합니다.
-university-of-liverpool-vietnam.html	87	summary	왜 XJTLU 베트남가 소개하는 걸까요?
-university-of-liverpool-vietnam.html	88	p	XJTLU는 리버풀대학교와 Xi'an Jiaotong University가 공동으로 설립한 이래 리버풀과 관련된 학술적 관계와 2+2 학위 경로로 구성되어 있습니다.
-university-of-liverpool-vietnam.html	89	summary	리버풀에 꼭 가야 해?
-university-of-liverpool-vietnam.html	90	p	2+2는 자격 취득 프로그램들의 학업 선택입니다. 특정 구조는 분야별로 검증되어야 합니다.
-university-of-liverpool-vietnam.html	91	h2	계속 봐
+university-of-liverpool-vietnam.html	73	h2	왜 베트남 학생에게 주목할 만할까요?
+university-of-liverpool-vietnam.html	74	h3	Liverpool과 베트남의 실제 협력 분야
+university-of-liverpool-vietnam.html	75	p	Liverpool의 베트남 협력은 교육·의료·AI 등 실제 학문 분야와 연결되어 있습니다.
+university-of-liverpool-vietnam.html	76	h3	AI·데이터·디지털헬스와의 연결
+university-of-liverpool-vietnam.html	77	p	데이터과학, AI, 디지털헬스는 XJTLU 학생들이 관심을 가질 수 있는 전공·연구 분야와도 맞닿아 있습니다.
+university-of-liverpool-vietnam.html	78	h3	Liverpool 네트워크가 XJTLU에 갖는 의미
+university-of-liverpool-vietnam.html	79	p	XJTLU는 University of Liverpool과 Xi'an Jiaotong University가 공동 설립한 대학이므로 Liverpool의 베트남 네트워크 확대는 XJTLU의 학술적 배경을 이해하는 데 의미가 있습니다.
+university-of-liverpool-vietnam.html	80	h2	XJTLU와의 연결고리는 무엇인가요?
+university-of-liverpool-vietnam.html	81	p	핵심 연결고리는 XJTLU가 위 협력들의 직접 당사자라는 뜻이 아니라, XJTLU와 University of Liverpool 사이의 공동설립·학술·학위 관계입니다.
+university-of-liverpool-vietnam.html	82	b	핵심 정리:
+university-of-liverpool-vietnam.html	83	div	XJTLU 학생은 영국 대학 모델에 따라 리버풀대학교와 연계되어 있습니다. 프로그램에 따라 졸업 요구 사항을 충족하면, 학생은 리버풀대학교와 관련된 학위 구조를 가지고 있습니다. 일부 학업은 리버풀로 2+2 경로를 가지고 있습니다. 따라서 리버풀 × 베트남은 XJTLU 이야기의 추가 배경이며, XJTLU가 베트남과 직접적인 협약을 맺고 있다는 증거가 아닙니다.
+university-of-liverpool-vietnam.html	84	h2	자주 묻는 질문
+university-of-liverpool-vietnam.html	85	summary	이 사례들이 XJTLU와 베트남의 직접 협력을 뜻하나요?
+university-of-liverpool-vietnam.html	86	p	아니요. 사례의 직접 당사자는 영국·Liverpool·University of Liverpool·호치민시 및 베트남 기관들입니다. XJTLU와의 관련성은 University of Liverpool과의 학술·학위 관계에 있습니다.
+university-of-liverpool-vietnam.html	87	summary	왜 XJTLU 베트남에서 소개하나요?
+university-of-liverpool-vietnam.html	88	p	XJTLU는 University of Liverpool과 Xi'an Jiaotong University가 공동 설립했으며, University of Liverpool과 학술·학위 관계 및 일부 전공의 2+2 경로를 갖고 있기 때문입니다.
+university-of-liverpool-vietnam.html	89	summary	Liverpool에 반드시 가야 하나요?
+university-of-liverpool-vietnam.html	90	p	아닙니다. 2+2는 일부 전공에서 선택할 수 있는 학업 경로이며, 전공별 가능 여부와 조건을 확인해야 합니다.
+university-of-liverpool-vietnam.html	91	h2	함께 보면 좋은 가이드
 university-of-liverpool-vietnam.html	92	a	리버풀과 2+2
-university-of-liverpool-vietnam.html	93	span	4+0, 2+2, 학료와 조건
+university-of-liverpool-vietnam.html	93	span	4+0, 2+2, 학비와 조건
 university-of-liverpool-vietnam.html	94	a	XJTLU에서 영어 공부
-university-of-liverpool-vietnam.html	95	span	왜 중국 대학을 영어로 공부할 수 있을까요?
+university-of-liverpool-vietnam.html	95	span	중국에서 영어로 공부하는 구조
 university-of-liverpool-vietnam.html	96	a	전공 & 진로
 university-of-liverpool-vietnam.html	97	span	인공지능, 데이터, 비즈니스, 생명과학 등
-university-of-liverpool-vietnam.html	98	b	정보:
-university-of-liverpool-vietnam.html	99	div	영국 정부, HCMD 외교부, 리버풀대학교. 이 지사는 각 사건의 정보 페이지에 대한 정확한 내용을 설명합니다. 이 페이지에서는 XJTLU의 맥락에서 의미를 설명합니다.
-university-of-liverpool-vietnam.html	100	h2	XJTLU가 맞는지 확인하고 싶으세요?
-university-of-liverpool-vietnam.html	101	p	학업, 2027 조건, 2+2 경로를 검토해 결정하기 전에
-university-of-liverpool-vietnam.html	102	a	2027년 입학 조건에 대해 알아보세요
+university-of-liverpool-vietnam.html	98	b	자료 출처:
+university-of-liverpool-vietnam.html	99	div	영국 정부, 호치민시 외교부, Alder Hey, Culture Liverpool, University of Liverpool의 공식 자료를 바탕으로 정리했습니다. 각 사례의 상세내용은 원문 출처에서 확인할 수 있습니다.
+university-of-liverpool-vietnam.html	100	h2	XJTLU가 나에게 맞는지 확인하고 싶다면
+university-of-liverpool-vietnam.html	101	p	희망 전공, 2027 입학조건, 2+2 가능 여부를 함께 비교해 보세요.
+university-of-liverpool-vietnam.html	102	a	2027 입학조건 확인 →
 university-of-liverpool-vietnam.html	103	div	한글 검수판 · 검색 비노출
 xjtlu-2plus2-liverpool.html	1	[document]	html
 xjtlu-2plus2-liverpool.html	2	title	[한글 검수판] XJTLU 2+2 · 리버풀대학교 학위
@@ -732,7 +732,7 @@ xjtlu-2plus2-liverpool.html	109	span	XJTLU 학비와 장학금
 xjtlu-2plus2-liverpool.html	110	h2	희망 전공의 2+2 가능 여부가 궁금한가요?
 xjtlu-2plus2-liverpool.html	111	p	지원과 예산계획 전에 해당 전공의 2+2 가능 여부와 조건을 먼저 확인하세요.
 xjtlu-2plus2-liverpool.html	112	a	Zalo 상담
-xjtlu-2plus2-liverpool.html	113	strong	자료:
+xjtlu-2plus2-liverpool.html	113	strong	자료 출처:
 xjtlu-2plus2-liverpool.html	114	div	XJTLU 2027 Mini Brochure (08/2026) ·
 xjtlu-2plus2-liverpool.html	115	a	XJTLU Undergraduate Programmes
 xjtlu-2plus2-liverpool.html	116	div	·
@@ -861,7 +861,7 @@ xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	119	strong	자료 출처:
 xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	120	a	XJTLU Country/Region Entry Requirements
 xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	121	div	·
 xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	122	a	Undergraduate Entry Requirements
-xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	123	div	· XJTLU 2027 Mini Brochure (08/2026). 기준은 산업과 수험 기간에 따라 달라질 수 있습니다.
+xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	123	div	· XJTLU 2027 Mini Brochure (08/2026). 기준은 전공과 지원 시기에 따라 달라질 수 있습니다.
 xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html	124	div	한글 검수판 · 검색 비노출
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	1	[document]	html
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	2	title	[한글 검수판] XJTLU 학생생활 · 스포츠 · 동아리
@@ -903,19 +903,19 @@ xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	37	div	Student life · Sports 
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	38	h1	XJTLU 학생생활: 스포츠, 동아리와 캠퍼스 생활
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	39	p	스포츠, 클럽, 예술, 학생 이벤트 및 쑤저우에서의 생활은 XJTLU 경험의 큰 부분입니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	40	b	200+
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	41	span	XJTLU 공식 정보에 따르면
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	41	span	학생단체·동아리
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	42	b	SIP + 타이창
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	43	span	이 학교에는 두 개의 스포츠 센터가 있습니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	43	span	SIP와 타이창에서 스포츠시설 운영
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	44	b	쑤저우
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	45	span	국제 도시, 상하이와 가까운 스포츠 경기장
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	45	span	상하이와 가까운 국제적인 도시
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	46	strong	빠른 답변:
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	47	div	XJTLU는 학업에만 집중하지 않습니다. 학교는 약 200개 이상의 기관과 클럽을 발표하고, SIP와 타이창에서 스포츠 시스템을 운영하고 있습니다. 학생은 스포츠, 예술, 학업, 사회 활동, 취미 및 연중 다양한 이벤트에 참여할 수 있습니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	47	div	XJTLU는 학업뿐 아니라 다양한 학생활동을 운영합니다. 공식 안내에서는 200개 이상의 학생단체·동아리를 소개하고 있으며, SIP와 타이창 캠퍼스에서 스포츠시설을 운영합니다. 학생들은 스포츠, 예술, 학술, 봉사, 취미 활동과 연중 다양한 행사에 참여할 수 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	48	h2	XJTLU에서 스포츠
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	49	p	XJTLU는 SIP 캠퍼스 및 XJTLU 기업인대학 (타이창) 에서 스포츠 센터를 가지고 있으며, 두슈 레이크 과학 및 교육 혁신 구역의 스포츠 시설과 함께 있습니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	49	p	XJTLU는 SIP 캠퍼스와 XJTLU Entrepreneur College(타이창)에 스포츠센터를 운영하며, 쑤저우 Dushu Lake Science and Education Innovation District의 체육시설도 이용할 수 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	50	h3	SIP · Suzhou
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	51	p	농구, 테니스, 배드민턴, 스쿼시, 달리기, 피트니스, 월드클라이딩, 활약, 실내 골프 등 다양한 활동들을 위한 경기장과 훈련장들이 있다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	51	p	농구, 테니스, 배드민턴, 스쿼시, 러닝, 피트니스, 클라이밍, 양궁, 실내 골프 등 다양한 운동을 할 수 있는 공간이 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	52	h3	타이창
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	53	p	타이창의 스포츠 센터에는 수영장과 체조장, 탁구, 빌리어드, 무궁화, 펜싱, 다능력실 등 많은 실내 운동장들이 있습니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	53	p	타이창 스포츠센터에는 수영장을 비롯해 헬스장, 탁구, 당구, 무술, 펜싱, 다목적실 등 다양한 실내 운동시설이 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	54	span	Basketball
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	55	span	Badminton
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	56	span	Tennis
@@ -925,36 +925,36 @@ xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	59	span	Fitness
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	60	span	Climbing
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	61	span	Dance & Yoga
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	62	h2	학생 클럽 및 조직
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	63	p	공식적인 나열은 매년 바뀐지만 XJTLU는 학생의 활동을 스포츠, 예술, 학술, 사회 봉사, 취미 등 여러 그룹으로 나눈다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	63	p	공식 동아리 목록은 매년 달라질 수 있지만, XJTLU는 학생활동을 스포츠, 예술, 학술, 봉사, 취미 등 여러 분야로 운영합니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	64	h3	스포츠 & 운동
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	65	p	로잉, 박스, 활포, 골프, 농구, 다지볼, 미국 축구, 축구 등 다양한 종목.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	65	p	조정, 킥복싱, 양궁, 골프, 농구, 도지볼, 미식축구, 축구 등 다양한 종목을 즐길 수 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	66	h3	학업과 직업
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	67	p	산업, 영어, 회계, 과학, 창의적 혁신 및 직업 관련 활동으로 클럽.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	67	p	전공, 영어, 회계, 과학, 창의·혁신, 진로와 관련된 동아리도 운영됩니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	68	h3	예술 & 창조
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	69	p	예술 센터와 예술 클럽은 공연, 창의 및 문화 활동을위한 공간을 제공합니다.
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	70	h3	커뮤니티 & 취향
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	71	p	자원봉사, 사회 활동, 레크리에이션 클럽, 그리고 취미 그룹은 학생이 교실 밖의 연결을 돕습니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	69	p	Arts Centre와 예술 동아리는 공연, 창작, 문화활동을 위한 공간과 기회를 제공합니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	70	h3	커뮤니티 & 취미
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	71	p	봉사활동, 사회참여, 레크리에이션, 취미 동아리를 통해 교실 밖에서도 다양한 사람들과 교류할 수 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	72	h2	비디오: SIP & 타이창 스포츠 시설
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	73	p	아래의 두 영상에서는 XJTLU의 두 개의 주요 캠퍼스의 스포츠 시설을 직접적으로 보여줍니다.
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	74	b	SIP (수조) 에 있는 스포츠 시설
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	75	p	쑤저우에서 SIP 캠퍼스에서 스포츠 공간과 시설을 직접 탐구하십시오.
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	76	b	타이창랑 스포츠 시설 (XEC)
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	77	p	영어 영상으로 태평양 캠퍼스 스포츠 공간과 시설을 시청하세요.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	73	p	아래 두 영상에서 SIP와 타이창의 스포츠시설을 직접 확인할 수 있습니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	74	b	SIP(쑤저우) 스포츠시설
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	75	p	쑤저우 SIP 캠퍼스의 스포츠 공간과 시설을 영상으로 확인하세요.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	76	b	타이창 스포츠시설 (XEC)
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	77	p	영어 영상으로 타이창 캠퍼스의 스포츠 공간과 시설을 확인하세요.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	78	h2	학생 이벤트
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	79	p	Freshers Fair는 신입생들이 클럽을 배우고 등록하는 기회를 제공합니다. XJTLU는 또한 학생을 위한 리더십 개발 프로그램, 자발적 활동 및 사회 프로젝트를 개최합니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	79	p	Freshers Fair는 신입생이 동아리를 알아보고 가입할 수 있는 행사입니다. XJTLU는 리더십 프로그램, 봉사활동, 사회 프로젝트 등도 운영합니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	80	h2	쑤저우에서의 생활
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	81	p	캠퍼스 이외에 두슈 레이크에는 축구장, 테니스장, 배드민턴장, 그리고 스포츠 시설을 갖춘 두슈 레이크 체육관이 있다. 도슈에는 주진리 레이크와 인근 지역을 중심으로 도보장, 달리기 및 자전거를 타고 다니는 많은 골목이 있다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	81	p	캠퍼스 밖 Dushu Lake 지역에도 축구장, 테니스장, 배드민턴장 등 다양한 체육시설이 있습니다. 쑤저우는 호수와 공원, 산책·러닝·자전거를 즐길 수 있는 공간도 많은 편입니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	82	h3	숙소 & 생활
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	83	p	국제 학생은 SIP와 타이창 주변에서 다양한 숙박시설을 선택할 수 있습니다. 실제 비용은 방과 시간에 따라 달라집니다. 결정하기 전에 학부 예산과 함께 검토해야합니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	83	p	국제학생은 SIP와 타이창 주변에서 다양한 숙소를 선택할 수 있습니다. 실제 비용은 방 유형과 계약기간 등에 따라 달라지므로 전체 유학예산과 함께 확인하세요.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	84	h3	국제 학생 지원
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	85	p	학생대책과 학생지원부에서는 국제학생을 위한 통합 활동, 상담 및 서비스를 제공합니다.
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	86	h2	계속 봐
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	85	p	Student Affairs Office 등 학생지원 부서에서 국제학생을 위한 적응 프로그램, 상담과 각종 서비스를 제공합니다.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	86	h2	함께 보면 좋은 가이드
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	87	a	전공 & 진로
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	88	span	공부와 취업에 대한 취득에 따라 직업을 선택하세요
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	88	span	희망 진로에 맞춰 전공을 선택하세요
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	89	a	학비 & 장학금
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	90	span	길을 선택하기 전에 예산을 세우고
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	90	span	학업 경로를 정하기 전에 예산을 확인하세요
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	91	a	2+2 & Liverpool
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	92	span	중국에서의 교육과 영국에서의 교육의 비교
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	92	span	중국 4+0과 영국 2+2 비교
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	93	strong	공식 출처:
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	94	a	XJTLU · Sports and Club Activities
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	95	div	·
@@ -963,8 +963,8 @@ xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	97	div	·
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	98	a	Student Affairs Office
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	99	div	클럽의 수와 활동 일정은 학년별로 변경될 수 있습니다.
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	100	h2	XJTLU가 맞는지 알고 싶으세요?
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	101	p	교육과 입학 조건, 비용, 그리고 생활환경이 함께 작용하는 것을 살펴봅시다.
-xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	102	a	입학 조건들을 확인해 보세요
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	101	p	전공, 입학조건, 비용, 생활환경을 함께 비교해 보세요.
+xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	102	a	입학조건 확인 →
 xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html	103	div	한글 검수판 · 검색 비노출
 xjtlu-hoc-phi-hoc-bong-2027.html	1	[document]	html
 xjtlu-hoc-phi-hoc-bong-2027.html	2	title	[한글 검수판] XJTLU 2027 학비·장학금
@@ -1023,7 +1023,7 @@ xjtlu-hoc-phi-hoc-bong-2027.html	54	p	기존 학업성적을 바탕으로 첫해
 xjtlu-hoc-phi-hoc-bong-2027.html	55	h3	Early Bird · 10%
 xjtlu-hoc-phi-hoc-bong-2027.html	56	p	조건을 충족한 국제 학부생에게 연간 학비의 10%를 감면하는 혜택입니다.
 xjtlu-hoc-phi-hoc-bong-2027.html	57	strong	31/03/2027
-xjtlu-hoc-phi-hoc-bong-2027.html	58	p	그리고 서류를 작성하고, 적시에 예금하고
+xjtlu-hoc-phi-hoc-bong-2027.html	58	p	까지 conditional 또는 unconditional offer를 받고, 이후 요구되는 서류와 디파짓 조건을 기한 내 충족해야 합니다.
 xjtlu-hoc-phi-hoc-bong-2027.html	59	h3	Progression Scholarship
 xjtlu-hoc-phi-hoc-bong-2027.html	60	p	재학생은 전년도 평균성적에 따라 Progression Scholarship 대상이 될 수 있습니다.
 xjtlu-hoc-phi-hoc-bong-2027.html	61	h3	Liverpool 2+2 · 10%
@@ -1049,19 +1049,19 @@ xjtlu-hoc-phi-hoc-bong-2027.html	80	summary	Early Bird와 Entry Scholarship을 �
 xjtlu-hoc-phi-hoc-bong-2027.html	81	p	중복 적용 여부는 해당 입학연도의 공식 조건에 따라 확인해야 합니다. 확인 전 단순히 할인율을 합산해 예산을 계산하면 안 됩니다.
 xjtlu-hoc-phi-hoc-bong-2027.html	82	summary	2+2가 4+0보다 더 저렴한가요?
 xjtlu-hoc-phi-hoc-bong-2027.html	83	p	첫 2년을 중국에서 공부하므로 4년 전체 영국 유학보다 비용을 낮출 수 있는 경우가 있지만, 전체 예산은 리버풀 이동 시점의 학비, 숙박비, 생활비와 환율에 따라 달라집니다.
-xjtlu-hoc-phi-hoc-bong-2027.html	84	h2	계속 봐
+xjtlu-hoc-phi-hoc-bong-2027.html	84	h2	함께 보면 좋은 가이드
 xjtlu-hoc-phi-hoc-bong-2027.html	85	a	2027년 입학 조건
-xjtlu-hoc-phi-hoc-bong-2027.html	86	span	THPT, IELTS 및 프로필 제한
+xjtlu-hoc-phi-hoc-bong-2027.html	86	span	THPT · IELTS · 지원자격
 xjtlu-hoc-phi-hoc-bong-2027.html	87	a	XJTLU 2+2 & Liverpool
 xjtlu-hoc-phi-hoc-bong-2027.html	88	span	4+0, 2+2와 장학금을 비교해보세요
 xjtlu-hoc-phi-hoc-bong-2027.html	89	a	전공 & 진로
-xjtlu-hoc-phi-hoc-bong-2027.html	90	span	예산을 정하기 전에 직업을 선택하세요
-xjtlu-hoc-phi-hoc-bong-2027.html	91	strong	자료:
+xjtlu-hoc-phi-hoc-bong-2027.html	90	span	예산과 함께 희망 전공·진로도 확인하세요
+xjtlu-hoc-phi-hoc-bong-2027.html	91	strong	자료 출처:
 xjtlu-hoc-phi-hoc-bong-2027.html	92	div	XJTLU 2027 Mini Brochure (08/2026) ·
 xjtlu-hoc-phi-hoc-bong-2027.html	93	a	XJTLU Fees & Scholarships
 xjtlu-hoc-phi-hoc-bong-2027.html	94	div	·
 xjtlu-hoc-phi-hoc-bong-2027.html	95	a	University of Liverpool - 2+2 programme
-xjtlu-hoc-phi-hoc-bong-2027.html	96	div	학교의 생방송은 2027 부시로 시기를 업데이트할 수 있습니다. 지불 전에 제안과 현행 수수료를 확인해야합니다.
+xjtlu-hoc-phi-hoc-bong-2027.html	96	div	학비와 장학금 조건은 입학연도에 따라 변경될 수 있습니다. 실제 납부 전에는 최신 offer와 공식 비용을 다시 확인하세요.
 xjtlu-hoc-phi-hoc-bong-2027.html	97	div	한글 검수판 · 검색 비노출
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	1	[document]	html
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	2	title	[한글 검수판] XJTLU 졸업 후 진학 결과 2025
@@ -1101,15 +1101,15 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	35	small	뉴스 보기 →
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	37	div	Graduate destinations · 2025
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	38	h1	XJTLU 졸업 후 진학 결과 2025
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	39	p	2025년 자료는 XJTLU가 매우 높은 수준의 학업률을 가지고 있으며 영국, 미국, 싱가포르, 홍콩, 호주, 유럽까지의 목적지를 확대하고 있음을 보여줍니다. 이 자료는 XJTLU를 국제 석사 또는 박사 학위로의 발걸음으로 생각한다면 가장 주목할만한 자료 중 하나입니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	39	p	2025년 학교 자료에서는 XJTLU 졸업생의 높은 대학원 진학 비율과 영국·미국·싱가포르·홍콩·호주·유럽 등 다양한 진학 목적지를 확인할 수 있습니다. XJTLU를 글로벌 석·박사 진학의 출발점으로 고려한다면 참고할 만한 지표입니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	40	b	86,43%
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	41	span	졸업생들은 세계 대학에서 공부를 계속할 계획입니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	41	span	졸업생 중 대학원 진학
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	42	b	47,16%
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	43	span	세계 10대 대학에 진입했습니다. XJTLU가 발표한
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	43	span	학교 발표 기준 Top 10 대학 진학 지표
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	44	b	93,40%
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	45	span	세계 최고 대학 100위 안에 들어간다고 XJTLU가 발표했습니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	45	span	학교 발표 기준 Top 100 대학 진학 지표
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	46	h2	가장 주목할 만한 점
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	47	p	몇 가지 개별적인 사례가 아니라, 2025년 합계 자료는 XJTLU의 학생의 숫자가 주요 국제 대학에서 계속되는 것을 매우 의미한다고 나타냅니다. 아래의 숫자는 XJTLU가 발표한 2025년 데이터에서 유학 목적지에 따라 유학 중인 학생의 숫자입니다. 이것은 제안의 숫자가 아닙니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	47	p	개별 사례 몇 건이 아니라 2025 전체 데이터에서도 다수의 XJTLU 졸업생이 주요 해외대학으로 진학했습니다. 아래 숫자는 XJTLU가 발표한 2025 Graduate Destinations 자료의 대학별 학생 수이며, 단순 offer 수가 아닙니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	48	strong	UCL
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	49	b	1.018
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	50	span	학생
@@ -1125,8 +1125,8 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	59	span	학생
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	60	strong	University of Edinburgh
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	61	b	152
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	62	span	학생
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	63	h2	2025년에 주목받는 학교
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	64	p	아래의 표는 베트남의 많은 가족들이 알고 있는 학교와 세계 최고의 대학 그룹에 속하는 학교들을 우선적으로 나타냅니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	63	h2	2025 주요 진학대학
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	64	p	아래 표는 베트남 학생·학부모에게 익숙하거나 세계 상위권으로 평가받는 주요 진학대학을 먼저 보여줍니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	65	th	대학
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	66	th	국가/지역
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	67	th	2025년 학생
@@ -1134,28 +1134,28 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	68	td	Stanford University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	69	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	70	td	1
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	71	td	Imperial College London
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	72	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	72	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	73	td	244
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	74	td	University of Oxford
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	75	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	75	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	76	td	15
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	77	td	Harvard University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	78	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	79	td	4
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	80	td	University of Cambridge
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	81	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	81	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	82	td	30
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	83	td	UCL
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	84	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	84	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	85	td	1.018
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	86	td	National University of Singapore (NUS)
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	87	td	Singapore
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	87	td	싱가포르
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	88	td	104
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	89	td	University of Hong Kong
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	90	td	Hong Kong
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	90	td	홍콩
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	91	td	40
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	92	td	Nanyang Technological University (NTU)
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	93	td	Singapore
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	93	td	싱가포르
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	94	td	42
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	95	td	University of Pennsylvania
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	96	td	미국
@@ -1167,7 +1167,7 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	101	td	Cornell University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	102	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	103	td	20
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	104	td	Chinese University of Hong Kong
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	105	td	Hong Kong
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	105	td	홍콩
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	106	td	10
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	107	td	UNSW Sydney
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	108	td	호주
@@ -1194,25 +1194,25 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	128	td	Australian National Univer
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	129	td	호주
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	130	td	15
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	131	td	McGill University
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	132	td	Canada
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	132	td	캐나다
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	133	td	3
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	134	td	Monash University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	135	td	호주
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	136	td	76
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	137	td	University of Toronto
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	138	td	Canada
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	138	td	캐나다
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	139	td	2
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	140	td	HKUST
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	141	td	Hong Kong
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	141	td	홍콩
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	142	td	3
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	143	td	University of Edinburgh
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	144	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	144	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	145	td	152
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	146	td	King's College London
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	147	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	147	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	148	td	41
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	149	td	University of Manchester
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	150	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	150	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	151	td	153
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	152	td	University of Queensland
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	153	td	호주
@@ -1220,7 +1220,7 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	154	td	25
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	155	td	Columbia University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	156	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	157	td	127
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	158	summary	45개의 대학 방문지 더 보기 →
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	158	summary	45개 대학 더 보기 →
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	159	th	대학
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	160	th	국가/지역
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	161	th	2025년 학생
@@ -1234,19 +1234,19 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	168	td	UCLA
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	169	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	170	td	4
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	171	td	Hong Kong Polytechnic University
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	172	td	Hong Kong
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	172	td	홍콩
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	173	td	5
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	174	td	University of Michigan, Ann Arbor
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	175	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	176	td	7
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	177	td	City University of Hong Kong
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	178	td	Hong Kong
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	178	td	홍콩
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	179	td	17
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	180	td	Carnegie Mellon University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	181	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	182	td	7
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	183	td	University of Bristol
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	184	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	184	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	185	td	119
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	186	td	New York University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	187	td	미국
@@ -1255,19 +1255,19 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	189	td	University of Amsterdam
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	190	td	네덜란드
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	191	td	14
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	192	td	London School of Economics (LSE)
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	193	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	193	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	194	td	8
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	195	td	Brown University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	196	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	197	td	3
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	198	td	University of Auckland
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	199	td	New Zealand
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	199	td	뉴질랜드
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	200	td	2
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	201	td	University of Birmingham
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	202	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	202	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	203	td	21
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	204	td	University of Warwick
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	205	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	205	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	206	td	70
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	207	td	Duke University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	208	td	미국
@@ -1279,7 +1279,7 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	213	td	University of Illinois Urb
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	214	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	215	td	5
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	216	td	University of Leeds
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	217	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	217	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	218	td	9
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	219	td	University of Western Australia
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	220	td	호주
@@ -1288,19 +1288,19 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	222	td	University of Adelaide
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	223	td	호주
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	224	td	2
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	225	td	University of Glasgow
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	226	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	226	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	227	td	12
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	228	td	UC San Diego
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	229	td	미국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	230	td	11
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	231	td	University of Sheffield
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	232	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	232	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	233	td	8
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	234	td	KTH Royal Institute of Technology
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	235	td	스웨덴
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	236	td	1
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	237	td	Durham University
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	238	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	238	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	239	td	2
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	240	td	University of Technology Sydney
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	241	td	호주
@@ -1318,16 +1318,16 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	252	td	Osaka University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	253	td	일본
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	254	td	1
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	255	td	University of Nottingham
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	256	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	256	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	257	td	9
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	258	td	Free University of Berlin
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	259	td	독일
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	260	td	1
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	261	td	Queen Mary University of London
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	262	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	262	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	263	td	1
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	264	td	University of Southampton
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	265	td	- 네
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	265	td	영국
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	266	td	10
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	267	td	Utrecht University
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	268	td	네덜란드
@@ -1359,21 +1359,21 @@ xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	293	td	1
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	294	td	Karolinska Institute
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	295	td	스웨덴
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	296	td	1
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	297	p	참고: 표의 숫자는 2025년까지의 대학 목적지에 따라 학생의 수입니다. 단순히 제안을 받은 학생의 수만이 아닙니다. XJTLU는 또한 대학원 목적지 페이지에서 86.43% / 47.16% / 93.40%의 비율을 공개했습니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	297	p	참고: 표의 숫자는 2025 Graduate Destinations 자료에 표시된 대학별 학생 수이며 단순 offer 수가 아닙니다. XJTLU는 같은 자료에서 86.43% / 47.16% / 93.40%의 진학 관련 비율도 공개했습니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	298	b	이 데이터를 어떻게 이해해야 할까요?
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	299	div	XJTLU는 단순히 재학생을 위한 학교가 아닙니다. 하지만 만약 여러분이 영국, 미국, 싱가포르, 홍콩, 호주에서 학사 학위를 취득하기 위해 XJTLU/리버풀대학교를 취득하는 것을 목표로 한다면, 2025년 자료는 이미 큰 규모의 도로를 제시하고 있습니다.
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	300	h2	실제 이야기와 관련된 이야기
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	301	a	하버드 학점은 전체
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	302	span	Jiayi Li는 스탠포드, 예일, 옥스퍼드 등의 제안을 받았다.
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	303	a	Harvard → Cambridge →
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	304	span	XJTLU에서 장기적인 학업 경로
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	305	a	XJTLU → Oxford →
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	299	div	XJTLU는 학부교육뿐 아니라 해외 대학원 진학 경로 측면에서도 볼 수 있습니다. 영국·미국·싱가포르·홍콩·호주 등으로 석·박사 진학을 생각한다면 2025 자료에서 이미 상당한 규모의 사례를 확인할 수 있습니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	300	h2	관련 학생 사례
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	301	a	Harvard 전액 장학금
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	302	span	Jiayi Li는 Harvard 장학금과 함께 Stanford, Yale, Oxford 등에서도 offer를 받았습니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	303	a	Harvard → Cambridge
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	304	span	XJTLU에서 이어진 장기 학업 경로
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	305	a	XJTLU → Oxford
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	306	span	영어학 전생의 이야기입니다.
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	307	strong	데이터 소스
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	308	section	2025년 상승률과 진출률 데이터는 XJTLU가 발표한 공식 정보에서 비교된다. 외부 자료는 필요한 경우 독자가 확인할 수 있도록 여기에 보관됩니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	307	strong	데이터 출처
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	308	section	2025 대학원 진학률과 진학대학 데이터는 XJTLU 공식 Graduate Destinations 자료를 기준으로 정리했습니다. 필요한 경우 아래 공식 출처에서 직접 확인할 수 있습니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	309	a	XJTLU Graduate Destinations →
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	310	h2	어떤 분야가 더 나은지 알고 싶으세요?
-xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	311	p	SOS International과 TNS Worldwide에서는 입학 조건, 학업, 학비 및 졸업 과정 등을 함께 볼 수 있습니다.
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	310	h2	어떤 전공이 나에게 더 맞는지 궁금한가요?
+xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	311	p	SOS International과 TNS Worldwide에서 입학조건, 전공, 학비, 졸업 후 진로를 함께 비교해 드립니다.
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	312	a	Zalo 상담
 xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html	313	div	한글 검수판 · 검색 비노출
 xjtlu-nganh-hoc-nghe-nghiep.html	1	[document]	html
@@ -1414,96 +1414,96 @@ xjtlu-nganh-hoc-nghe-nghiep.html	35	small	뉴스 보기 →
 xjtlu-nganh-hoc-nghe-nghiep.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 xjtlu-nganh-hoc-nghe-nghiep.html	37	div	Programmes · Careers · Graduate Destinations
 xjtlu-nganh-hoc-nghe-nghiep.html	38	h1	XJTLU 2027 전공과 진로
-xjtlu-nganh-hoc-nghe-nghiep.html	39	p	단순히 학문의 이름을 보는 것이 아니라 학업에 대한 좋은 학문, 2+2 능력, 석사 과정, 졸업 후 취업에 대한 학문을 선택하세요.
-xjtlu-nganh-hoc-nghe-nghiep.html	40	b	다방면
+xjtlu-nganh-hoc-nghe-nghiep.html	39	p	전공 이름만 보지 말고, 나에게 맞는 학업내용, 2+2 가능 여부, 대학원 진학, 졸업 후 진로까지 함께 비교해 전공을 선택하세요.
+xjtlu-nganh-hoc-nghe-nghiep.html	40	b	다양한 분야
 xjtlu-nganh-hoc-nghe-nghiep.html	41	span	비즈니스 · AI · 과학 · 디자인
 xjtlu-nganh-hoc-nghe-nghiep.html	42	b	100% 영어
-xjtlu-nganh-hoc-nghe-nghiep.html	43	span	2027 부시로 학위 프로그램
+xjtlu-nganh-hoc-nghe-nghiep.html	43	span	국제학생 학위과정
 xjtlu-nganh-hoc-nghe-nghiep.html	44	b	86,43%
-xjtlu-nganh-hoc-nghe-nghiep.html	45	span	2025년 재학
+xjtlu-nganh-hoc-nghe-nghiep.html	45	span	2025 졸업생 대학원 진학
 xjtlu-nganh-hoc-nghe-nghiep.html	46	b	Career support
-xjtlu-nganh-hoc-nghe-nghiep.html	47	span	직업 상담 & 멘토
+xjtlu-nganh-hoc-nghe-nghiep.html	47	span	진로상담 & 멘토링
 xjtlu-nganh-hoc-nghe-nghiep.html	48	small	빠른 답변
-xjtlu-nganh-hoc-nghe-nghiep.html	49	h2	XJTLU는 어떤 분야를 살펴볼 수 있을까요?
-xjtlu-nganh-hoc-nghe-nghiep.html	50	p	XJTLU는 비즈니스나 컴퓨터에 대한 강점뿐만 아니라 2027 부문까지
-xjtlu-nganh-hoc-nghe-nghiep.html	51	strong	경제 - 금융, 인공지능 - 데이터 - 기술, 생명과학 - 의약품, 디자인 - 미디어, 사회과학 - 언어
-xjtlu-nganh-hoc-nghe-nghiep.html	52	p	타이창의 기업과 관련된 프로그램에 대해 생각해 보세요. 학업을 선택하는 것은 단순히 학교의 순위를 보는 것이 아니라 졸업 목표에서 시작해야 합니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	53	h2	직업적인 직업 그룹
+xjtlu-nganh-hoc-nghe-nghiep.html	49	h2	XJTLU에서는 어떤 전공 분야를 선택할 수 있나요?
+xjtlu-nganh-hoc-nghe-nghiep.html	50	p	XJTLU는 비즈니스·컴퓨팅뿐 아니라
+xjtlu-nganh-hoc-nghe-nghiep.html	51	strong	비즈니스·금융, AI·데이터·공학, 생명과학·제약, 디자인·미디어, 사회과학·언어
+xjtlu-nganh-hoc-nghe-nghiep.html	52	p	타이창의 산업연계 프로그램까지 폭넓게 운영합니다. 전공 선택은 대학순위보다 졸업 후 목표에서 시작하는 것이 좋습니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	53	h2	주요 전공·진로 분야
 xjtlu-nganh-hoc-nghe-nghiep.html	54	span	BUSINESS & FINANCE
-xjtlu-nganh-hoc-nghe-nghiep.html	55	h3	사업·금융·마케팅
+xjtlu-nganh-hoc-nghe-nghiep.html	55	h3	비즈니스·금융·마케팅
 xjtlu-nganh-hoc-nghe-nghiep.html	56	p	Accounting, Business Administration, Economics, Economics and Finance, Digital and Intelligent Marketing, International Business with a Language...
-xjtlu-nganh-hoc-nghe-nghiep.html	57	strong	- 가자
-xjtlu-nganh-hoc-nghe-nghiep.html	58	p	금융, 회계, 컨설팅, 마케팅, 국제 무역, 석사.
+xjtlu-nganh-hoc-nghe-nghiep.html	57	strong	진로 예시
+xjtlu-nganh-hoc-nghe-nghiep.html	58	p	금융, 회계, 컨설팅, 마케팅, 국제무역, 대학원 진학
 xjtlu-nganh-hoc-nghe-nghiep.html	59	span	AI · COMPUTING · ENGINEERING
 xjtlu-nganh-hoc-nghe-nghiep.html	60	h3	AI · 데이터 · 컴퓨터 · 기술
 xjtlu-nganh-hoc-nghe-nghiep.html	61	p	Artificial Intelligence, Computer Science and Technology, Data Science, Electrical Engineering, Robotics, Microelectronics, IoT...
-xjtlu-nganh-hoc-nghe-nghiep.html	62	strong	- 가자
-xjtlu-nganh-hoc-nghe-nghiep.html	63	p	소프트웨어, 인공지능/데이터, 반도체, 자동화, 연구개발, 기술
+xjtlu-nganh-hoc-nghe-nghiep.html	62	strong	진로 예시
+xjtlu-nganh-hoc-nghe-nghiep.html	63	p	소프트웨어, AI·데이터, 반도체, 자동화, R&D, 기술직
 xjtlu-nganh-hoc-nghe-nghiep.html	64	span	LIFE & NATURAL SCIENCES
 xjtlu-nganh-hoc-nghe-nghiep.html	65	h3	생명과학·제약·화학
 xjtlu-nganh-hoc-nghe-nghiep.html	66	p	Biological Sciences, Biomedical Sciences, Bioinformatics, Biopharmaceuticals, Pharmaceutical Sciences, Applied Chemistry...
-xjtlu-nganh-hoc-nghe-nghiep.html	67	strong	- 가자
-xjtlu-nganh-hoc-nghe-nghiep.html	68	p	바이오 테크, 제약, 실험실, 연구, 대학원 연구.
+xjtlu-nganh-hoc-nghe-nghiep.html	67	strong	진로 예시
+xjtlu-nganh-hoc-nghe-nghiep.html	68	p	바이오테크, 제약, 연구실, R&D, 대학원 진학
 xjtlu-nganh-hoc-nghe-nghiep.html	69	span	DESIGN & CREATIVE
 xjtlu-nganh-hoc-nghe-nghiep.html	70	h3	디자인 · 건축 · 영화 · 미디어
 xjtlu-nganh-hoc-nghe-nghiep.html	71	p	Architecture, Industrial Design, Digital Media Arts, Filmmaking, TV Production, Media and Communication Studies...
-xjtlu-nganh-hoc-nghe-nghiep.html	72	strong	- 가자
-xjtlu-nganh-hoc-nghe-nghiep.html	73	p	건축, 디자인, 콘텐츠 제작, 미디어, 창의적인 기술.
+xjtlu-nganh-hoc-nghe-nghiep.html	72	strong	진로 예시
+xjtlu-nganh-hoc-nghe-nghiep.html	73	p	건축, 디자인, 콘텐츠 제작, 미디어, 크리에이티브 테크
 xjtlu-nganh-hoc-nghe-nghiep.html	74	span	HUMANITIES & SOCIAL SCIENCES
 xjtlu-nganh-hoc-nghe-nghiep.html	75	h3	언어 · 국제관계 · 중국학
 xjtlu-nganh-hoc-nghe-nghiep.html	76	p	International Relations, China Studies, Applied Linguistics, English and Business, Translation and Interpreting...
-xjtlu-nganh-hoc-nghe-nghiep.html	77	strong	- 가자
-xjtlu-nganh-hoc-nghe-nghiep.html	78	p	국제관계, 교육, 미디어, 연구, 국제 기업.
+xjtlu-nganh-hoc-nghe-nghiep.html	77	strong	진로 예시
+xjtlu-nganh-hoc-nghe-nghiep.html	78	p	국제관계, 교육, 미디어, 연구, 글로벌 기업
 xjtlu-nganh-hoc-nghe-nghiep.html	79	span	TAICANG · INDUSTRY-LED
 xjtlu-nganh-hoc-nghe-nghiep.html	80	h3	공급망 · 지능형 생산 · 창업
 xjtlu-nganh-hoc-nghe-nghiep.html	81	p	지능형 공급망, 지능형 제조, IoT 및 Contemporary Entrepreneurialism 프로그램
-xjtlu-nganh-hoc-nghe-nghiep.html	82	strong	- 가자
+xjtlu-nganh-hoc-nghe-nghiep.html	82	strong	진로 예시
 xjtlu-nganh-hoc-nghe-nghiep.html	83	p	공급망, 제조업, 산업 기술, 혁신, 기업가 정신.
-xjtlu-nganh-hoc-nghe-nghiep.html	84	h2	학술적 구조가 새롭게 업데이트되었습니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	85	p	2026년 9월부터 XJTLU는 일부 부대를 재구성했다.
+xjtlu-nganh-hoc-nghe-nghiep.html	84	h2	2026년 학술조직 개편
+xjtlu-nganh-hoc-nghe-nghiep.html	85	p	2026년 9월부터 XJTLU는 일부 학술조직을 재편했습니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	86	strong	Academy of Artificial Intelligence and Advanced Technology
 xjtlu-nganh-hoc-nghe-nghiep.html	87	p	그리고
 xjtlu-nganh-hoc-nghe-nghiep.html	88	strong	Academy of Life and Natural Sciences
-xjtlu-nganh-hoc-nghe-nghiep.html	89	p	학교 웹사이트에 있는 이름입니다. 오래된 브로셔리나 기사를 보면 학교의 첨단 기술, 과학 학교 또는 위즈즈레이크 의약품 학원의 이름을 찾을 수 있습니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	90	div	학교/학원의 이름이 바뀌는 것은 여러분의 프로그램이 바뀌는 것을 의미하지는 않습니다. 캠퍼스, 학위, 2+2의 가능성을 확인하기 위해 해당 학문과 2027학년 페이지를 확인하세요.
-xjtlu-nganh-hoc-nghe-nghiep.html	91	h2	대학 졸업: 더 공부하거나 더 일을 해야 할까요?
-xjtlu-nganh-hoc-nghe-nghiep.html	92	p	XJTLU는 높은 수준의 학업률을 가지고 있지만 모든 학생이 석사 학위를 받아야하지는 않습니다. 경력개발 사무소는 직업 계획에 도움을 줍니다. 외부 멘토 네트워크는 취업 및 직업 발전에 대한 실질적인 지침을 제공합니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	89	p	현재 공식 홈페이지에서는 위 명칭을 사용합니다. 과거 브로셔나 기사에서는 School of Advanced Technology, School of Science, Wisdom Lake Academy of Pharmacy 등 이전 명칭이 보일 수 있습니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	90	div	학술조직 명칭이 바뀌었다고 전공 자체가 반드시 바뀐 것은 아닙니다. 희망 전공의 캠퍼스, 학위구조, 2+2 가능 여부는 2027 전공 페이지에서 확인하세요.
+xjtlu-nganh-hoc-nghe-nghiep.html	91	h2	졸업 후: 대학원 진학과 취업 중 무엇을 선택할까?
+xjtlu-nganh-hoc-nghe-nghiep.html	92	p	XJTLU는 대학원 진학 비율이 높은 편이지만 모든 학생에게 석사가 필요한 것은 아닙니다. Career Development Office와 외부 멘토 네트워크를 통해 진로·취업 지원을 받을 수 있습니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	93	b	86,43%
-xjtlu-nganh-hoc-nghe-nghiep.html	94	span	2025년 졸업생은 재학에 앞장서고 있습니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	94	span	2025 졸업생 중 대학원 진학
 xjtlu-nganh-hoc-nghe-nghiep.html	95	b	47,16%
-xjtlu-nganh-hoc-nghe-nghiep.html	96	span	XJTLU 자료에 따르면
+xjtlu-nganh-hoc-nghe-nghiep.html	96	span	학교 발표 진학 지표
 xjtlu-nganh-hoc-nghe-nghiep.html	97	b	93,40%
-xjtlu-nganh-hoc-nghe-nghiep.html	98	span	XJTLU 자료에 따르면
-xjtlu-nganh-hoc-nghe-nghiep.html	99	p	UCL, Imperial, Oxford, Harvard, Cambridge, NUS, 그리고 특정 학생 수를 보고 싶으세요? 아래의 2025 학력 결과를 보세요.
-xjtlu-nganh-hoc-nghe-nghiep.html	100	h2	직업 선택 전에 세 가지 점들을 살펴봐야 합니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	101	h3	1. 기초의 단추
-xjtlu-nganh-hoc-nghe-nghiep.html	102	p	인공지능, 공학, 경제, 금융, 과학은 수학과 과학의 차원이 다릅니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	103	h3	2. Campus & mobility
-xjtlu-nganh-hoc-nghe-nghiep.html	104	p	SIP에서 공부하는 학문도 있고 타이창과 관련된 학문도 있습니다. 2+2 또는 2+1+1은 모든 프로그램에서 동일하지 않습니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	105	h3	3. 허가받은 직업
-xjtlu-nganh-hoc-nghe-nghiep.html	106	p	예를 들어, 약학과학 또는 바이오약품은 약학과학/공업 학위입니다. 이 학위들은 베트남이나 영국에서 약학으로 취업하는 것을 자동으로 허가하지 않습니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	98	span	학교 발표 진학 지표
+xjtlu-nganh-hoc-nghe-nghiep.html	99	p	UCL, Imperial, Oxford, Harvard, Cambridge, NUS 등 구체적인 진학 대학과 학생 수가 궁금하다면 2025 진학결과 페이지를 확인하세요.
+xjtlu-nganh-hoc-nghe-nghiep.html	100	h2	전공 선택 전에 확인할 4가지
+xjtlu-nganh-hoc-nghe-nghiep.html	101	h3	1. 기초과목 적합성
+xjtlu-nganh-hoc-nghe-nghiep.html	102	p	AI, 공학, 경제·금융, 과학 전공은 수학·과학 기초 요구 수준이 서로 다릅니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	103	h3	2. 캠퍼스 & 이동경로
+xjtlu-nganh-hoc-nghe-nghiep.html	104	p	SIP에서 공부하는 전공도 있고 타이창 기반 전공도 있습니다. 2+2 또는 2+1+1 가능 여부 역시 모든 프로그램이 같지 않습니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	105	h3	3. 전문 자격
+xjtlu-nganh-hoc-nghe-nghiep.html	106	p	예를 들어 Pharmaceutical Sciences나 Biopharmaceuticals는 과학·제약산업 중심 학위입니다. 이 학위만으로 베트남이나 영국에서 약사 면허가 자동으로 부여되는 것은 아닙니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	107	h3	4. 졸업 후 목표
-xjtlu-nganh-hoc-nghe-nghiep.html	108	p	만약 여러분이 최고 수준의 석사 학위를 목표로 하고 있다면, 교육과정, 연구/프로젝트, 그리고 학업 결과를 살펴보세요. 만약 여러분이 일찍 일을 하고 싶다면, 기술, 인턴십, 중국어, 그리고 산업 연결을 우선시하세요.
+xjtlu-nganh-hoc-nghe-nghiep.html	108	p	상위권 대학원 진학이 목표라면 커리큘럼, 연구·프로젝트, 학업성적을 살펴보세요. 졸업 후 바로 취업하고 싶다면 실무기술, 인턴십, 중국어, 산업연계를 함께 보는 것이 좋습니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	109	h2	흔히 묻는 질문
-xjtlu-nganh-hoc-nghe-nghiep.html	110	summary	XJTLU는 최고 대학에서 대학원을 위한 것이란 말인가?
-xjtlu-nganh-hoc-nghe-nghiep.html	111	p	2025년 자료는 높은 재학률과 많은 목적지가 우수 대학 그룹에 속하는 것을 보여줍니다. 그러나 개인 성과는 학계, GPA, 연구, 인턴십, 영어, 그리고 학생의 프로파일을 기준으로 합니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	112	summary	인공지능이나 컴퓨터 과학은 항상 가장 쉬운 직업인가요?
-xjtlu-nganh-hoc-nghe-nghiep.html	113	p	기술적인 요구가 높지만, 결과는 수학/프로그래밍 능력, 실제 프로젝트, 언어, 그리고 당신이 일하고 싶은 시장에 달려 있습니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	114	summary	약학은 약사가 되는 거냐?
-xjtlu-nganh-hoc-nghe-nghiep.html	115	p	아니, 이것은 과학과 산업의 방향입니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	116	summary	2+2이라는 이유로 선택해야 할까요?
-xjtlu-nganh-hoc-nghe-nghiep.html	117	p	2+2는 학업 선택입니다. 우선 능력과 목표에 맞는 분야를 선택하고 리버풀로 갈 가능성을 테스트합니다.
-xjtlu-nganh-hoc-nghe-nghiep.html	118	h2	계속 봐
-xjtlu-nganh-hoc-nghe-nghiep.html	119	a	2025년 교육 결과
-xjtlu-nganh-hoc-nghe-nghiep.html	120	span	특정 목적지와 학생 수
+xjtlu-nganh-hoc-nghe-nghiep.html	110	summary	XJTLU는 상위권 대학원 진학에 유리한가요?
+xjtlu-nganh-hoc-nghe-nghiep.html	111	p	2025 학교 자료에서는 높은 대학원 진학 비율과 다양한 상위권 대학 진학 사례를 확인할 수 있습니다. 다만 개인 결과는 전공, GPA, 연구·프로젝트, 인턴십, 영어, 지원전략에 따라 달라집니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	112	summary	AI·Computer Science가 항상 취업에 가장 유리한가요?
+xjtlu-nganh-hoc-nghe-nghiep.html	113	p	수요가 높은 분야이지만 결과는 수학·프로그래밍 역량, 실제 프로젝트, 언어능력, 목표 취업시장에 따라 달라집니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	114	summary	Pharmaceutical Sciences를 졸업하면 바로 약사가 되나요?
+xjtlu-nganh-hoc-nghe-nghiep.html	115	p	아닙니다. 과학·제약산업 중심 학위이며 약사 자격요건은 국가별 별도 기준을 확인해야 합니다.
+xjtlu-nganh-hoc-nghe-nghiep.html	116	summary	2+2가 있다는 이유만으로 전공을 선택해야 하나요?
+xjtlu-nganh-hoc-nghe-nghiep.html	117	p	아닙니다. 먼저 적성과 진로에 맞는 전공을 고른 뒤 해당 전공의 2+2 가능 여부를 확인하세요.
+xjtlu-nganh-hoc-nghe-nghiep.html	118	h2	함께 보면 좋은 가이드
+xjtlu-nganh-hoc-nghe-nghiep.html	119	a	2025 진학 결과
+xjtlu-nganh-hoc-nghe-nghiep.html	120	span	구체적인 진학 대학과 학생 수
 xjtlu-nganh-hoc-nghe-nghiep.html	121	a	XJTLU 2+2 & Liverpool
-xjtlu-nganh-hoc-nghe-nghiep.html	122	span	이중분별과 2+2 경로
+xjtlu-nganh-hoc-nghe-nghiep.html	122	span	복수학위와 2+2 경로
 xjtlu-nganh-hoc-nghe-nghiep.html	123	a	2027년 입학 조건
-xjtlu-nganh-hoc-nghe-nghiep.html	124	span	베트남 학생의 요구
-xjtlu-nganh-hoc-nghe-nghiep.html	125	h2	아직 어떤 직업을 선택해야 할지 모르겠어요?
-xjtlu-nganh-hoc-nghe-nghiep.html	126	p	적절한 산업 그룹을 제안하기 위해 학력, 강점과 직업 목표를 보내십시오.
+xjtlu-nganh-hoc-nghe-nghiep.html	124	span	베트남 학생 입학요건
+xjtlu-nganh-hoc-nghe-nghiep.html	125	h2	아직 어떤 전공을 선택해야 할지 모르겠나요?
+xjtlu-nganh-hoc-nghe-nghiep.html	126	p	현재 학업성적, 강점, 관심 분야와 진로 목표를 알려주시면 적합한 전공군을 함께 비교해 드립니다.
 xjtlu-nganh-hoc-nghe-nghiep.html	127	a	Zalo 상담
-xjtlu-nganh-hoc-nghe-nghiep.html	128	strong	자료:
+xjtlu-nganh-hoc-nghe-nghiep.html	128	strong	자료 출처:
 xjtlu-nganh-hoc-nghe-nghiep.html	129	a	XJTLU Undergraduate Programmes
 xjtlu-nganh-hoc-nghe-nghiep.html	130	div	·
 xjtlu-nganh-hoc-nghe-nghiep.html	131	a	XJTLU Graduate Destinations
@@ -1547,14 +1547,14 @@ xjtlu-ranking-2027.html	33	a	XJTLU에서 영어로 대학 공부하기
 xjtlu-ranking-2027.html	34	a	XJTLU 뉴스
 xjtlu-ranking-2027.html	35	small	뉴스 보기 →
 xjtlu-ranking-2027.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
-xjtlu-ranking-2027.html	37	div	XJTLU 순위 · 20262027 업데이트
+xjtlu-ranking-2027.html	37	div	XJTLU 순위 · 2026–2027 업데이트
 xjtlu-ranking-2027.html	38	h1	XJTLU 2027 순위: QS, THE, ARWU
-xjtlu-ranking-2027.html	39	p	시안 자이오통-리버풀대학교의 순위는 각 시스템이 다른 방법을 사용하기 때문에 순위 사이에는 상당한 차이가 있습니다. 이것은 리버풀대학교 또는 시안 자이오통 대학교와 XJTLU를 잘못 읽지 않는 숫자입니다.
+xjtlu-ranking-2027.html	39	p	시안교통리버풀대학교의 순위는 각 시스템이 다른 방법을 사용하기 때문에 순위 사이에는 상당한 차이가 있습니다. 이것은 리버풀대학교 또는 Xi'an Jiaotong University와 XJTLU를 잘못 읽지 않는 숫자입니다.
 xjtlu-ranking-2027.html	40	div	빠른 답변
-xjtlu-ranking-2027.html	41	h2	XJTLU는 자체적인 순위를 가지고 있습니까? 아니면 리버풀대학교 순위를 사용합니까?
+xjtlu-ranking-2027.html	41	h2	XJTLU는 자체 순위가 있나요, 아니면 리버풀대학교 순위를 사용하나요?
 xjtlu-ranking-2027.html	42	strong	XJTLU는 별도의 순위를 가지고 있습니다.
-xjtlu-ranking-2027.html	43	p	시안교통리버풀대학교는 리버풀대학교와 Xi'an Jiaotong University가 공동 설립한 독립 대학이다. 따라서 XJTLU 순위를 평가할 때, XJTLU 자체 순위를 사용해야 한다. 두 설립 학교의 순위는 개별 데이터이다.
-xjtlu-ranking-2027.html	44	p	업데이트: 2026년 8월 30일 · 주요 자료:
+xjtlu-ranking-2027.html	43	p	XJTLU는 University of Liverpool과 Xi'an Jiaotong University가 공동 설립한 독립 대학이므로 XJTLU 자체 순위를 봐야 합니다. 두 공동설립 대학의 순위는 별도입니다.
+xjtlu-ranking-2027.html	44	p	업데이트: 2026년 8월 30일 · 주요 출처:
 xjtlu-ranking-2027.html	45	a	XJTLU – About
 xjtlu-ranking-2027.html	46	small	QS World University Rankings 2027
 xjtlu-ranking-2027.html	47	strong	1001–1200
@@ -1566,32 +1566,32 @@ xjtlu-ranking-2027.html	52	small	ARWU 2026
 xjtlu-ranking-2027.html	53	strong	701–800
 xjtlu-ranking-2027.html	54	span	Xi'an Jiaotong-Liverpool University
 xjtlu-ranking-2027.html	55	h2	중요한 점: XJTLU는 별도의 순위를 가지고 있습니다
-xjtlu-ranking-2027.html	56	p	XJTLU는 2006년 리버풀대학교와 Xi'an Jiaotong University가 설립한 독자적인 대학이다.
+xjtlu-ranking-2027.html	56	p	XJTLU는 2006년 University of Liverpool과 Xi'an Jiaotong University가 공동 설립한 독립 대학입니다.
 xjtlu-ranking-2027.html	57	b	Xi'an Jiaotong-Liverpool University
-xjtlu-ranking-2027.html	58	p	리버풀대학교나 Xi'an Jiaotong University의 순위를 대신하지 않습니다.
-xjtlu-ranking-2027.html	59	b	오해가 안되죠.
-xjtlu-ranking-2027.html	60	div	XJTLU 졸업생들은 리버풀대학교과 같은 학위를 받을 수 있지만, 그렇다고 해서 XJTLU와 리버풀대학교은 대학 순위에서 같은 학교라는 의미는 아닙니다.
-xjtlu-ranking-2027.html	61	h2	QS, THE, ARWU는 왜 다른 결과를 내놓았을까요?
-xjtlu-ranking-2027.html	62	p	QS는 학문적 명예, 고용주, 연구 및 국제화 등의 지표를 중시하고; THE는 교수, 연구 환경, 연구 품질, 국제화 및 산업 협력을 기준으로 하는 그룹을 사용하며; ARWU는 연구 결과와 양적 학술 지표에 강점을 가지고 있습니다. XJTLU와 같은 어린 학교는 따라서 체계적으로 다른 계급 그룹에 속할 수 있습니다.
-xjtlu-ranking-2027.html	63	th	순위표
+xjtlu-ranking-2027.html	58	p	University of Liverpool 또는 Xi'an Jiaotong University의 순위로 대체해서 볼 수 없습니다.
+xjtlu-ranking-2027.html	59	b	학위와 대학 순위는 서로 다른 개념입니다.
+xjtlu-ranking-2027.html	60	div	XJTLU 졸업생들은 리버풀대학교와 같은 학위를 받을 수 있지만, 그렇다고 해서 XJTLU와 리버풀대학교는 대학 순위에서 같은 학교라는 의미는 아닙니다.
+xjtlu-ranking-2027.html	61	h2	QS, THE, ARWU 순위는 왜 다르게 나오나요?
+xjtlu-ranking-2027.html	62	p	QS는 학계·고용주 평판, 연구, 국제화 등을 보고, THE는 교육·연구환경·연구품질·국제화·산학협력을 평가하며, ARWU는 연구성과와 정량 학술지표 비중이 큽니다. 그래서 비교적 젊은 XJTLU는 평가체계별 순위 구간이 크게 다를 수 있습니다.
+xjtlu-ranking-2027.html	63	th	평가기관
 xjtlu-ranking-2027.html	64	th	XJTLU
-xjtlu-ranking-2027.html	65	th	무엇을 이해해야 할까요?
+xjtlu-ranking-2027.html	65	th	해석 포인트
 xjtlu-ranking-2027.html	66	b	QS 2027
 xjtlu-ranking-2027.html	67	td	1001–1200
-xjtlu-ranking-2027.html	68	td	전체적인 시각은 명성, 연구, 국제화 요소를 가지고 있습니다.
+xjtlu-ranking-2027.html	68	td	명성·연구·국제화 등을 종합
 xjtlu-ranking-2027.html	69	b	THE 2026
 xjtlu-ranking-2027.html	70	td	601–800
-xjtlu-ranking-2027.html	71	td	교수, 연구, 연구 품질 및 국제화에 대한 광범위한 평가
+xjtlu-ranking-2027.html	71	td	교육·연구·연구품질·국제화 등을 종합
 xjtlu-ranking-2027.html	72	b	ARWU 2026
 xjtlu-ranking-2027.html	73	td	701–800
-xjtlu-ranking-2027.html	74	td	연구와 학술의 발전에 대한 더 많은 기대가 있습니다.
-xjtlu-ranking-2027.html	75	h2	XJTLU를 선택하는데 가장 중요한 요소는 순위인가요?
-xjtlu-ranking-2027.html	76	p	한 순위 숫자를 하나의 기준으로 사용하지 말아야 한다. 베트남 학생에게는 더 현실적인 요소는 일반적으로: 특정 학문, 교육 언어, 학위 취득, 비용, 장학금, 海의 위치, 리버풀로 2+2의 가능성과 졸업 후 직업 목표입니다.
-xjtlu-ranking-2027.html	77	p	XJTLU는 비교적 젊은 학교이기도 합니다. 그래서 평가에서, 합성 순위를 보는 대신 연구 발전과 특정 분야의 품질과 두 설립 학교의 생태계를 모두 고려해야 합니다.
-xjtlu-ranking-2027.html	78	h2	리버풀대학교와 Xi'an Jiaotong University는 어떻게 연관되어 있습니까?
-xjtlu-ranking-2027.html	79	p	두 학교는 XJTLU의 공동 설립자이다. 리버풀대학교은 영국에서 러셀 그룹의 설립자이며, Xi'an Jiaotong 대학은 중국에서 C9 리그의 설립자이다. 그러나, 두 학교의 순위는 XJTLU 순위와 비교하여 개인 데이터로 이루어져 있지 않다.
-xjtlu-ranking-2027.html	80	a	XJTLU 베트남 총군
-xjtlu-ranking-2027.html	81	a	중국 2027학년 유학 설명서
+xjtlu-ranking-2027.html	74	td	연구성과와 정량 학술지표 비중이 큼
+xjtlu-ranking-2027.html	75	h2	XJTLU 선택에서 순위가 가장 중요한가요?
+xjtlu-ranking-2027.html	76	p	순위 하나만으로 결정하지 않는 것이 좋습니다. 베트남 학생에게는 희망 전공, 수업 언어, 학위구조, 비용·장학금, 캠퍼스 위치, 2+2 가능 여부, 졸업 후 진로가 더 직접적인 판단 요소일 수 있습니다.
+xjtlu-ranking-2027.html	77	p	XJTLU는 비교적 젊은 대학이므로 종합순위뿐 아니라 연구 성장, 전공별 강점, 두 공동설립 대학과의 학술 생태계도 함께 보는 것이 좋습니다.
+xjtlu-ranking-2027.html	78	h2	University of Liverpool과 Xi'an Jiaotong University는 XJTLU와 어떻게 연관되어 있나요?
+xjtlu-ranking-2027.html	79	p	두 학교는 XJTLU의 공동 설립자이다. 리버풀대학교는 영국에서 러셀 그룹의 설립자이며, Xi'an Jiaotong 대학은 중국에서 C9 리그의 설립자이다. 그러나, 두 학교의 순위는 XJTLU 순위와 비교하여 개인 데이터로 이루어져 있지 않다.
+xjtlu-ranking-2027.html	80	a	XJTLU 베트남 메인
+xjtlu-ranking-2027.html	81	a	2027 중국 유학 가이드
 xjtlu-ranking-2027.html	82	a	XJTLU 학비 & 장학금
 xjtlu-ranking-2027.html	83	a	입학 조건
 xjtlu-ranking-2027.html	84	div	순위 기준:
@@ -1602,7 +1602,7 @@ xjtlu-ranking-2027.html	88	div	·
 xjtlu-ranking-2027.html	89	a	ShanghaiRanking / ARWU
 xjtlu-ranking-2027.html	90	div	·
 xjtlu-ranking-2027.html	91	a	University of Liverpool – XJTLU partnership
-xjtlu-ranking-2027.html	92	div	- 랭킹은 매년 변하고, 상담을 하기 전에 재검토를 해야 합니다.
+xjtlu-ranking-2027.html	92	div	※ 대학순위는 매년 변동될 수 있으므로 상담·지원 전 최신 자료를 다시 확인하세요.
 xjtlu-ranking-2027.html	93	div	한글 검수판 · 검색 비노출
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	1	[document]	html
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	2	title	[한글 검수판] 인도네시아의 700명의 XJTLU 학생: 동남아시아를 끌어들이는 형상
@@ -1641,8 +1641,8 @@ news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	34	a	XJTLU 뉴스
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	35	small	뉴스 보기 →
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	37	div	동남아시아 · 국제 학생
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	38	h1	700명의 인도네시아 학생이 XJTLU: 왜 중국 영문학 모델이 동남아시아에 유치되고 있는 걸까요?
-news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	39	p	자카르타에서 새로운 XJTLU 포럼은 학교가 동남아시아에서 확고한 영향력을 확대하고 있음을 보여줍니다. 베트남 학생에게는, 이것은 중국에서 영어 학습 모델의 수용 정도에 대한 주목할만한 신호입니다. 리버풀대학교과 관련된 학위를 취득합니다.
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	38	h1	인도네시아 학생 700명 이상: XJTLU가 동남아 학생에게 주목받는 이유
+news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	39	p	자카르타에서 새로운 XJTLU 포럼은 학교가 동남아시아에서 확고한 영향력을 확대하고 있음을 보여줍니다. 베트남 학생에게는, 이것은 중국에서 영어 학습 모델의 수용 정도에 대한 주목할만한 신호입니다. 리버풀대학교와 관련된 학위를 취득합니다.
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	40	b	~700
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	41	span	인도네시아의 XJTLU에서 공부하고 있는 학생
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	42	b	1.500+
@@ -1682,7 +1682,7 @@ news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	75	a	← 모든 XJTLU 뉴스
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	76	div	TNS Worldwide · XJTLU 베트남 · 베트남 학생 및 부모를 위한 콘텐츠
 news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html	77	div	한글 검수판 · 검색 비노출
 news/index.html	1	[document]	html
-news/index.html	2	title	[한글 검수판] 베트남의 뉴스
+news/index.html	2	title	[한글 검수판] XJTLU 뉴스
 news/index.html	3	a	XJTLU 베트남
 news/index.html	4	button	메뉴
 news/index.html	5	span	☰
@@ -1719,56 +1719,56 @@ news/index.html	35	small	뉴스 보기 →
 news/index.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/index.html	37	span	Official News · Selected for Vietnam
 news/index.html	38	h1	XJTLU 뉴스
-news/index.html	39	p	XJTLU의 공식 자료에서 주목할만한 업데이트가 베트남어로 선택되어 요약되어 있습니다. 각 기사는 원본을 안내하여 전체 정보를 확인합니다.
+news/index.html	39	p	XJTLU 공식 자료에서 베트남 학생·학부모에게 도움이 될 만한 업데이트를 선별해 한국어로 요약했습니다. 각 기사에서 공식 원문을 함께 확인할 수 있습니다.
 news/index.html	40	div	08/08/2026
-news/index.html	41	a	2025년 600여 명의 XJTLU 학생이 호주로 재학: 시드니, 멜버른, 브리즈번에 전개된 졸업생
+news/index.html	41	a	호주로 이어지는 XJTLU 졸업생 네트워크: 시드니·멜버른·브리즈번
 news/index.html	42	p	XJTLU는 2025년 호주 최고의 대학에서 600여 명의 학생이 재학할 수 있다고 밝혔다. 그 전생 네트워크는 시드니, 멜버른, 브리즈번에 집중되어 있습니다.
-news/index.html	43	a	개요를 읽어보세요
+news/index.html	43	a	자세히 보기 →
 news/index.html	44	div	01/08/2026
-news/index.html	45	a	XJTLU에서 청주대학교: 인도네시아의 학생의 여행
-news/index.html	46	p	메타 호르멘은 XJTLU에서 마케팅 BA를 공부하고 다양한 분야에서 연습 경험을 쌓았고 Tsinghua 대학에서 경영 석사 학위를 받았다.
-news/index.html	47	a	개요를 읽어보세요
+news/index.html	45	a	XJTLU에서 칭화대학교로: 인도네시아 학생의 진학 사례
+news/index.html	46	p	인도네시아 학생은 XJTLU에서 Marketing을 공부한 뒤 다양한 실무 경험을 쌓고 Tsinghua University 경영 석사과정으로 진학했습니다.
+news/index.html	47	a	자세히 보기 →
 news/index.html	48	div	27/07/2026
-news/index.html	49	a	2026년 3,797명의 XJTLU 졸업생들이 리버풀대학교를 졸업했습니다.
-news/index.html	50	p	2026년 졸업식에서 3,797명의 대학생이 XJTLU 학위를 받고, 1,244명의 대학생이 First Class Honours를 받았다.
-news/index.html	51	a	개요를 읽어보세요
+news/index.html	49	a	2026년 XJTLU 학부 졸업생 3,797명, 리버풀대학교 학위 수여
+news/index.html	50	p	2026년 졸업식에서 3,797명의 학부생이 XJTLU 학위를 받았고, 이 가운데 1,244명이 First Class Honours를 받았습니다.
+news/index.html	51	a	자세히 보기 →
 news/index.html	52	div	03/07/2026
 news/index.html	53	a	XJTLU에서 Vivo: 인도네시아의 전생들이 베트남 시장에 대해 책임지고 있습니다
-news/index.html	54	p	Della Senjaya는 XJTLU에서 마케팅 BA를 졸업했으며 현재 인도네시아 Vivo에서 인터넷 제품 보조로 활동하고 있으며 인도네시아, 말레이시아, 베트남 및 필리핀 시장에 지원하고 있습니다.
-news/index.html	55	a	개요를 읽어보세요
+news/index.html	54	p	Della Senjaya는 XJTLU Marketing 졸업 후 Vivo에서 근무하며 인도네시아·말레이시아·베트남·필리핀 등 동남아 시장 관련 업무를 하고 있습니다.
+news/index.html	55	a	자세히 보기 →
 news/index.html	56	div	25/06/2026
-news/index.html	57	a	700명의 인도네시아 학생이 XJTLU: 왜 중국 영문학 모델이 동남아시아에 유치되고 있는 걸까요?
-news/index.html	58	p	XJTLU는 현재 700여명의 인도네시아 학생과 1500여명의 신입생이 재학년도에 인도네시아에서 재학 중인 것으로 알려져 있어 동남아시아의 유치에 대한 주목할만한 신호입니다.
-news/index.html	59	a	개요를 읽어보세요
+news/index.html	57	a	인도네시아 학생 700명 이상: XJTLU가 동남아 학생에게 주목받는 이유
+news/index.html	58	p	XJTLU는 700명 이상의 인도네시아 학생 커뮤니티를 소개하며 동남아시아 지역에서의 학생 네트워크 확대를 보여주고 있습니다.
+news/index.html	59	a	자세히 보기 →
 news/index.html	60	div	13/05/2026
 news/index.html	61	a	500여명의 XJTLU 전생들이 싱가포르에 왔습니다. 동남아시아 중심부에서
-news/index.html	62	p	XJTLU는 500여명의 졸업생들이 싱가포르에 왔고, 150여명의 졸업생들이 현재 재학 중이고, 싱가포르에서 재학중인 학생 수는 3년 만에 57명에서 146명으로 증가했다고 밝혔다.
-news/index.html	63	a	개요를 읽어보세요
+news/index.html	62	p	XJTLU는 싱가포르에서 활동하는 500명 이상의 졸업생과 현지 대학 진학 사례 등 동남아 중심지에서 확대되는 네트워크를 소개했습니다.
+news/index.html	63	a	자세히 보기 →
 news/index.html	64	div	13/05/2026
-news/index.html	65	a	XJTLU에서 CP 그룹: 동남아 학생이 어떻게 경력을 쌓을 수 있을까요?
-news/index.html	66	p	패티콘 루랑파이보온스리는 XJTLU에서 BA 비즈니스 행정을 졸업하고, CP Group에서 경영 연습생으로 방콕으로 돌아왔다.
-news/index.html	67	a	개요를 읽어보세요
+news/index.html	65	a	XJTLU에서 CP Group으로: 태국 졸업생의 커리어 사례
+news/index.html	66	p	태국 학생은 XJTLU Business Administration 졸업 후 방콕 CP Group에서 Management Trainee로 커리어를 시작했습니다.
+news/index.html	67	a	자세히 보기 →
 news/index.html	68	div	03/04/2026
-news/index.html	69	a	XJTLU에서 하버드까지, 그리고 Cambridge까지, 언어학에서 학업의 경로
+news/index.html	69	a	XJTLU → Harvard → Cambridge: 언어학에서 이어진 학업 경로
 news/index.html	70	p	XJTLU 전 학생 Yiran Du는 하버드에서 교육 석사를 마쳤으며 현재 케임브리지 대학교에서 교육 박사 과정을 밟고 있습니다.
-news/index.html	71	a	개요를 읽어보세요
+news/index.html	71	a	자세히 보기 →
 news/index.html	72	div	10/01/2026
-news/index.html	73	a	XJTLU에서 하버드까지 전액 장학금, 스탠퍼드, 예일, 옥스퍼드까지
+news/index.html	73	a	XJTLU에서 Harvard 전액 장학금까지: Stanford·Yale·Oxford offer 사례
 news/index.html	74	p	바이오메디컬 통계학 전생 Jiayi Li는 하버드 대학에서 석사 과정에 전공 장학금을 받았으며, 스탠퍼드, 예일, 옥스퍼드에서 제안도 받았다.
-news/index.html	75	a	개요를 읽어보세요
+news/index.html	75	a	자세히 보기 →
 news/index.html	76	div	22/07/2025
-news/index.html	77	a	XJTLU에서 펜실베이니아 대학교: PwC, 연구, 그리고 미국에서의 다음 단계
-news/index.html	78	p	Yunzhou Zhong는 XJTLU에서 BSc 정보 관리 및 정보 시스템 과정을 졸업했으며, University of Pennsylvania에서 Master of Behavioral and Decision Sciences를 전공하기 전에 PwC 및 SURF 경험을 쌓았다.
-news/index.html	79	a	개요를 읽어보세요
+news/index.html	77	a	XJTLU → University of Pennsylvania: PwC·연구 경험과 미국 대학원 진학
+news/index.html	78	p	Yunzhou Zhong는 XJTLU Information Management and Information Systems 졸업 후 PwC와 SURF 연구 경험을 쌓고 University of Pennsylvania의 Master of Behavioral and Decision Sciences로 진학했습니다.
+news/index.html	79	a	자세히 보기 →
 news/index.html	80	div	02/07/2025
-news/index.html	81	a	XJTLU에서 옥스퍼드: 한 전직 영문학 학생의 여행
-news/index.html	82	p	Yuzhi Chen, XJTLU에서 영어 공부를 졸업하고, 옥스퍼드 대학교에서 1700~1830년 영어 프로그램을 계속 공부했다.
-news/index.html	83	a	개요를 읽어보세요
+news/index.html	81	a	XJTLU → Oxford: 영어 전공 졸업생의 진학 사례
+news/index.html	82	p	Yuzhi Chen은 XJTLU English Studies 졸업 후 University of Oxford에서 1700–1830 English 석사과정을 이어갔습니다.
+news/index.html	83	a	자세히 보기 →
 news/index.html	84	div	01/07/2025
-news/index.html	85	a	XJTLU 영화제작업과 컬럼비아 대학교: 미국의 최고의 영화 학교들의 제안
-news/index.html	86	p	유레엔은 콜롬비아 대학교 크리에이티브 프로덕션, 미국 영화 연구소 프로덕션, 그리고 Chapman 대학교 영화 및 텔레비전 프로덕션의 40,000 달러의 장학금을 받았다.
-news/index.html	87	a	개요를 읽어보세요
-news/index.html	88	div	이 페이지는 베트남 독자를 위한 편집 내용이며, XJTLU의 공식 페이지는 아닙니다.
+news/index.html	85	a	XJTLU Filmmaking → Columbia: 미국 주요 영화대학 합격 사례
+news/index.html	86	p	XJTLU Filmmaking 졸업생은 Columbia University, American Film Institute 등 미국 주요 영화대학에서 offer를 받았고 Chapman University에서는 40,000달러 장학금을 받았습니다.
+news/index.html	87	a	자세히 보기 →
+news/index.html	88	div	이 페이지는 한국어 검수를 위한 편집본이며 XJTLU 공식 페이지가 아닙니다.
 news/index.html	89	div	TNS Worldwide · XJTLU 베트남
 news/index.html	90	div	한글 검수판 · 검색 비노출
 news/xjtlu-alumni-australia-2026.html	1	[document]	html
@@ -1808,7 +1808,7 @@ news/xjtlu-alumni-australia-2026.html	34	a	XJTLU 뉴스
 news/xjtlu-alumni-australia-2026.html	35	small	뉴스 보기 →
 news/xjtlu-alumni-australia-2026.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-alumni-australia-2026.html	37	div	호주 · 졸업생 · 더 공부
-news/xjtlu-alumni-australia-2026.html	38	h1	2025년 600여 명의 XJTLU 학생이 호주로 재학: 시드니, 멜버른, 브리즈번에 전개된 졸업생
+news/xjtlu-alumni-australia-2026.html	38	h1	호주로 이어지는 XJTLU 졸업생 네트워크: 시드니·멜버른·브리즈번
 news/xjtlu-alumni-australia-2026.html	39	p	시드니 하버에서 열린 Alumni Event에서 XJTLU는 호주에서 학생 및 전학생 네트워크를 주목할만한 규모로 발표했습니다.
 news/xjtlu-alumni-australia-2026.html	40	div	기자: XJTLU 공식 뉴스 · 08/08/2026
 news/xjtlu-alumni-australia-2026.html	41	p	2026년 8월 6일, 더
@@ -1943,7 +1943,7 @@ news/xjtlu-class-2026-liverpool-degrees.html	34	a	XJTLU 뉴스
 news/xjtlu-class-2026-liverpool-degrees.html	35	small	뉴스 보기 →
 news/xjtlu-class-2026-liverpool-degrees.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-class-2026-liverpool-degrees.html	37	div	졸업자 · 리버풀대학교
-news/xjtlu-class-2026-liverpool-degrees.html	38	h1	2026년 3,797명의 XJTLU 졸업생들이 리버풀대학교를 졸업했습니다.
+news/xjtlu-class-2026-liverpool-degrees.html	38	h1	2026년 XJTLU 학부 졸업생 3,797명, 리버풀대학교 학위 수여
 news/xjtlu-class-2026-liverpool-degrees.html	39	p	2026 졸업식 자료는 XJTLU의 학위 제도가 어떻게 큰 규모로 작동하는지 잘 보여줍니다.
 news/xjtlu-class-2026-liverpool-degrees.html	40	b	4.816
 news/xjtlu-class-2026-liverpool-degrees.html	41	span	졸업생들의 총수
@@ -1963,7 +1963,7 @@ news/xjtlu-class-2026-liverpool-degrees.html	54	p	XJTLU는 이 대학생 중
 news/xjtlu-class-2026-liverpool-degrees.html	55	b	1,244명의 수상자가 1등급 명예상자로 인정받았습니다.
 news/xjtlu-class-2026-liverpool-degrees.html	56	p	또한, 리버풀대학교에서 938명의 석사과정 및 81명의 박사과정 연구원이 대학원을 받았으며, 217명의 석사과정 학생은 명성을 얻었습니다.
 news/xjtlu-class-2026-liverpool-degrees.html	57	h2	왜 3797이라는 숫자가 주목할 만한 것일까요?
-news/xjtlu-class-2026-liverpool-degrees.html	58	p	많은 베트남 학생이 XJTLU를 처음 들었을 때 종종 질문을 던집니다. '중국에서 공부하는 것은 리버풀대학교이 실제로 제공되는가?' 2026 졸업 문서는 실제적인 답이, 수천 명의 학생이 같은 해에 이 구조에 따라 학위를 받았기 때문입니다.
+news/xjtlu-class-2026-liverpool-degrees.html	58	p	많은 베트남 학생이 XJTLU를 처음 들었을 때 종종 질문을 던집니다. '중국에서 공부하는 것은 리버풀대학교가 실제로 제공되는가?' 2026 졸업 문서는 실제적인 답이, 수천 명의 학생이 같은 해에 이 구조에 따라 학위를 받았기 때문입니다.
 news/xjtlu-class-2026-liverpool-degrees.html	59	b	참고로
 news/xjtlu-class-2026-liverpool-degrees.html	60	div	학위 조건과 구조는 학위 수준이나 프로그램에 따라 다를 수 있습니다. 학문을 선택할 때 학생은 특정 프로그램에 대한 학위를 정확하게 검사해야합니다.
 news/xjtlu-class-2026-liverpool-degrees.html	61	h2	베트남 학생의 모델의 강점
@@ -2081,7 +2081,7 @@ news/xjtlu-filmmaking-to-columbia-university.html	34	a	XJTLU 뉴스
 news/xjtlu-filmmaking-to-columbia-university.html	35	small	뉴스 보기 →
 news/xjtlu-filmmaking-to-columbia-university.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-filmmaking-to-columbia-university.html	37	div	영화 제작 · 콜롬비아 · 미국
-news/xjtlu-filmmaking-to-columbia-university.html	38	h1	XJTLU 영화제작업과 컬럼비아 대학교: 미국의 최고의 영화 학교들의 제안
+news/xjtlu-filmmaking-to-columbia-university.html	38	h1	XJTLU Filmmaking → Columbia: 미국 주요 영화대학 합격 사례
 news/xjtlu-filmmaking-to-columbia-university.html	39	p	Yue Ren은 콜롬비아 대학교에서 창의적인 제작 제안을 받았고, 미국 영화 연구소, Chapman 대학교, 로요라 메리모운트 대학교에서 선택권을 받았다.
 news/xjtlu-filmmaking-to-columbia-university.html	40	div	기자: XJTLU 공식 뉴스 · 01/07/2025
 news/xjtlu-filmmaking-to-columbia-university.html	41	p	유레엔은 학부생입니다
@@ -2150,7 +2150,7 @@ news/xjtlu-harvard-cambridge-linguistics.html	34	a	XJTLU 뉴스
 news/xjtlu-harvard-cambridge-linguistics.html	35	small	뉴스 보기 →
 news/xjtlu-harvard-cambridge-linguistics.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-harvard-cambridge-linguistics.html	37	div	Harvard · Cambridge · Linguistics
-news/xjtlu-harvard-cambridge-linguistics.html	38	h1	XJTLU에서 하버드까지, 그리고 Cambridge까지, 언어학에서 학업의 경로
+news/xjtlu-harvard-cambridge-linguistics.html	38	h1	XJTLU → Harvard → Cambridge: 언어학에서 이어진 학업 경로
 news/xjtlu-harvard-cambridge-linguistics.html	39	p	Yiran Du는 XJTLU를 졸업하고 하버드에서 교육 석사를 마쳤으며 현재 케임브리지 대학교에서 교육 박사 과정을 계속하고 있습니다.
 news/xjtlu-harvard-cambridge-linguistics.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 4월 3일 2026
 news/xjtlu-harvard-cambridge-linguistics.html	41	p	Yiran Du, 2023년 XJTLU 전생,
@@ -2211,7 +2211,7 @@ news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	34	a	XJTLU 뉴스
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	35	small	뉴스 보기 →
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	37	div	학업 · 최고의 대학
-news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	38	h1	XJTLU에서 하버드까지 전액 장학금, 스탠퍼드, 예일, 옥스퍼드까지
+news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	38	h1	XJTLU에서 Harvard 전액 장학금까지: Stanford·Yale·Oxford offer 사례
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	39	p	XJTLU는 세계 최고의 대학원 프로그램에 경쟁하는 출발점이 될 수 있음을 보여주는 분명한 예입니다.
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 1월 10일 2026
 news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html	41	p	제이리, 전 학자
@@ -2276,7 +2276,7 @@ news/xjtlu-thai-graduate-cp-group.html	34	a	XJTLU 뉴스
 news/xjtlu-thai-graduate-cp-group.html	35	small	뉴스 보기 →
 news/xjtlu-thai-graduate-cp-group.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-thai-graduate-cp-group.html	37	div	동남아 · 일자리
-news/xjtlu-thai-graduate-cp-group.html	38	h1	XJTLU에서 CP 그룹: 동남아 학생이 어떻게 경력을 쌓을 수 있을까요?
+news/xjtlu-thai-graduate-cp-group.html	38	h1	XJTLU에서 CP Group으로: 태국 졸업생의 커리어 사례
 news/xjtlu-thai-graduate-cp-group.html	39	p	Pathikorn Luangpaiboonsri는 2025년 XJTLU를 졸업하고 태국 최대 기업에서 경영 연습생으로 방콕으로 돌아왔다.
 news/xjtlu-thai-graduate-cp-group.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 5월 13일 2026
 news/xjtlu-thai-graduate-cp-group.html	41	p	Pathikorn Luangpaiboonsri, 태국 전 학자
@@ -2337,7 +2337,7 @@ news/xjtlu-to-oxford-english-literature.html	34	a	XJTLU 뉴스
 news/xjtlu-to-oxford-english-literature.html	35	small	뉴스 보기 →
 news/xjtlu-to-oxford-english-literature.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-to-oxford-english-literature.html	37	div	인문학 · 옥스퍼드
-news/xjtlu-to-oxford-english-literature.html	38	h1	XJTLU에서 옥스퍼드: 한 전직 영문학 학생의 여행
+news/xjtlu-to-oxford-english-literature.html	38	h1	XJTLU → Oxford: 영어 전공 졸업생의 진학 사례
 news/xjtlu-to-oxford-english-literature.html	39	p	STEM 또는 비즈니스뿐만 아니라: XJTLU 전생은 옥스퍼드 대학교에서 영국 문학 학문 과정을 계속했습니다.
 news/xjtlu-to-oxford-english-literature.html	40	div	에디션: XJTLU 베트남 · 8월 30일 2026 · 원천: XJTLU 공식 뉴스 · 02/07/2025
 news/xjtlu-to-oxford-english-literature.html	41	p	유지 첸, 학부 졸업
@@ -2397,7 +2397,7 @@ news/xjtlu-to-tsinghua-indonesian-student.html	34	a	XJTLU 뉴스
 news/xjtlu-to-tsinghua-indonesian-student.html	35	small	뉴스 보기 →
 news/xjtlu-to-tsinghua-indonesian-student.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-to-tsinghua-indonesian-student.html	37	div	동남아시아 · 학술
-news/xjtlu-to-tsinghua-indonesian-student.html	38	h1	XJTLU에서 청주대학교: 인도네시아의 학생의 여행
+news/xjtlu-to-tsinghua-indonesian-student.html	38	h1	XJTLU에서 칭화대학교로: 인도네시아 학생의 진학 사례
 news/xjtlu-to-tsinghua-indonesian-student.html	39	p	메타 호르멘은 XJTLU에서 명확한 커리어 계획을 가지고 시작했고, 4년 후, Tsinghua 대학에서 경영학 석사 학위를 받았다.
 news/xjtlu-to-tsinghua-indonesian-student.html	40	div	편집: XJTLU 베트남 · 8월 30일 2026 · 출처: XJTLU 공식 뉴스 · 01/08/2026
 news/xjtlu-to-tsinghua-indonesian-student.html	41	p	메타 호르멘, 인도네시아의 학부 학생
@@ -2458,7 +2458,7 @@ news/xjtlu-to-upenn-behavioral-decision-sciences.html	34	a	XJTLU 뉴스
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	35	small	뉴스 보기 →
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	36	a	주요 공식 뉴스를 선별해 한국어로 확인 →
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	37	div	미국 펜실베이니아 대학교
-news/xjtlu-to-upenn-behavioral-decision-sciences.html	38	h1	XJTLU에서 펜실베이니아 대학교: PwC, 연구, 그리고 미국에서의 다음 단계
+news/xjtlu-to-upenn-behavioral-decision-sciences.html	38	h1	XJTLU → University of Pennsylvania: PwC·연구 경험과 미국 대학원 진학
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	39	p	Yunzhou Zhong는 XJTLU에서 정보 관리 및 정보 시스템 기반을 졸업하고, 펜실베이니아 대학에서 행동 및 결정 과학 석사를 계속했습니다.
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	40	div	기자: XJTLU 공식 뉴스 · 7월 22일 2025
 news/xjtlu-to-upenn-behavioral-decision-sciences.html	41	p	Yunzhou Zhong 졸업
