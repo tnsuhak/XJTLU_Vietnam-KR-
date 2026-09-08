@@ -11,6 +11,7 @@ on:
       - 'scripts/final_review_pass5.py'
       - 'scripts/final_review_pass6.py'
       - 'scripts/standardize_subpage_contacts_20260908.py'
+      - 'scripts/remove_homepage_cta_band_20260908.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -37,6 +38,7 @@ jobs:
           python scripts/final_review_pass5.py
           python scripts/final_review_pass6.py
           python scripts/standardize_subpage_contacts_20260908.py
+          python scripts/remove_homepage_cta_band_20260908.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
@@ -127,6 +129,9 @@ jobs:
 
           homepage=Path('index.html').read_text(encoding='utf-8')
           assert 'TNS_SUBPAGE_CONTACT_START' not in homepage
+          assert '9월 입학: 장학금과 지원 일정을 미리 확인하세요' not in homepage
+          assert '무료 조건평가 · 서류안내 · 비자 · 숙소 · 출국 준비' not in homepage
+          assert '입학조건 확인 →' not in homepage
           subpages=[p for p in pages if p!=Path('index.html')]
           assert len(subpages)==23
           for p in subpages:
@@ -156,6 +161,7 @@ jobs:
           print('internal/external link validation passed')
           print('final Korean typography and sentence-connection validation passed')
           print('subpage contact validation passed:',len(subpages),'pages')
+          print('homepage CTA removal validation passed')
           PY
       - name: Commit final Korean review
         run: |
@@ -163,6 +169,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Standardize Korean subpage contact buttons'
+          git commit -m 'Remove Korean homepage admissions CTA band'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
