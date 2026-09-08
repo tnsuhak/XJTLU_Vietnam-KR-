@@ -4,6 +4,7 @@ on:
     branches: [preview/sync-vietnam-site-ko-20260908]
     paths:
       - 'scripts/manual_final_korean.py'
+      - 'scripts/manual_final_korean_part2.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -21,15 +22,18 @@ jobs:
         with: {python-version: '3.12'}
       - run: pip install --disable-pip-version-check beautifulsoup4
       - name: Apply human Korean mappings
-        run: python scripts/manual_final_korean.py
+        run: |
+          python scripts/manual_final_korean.py
+          python scripts/manual_final_korean_part2.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
           from pathlib import Path
           from bs4 import BeautifulSoup
+          import re
           pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
           assert len(pages)==24
-          banned=['99,000만원','99.000만원','99,000원','99.000원','제 말은,','도천','도저','토주','후천 시립','학금','장학비','지아토ング']
+          banned=['99,000만원','99.000만원','99,000원','99.000원','제 말은,','도천','도저','토주','후천 시립','장학비','지아토ング']
           bad=[]
           for p in pages:
               soup=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser')
@@ -38,12 +42,12 @@ jobs:
               assert robots and 'noindex' in robots.get('content',''),p
               vis=soup.get_text(' ',strip=True)
               for b in banned:
-                  if b=='학금':
-                      import re
-                      if re.search(r'(?<!장)학금',vis): bad.append((str(p),b))
-                  elif b in vis: bad.append((str(p),b))
+                  if b in vis: bad.append((str(p),b))
+              if re.search(r'(?<!장)학금',vis): bad.append((str(p),'standalone 학금'))
           assert not bad,bad
-          assert '99.000 RMB' in Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
+          fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
+          assert '99.000 RMB' in fee or '99,000 RMB' in fee
+          assert '연간 99,000 RMB' in fee
           assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
           print('critical validation passed')
