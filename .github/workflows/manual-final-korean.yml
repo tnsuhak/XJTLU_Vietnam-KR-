@@ -7,6 +7,7 @@ on:
       - 'scripts/manual_final_korean_part2.py'
       - 'scripts/final_global_cleanup.py'
       - 'scripts/final_review_pass3.py'
+      - 'scripts/final_review_pass4.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -29,6 +30,7 @@ jobs:
           python scripts/manual_final_korean_part2.py
           python scripts/final_global_cleanup.py
           python scripts/final_review_pass3.py
+          python scripts/final_review_pass4.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
@@ -41,7 +43,10 @@ jobs:
             '99,000만원','99.000만원','99,000원','99.000원','제 말은,','도천','도저','토주','후천 시립','장학비','지아토ング',
             '비엔나티움','대도시청소년병원','출처: 청와대','무궁화','태평양 캠퍼스','타이창랑','20262027','시안 자이오통',
             '오해가 안되죠','海의 위치','학료','브로체어','부시로','학교의 생방송','활포','다지볼','산업과 수험 기간',
-            '리버풀대학교과','리버풀대학교은','빨리 물어봐','월드클라이딩','개요를 읽어보세요'
+            '리버풀대학교과','리버풀대학교은','빨리 물어봐','월드클라이딩','개요를 읽어보세요',
+            '전생','형상','ተበዳሪ','신학년','중국 학생만 선택하지','57년에서 146년','그리고 저는 제 생각에','빅 쿼리',
+            '전학생 네트워크','수석생 네트워크','모든 뉴스를 보','본문은 XJTLU에서 읽습니다','베트남어로 편집',
+            '이것은 XJTLU를 연구하는 사람들에게','러셀 그룹의 설립자','영어학 전생','그 후 조롱','전 학자','전문적인 힙합'
           ]
           bad=[]
           for p in pages:
@@ -67,6 +72,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Complete final human Korean review pass'
+          git commit -m 'Complete final human Korean review pass 4'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
