@@ -3,8 +3,8 @@ import re
 
 ROOTS = [Path('.'), Path('news')]
 
-# Korean review copy: final normalization for numbers, punctuation, and a few
-# sentences that still read like literal translation after pass 4.
+# Korean review copy: final normalization for numbers, punctuation, metadata,
+# and a few sentences that still read like literal translation after pass 4.
 GLOBAL_REPL = {
     '99.000 RMB': '99,000 RMB',
     '7,0/10': '7.0/10',
@@ -56,6 +56,18 @@ PAGE_REPL = {
 }
 
 META = {
+    'index.html': 'XJTLU 2027 학비 99,000 RMB, 장학금, 입학조건, 전공, 2+2, University of Liverpool 학위구조와 학생생활을 한눈에 정리합니다.',
+    'du-hoc-trung-quoc-2027.html': '2027 중국 유학을 준비하는 베트남 학생을 위해 입학조건, 비용, 장학금, 영어수업 과정, 학생비자와 XJTLU 선택 포인트를 정리합니다.',
+    'du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html': '중국 쑤저우에서 영어로 학위를 공부하는 XJTLU의 구조, University of Liverpool과의 관계, 4+0·2+2 경로와 전공 선택 포인트를 설명합니다.',
+    'university-of-liverpool-vietnam.html': 'University of Liverpool과 베트남의 교육·의료·AI·디지털헬스 협력 사례를 살펴보고 XJTLU와 연결해서 볼 수 있는 학술적 배경을 정리합니다.',
+    'xjtlu-2plus2-liverpool.html': 'XJTLU 4+0과 2+2의 차이, University of Liverpool 학위구조, 리버풀에서 공부하는 2년의 비용·장학금과 전공별 확인사항을 정리합니다.',
+    'xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html': '베트남 학생의 XJTLU 2027 입학조건을 1학년 입학, 2학년 직접입학, 대학 재학 후 편입, 영어성적과 주요 지원일정으로 나누어 정리합니다.',
+    'xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html': 'XJTLU의 SIP·타이창 캠퍼스 스포츠시설, 200개 이상의 학생단체·동아리, 학생행사, 숙소와 쑤저우 생활환경을 정리합니다.',
+    'xjtlu-hoc-phi-hoc-bong-2027.html': 'XJTLU 2027 학부 학비 연 99,000 RMB, Entry Scholarship, Early Bird 10%, 숙박·생활비와 2+2 선택 시 비용을 정리합니다.',
+    'xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html': 'XJTLU 2025 Graduate Destinations 자료를 바탕으로 대학원 진학률과 UCL·Oxford·Cambridge·Harvard 등 주요 진학대학 사례를 정리합니다.',
+    'xjtlu-nganh-hoc-nghe-nghiep.html': 'XJTLU 2027 전공을 비즈니스, AI·컴퓨터, 공학, 생명과학, 미디어·디자인 등 진로 분야별로 비교하고 전공 선택 포인트를 정리합니다.',
+    'xjtlu-ranking-2027.html': 'XJTLU의 QS 2027, THE 2026, ARWU 2026 순위를 비교하고 University of Liverpool·Xi’an Jiaotong University 순위와 혼동하지 않도록 설명합니다.',
+    'news/index.html': 'XJTLU 공식 뉴스를 바탕으로 동남아 학생, 졸업생 커리어, University of Liverpool 학위, 세계 상위권 대학원 진학 사례를 선별해 소개합니다.',
     'news/xjtlu-alumni-australia-2026.html': 'XJTLU는 2025년 600명 이상의 학생이 호주 주요 대학으로 진학했다고 소개했습니다. 시드니·멜버른·브리즈번의 졸업생 네트워크와 진학 사례를 정리합니다.',
     'news/xjtlu-alumni-singapore-2026.html': 'XJTLU가 공개한 싱가포르 동문·진학 네트워크를 정리합니다. 500명 이상의 졸업생 연결과 현재 약 150명의 현지 학업·근무 사례를 소개합니다.',
     'news/xjtlu-class-2026-liverpool-degrees.html': 'XJTLU 2026 졸업식에서 학부생 3,797명이 XJTLU와 University of Liverpool 학위를 받은 사례와 학위구조를 정리합니다.',
@@ -70,6 +82,13 @@ META = {
     'news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html': 'XJTLU의 인도네시아 학생 약 700명과 신규 지원 1,500건 이상 사례를 통해 동남아 학생 커뮤니티와 ASEAN 네트워크를 살펴봅니다.',
 }
 
+
+def replace_meta(raw, attr, value, desc):
+    pat = rf'<meta content="[^"]*" {attr}="{re.escape(value)}"\s*/>'
+    repl = f'<meta content="{desc}" {attr}="{value}"/>'
+    return re.subn(pat, repl, raw, count=1)
+
+
 changed=[]
 for root in ROOTS:
     for p in sorted(root.glob('*.html')):
@@ -82,9 +101,13 @@ for root in ROOTS:
             s=s.replace(a,b)
         if key in META:
             desc=META[key]
-            s, n = re.subn(r'<meta content="[^"]*" name="description"\s*/>', f'<meta content="{desc}" name="description"/>', s, count=1)
+            s, n = replace_meta(s, 'name', 'description', desc)
             if n != 1:
                 raise RuntimeError(f'meta description not uniquely found: {key} ({n})')
+            # OG/Twitter descriptions are optional in the source mirror. If present,
+            # keep them aligned with the human-reviewed Korean description.
+            s, _ = replace_meta(s, 'property', 'og:description', desc)
+            s, _ = replace_meta(s, 'name', 'twitter:description', desc)
         if s != old:
             p.write_text(s,encoding='utf-8')
             changed.append(key)
