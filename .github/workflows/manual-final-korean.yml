@@ -12,6 +12,7 @@ on:
       - 'scripts/final_review_pass6.py'
       - 'scripts/standardize_subpage_contacts_20260908.py'
       - 'scripts/remove_homepage_cta_band_20260908.py'
+      - 'scripts/remove_subpage_source_footers_20260909.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -39,6 +40,7 @@ jobs:
           python scripts/final_review_pass6.py
           python scripts/standardize_subpage_contacts_20260908.py
           python scripts/remove_homepage_cta_band_20260908.py
+          python scripts/remove_subpage_source_footers_20260909.py
       - name: Validate critical facts and review settings
         run: |
           python - <<'PY'
@@ -142,6 +144,14 @@ jobs:
               assert 'href="https://zalo.me/0336737617"' in raw,p
               assert '호치민 전화상담' in raw and '하노이 전화상담' in raw and 'Zalo 상담' in raw,p
 
+          # Ordinary guide pages must not show the small source footer. News pages
+          # intentionally retain their original-source links.
+          guide_pages=[p for p in Path('.').glob('*.html') if p.name!='index.html']
+          assert len(guide_pages)==10, len(guide_pages)
+          for p in guide_pages:
+              raw=p.read_text(encoding='utf-8')
+              assert not re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b', raw, re.I), p
+
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
           admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
           twoplus=Path('xjtlu-2plus2-liverpool.html').read_text(encoding='utf-8')
@@ -162,6 +172,7 @@ jobs:
           print('final Korean typography and sentence-connection validation passed')
           print('subpage contact validation passed:',len(subpages),'pages')
           print('homepage CTA removal validation passed')
+          print('guide source footer removal validation passed:',len(guide_pages),'pages')
           PY
       - name: Commit final Korean review
         run: |
@@ -169,6 +180,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Remove Korean homepage admissions CTA band'
+          git commit -m 'Remove Korean guide source footers'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
