@@ -15,6 +15,7 @@ on:
       - 'scripts/remove_homepage_cta_band_20260908.py'
       - 'scripts/remove_subpage_source_footers_20260909.py'
       - 'scripts/normalize_menu_links_20260909.py'
+      - 'scripts/add_home_market_links_20260909.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -45,6 +46,7 @@ jobs:
           python scripts/remove_homepage_cta_band_20260908.py
           python scripts/remove_subpage_source_footers_20260909.py
           python scripts/normalize_menu_links_20260909.py
+          python scripts/add_home_market_links_20260909.py
       - name: Validate current Korean review
         run: |
           python - <<'PY'
@@ -74,6 +76,12 @@ jobs:
                   assert href in hrefs,(p,href)
           homepage=Path('index.html').read_text(encoding='utf-8')
           assert 'xjtlu-ranking-2027.html' not in homepage
+          start='<!-- VIETNAM-MARKET-HOME-LINKS-20260909 -->'
+          end='<!-- /VIETNAM-MARKET-HOME-LINKS-20260909 -->'
+          assert homepage.count(start)==1 and homepage.count(end)==1
+          home_block=homepage.split(start,1)[1].split(end,1)[0]
+          for href in menu_links:
+              assert href in home_block,href
           subpages=[p for p in pages if p!=Path('index.html')]
           assert len(subpages)==25,len(subpages)
           for p in subpages:
@@ -106,6 +114,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add -A '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Normalize current guide links in Korean menus'
+          git commit -m 'Normalize Korean homepage guide links'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
