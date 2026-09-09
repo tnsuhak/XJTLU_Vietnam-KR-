@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name 'TNS Site Manager'
           git config user.email 'actions@users.noreply.github.com'
-          git add preview-parity-report.json review-visible-text-current.txt
+          git add preview-parity-report.json review-visible-text-current.txt vietnam-visible-text-current.txt
           if git diff --cached --quiet; then
             echo 'QA reports unchanged'
             exit 0
