@@ -70,8 +70,14 @@ def visible_nodes(soup: BeautifulSoup):
         if isinstance(node, Comment) or not node.parent or node.parent.name in SKIP_TAGS:
             continue
         t=' '.join(str(node).split())
-        if t: rows.append((node.parent.name,t))
+        if t: rows.append((node.parent,t))
     return rows
+
+def in_office_block(tag):
+    if not tag: return False
+    classes=tag.get('class') or []
+    if 'tns-subpage-office' in classes: return True
+    return tag.find_parent(class_='tns-subpage-office') is not None
 
 source_pages=html_pages(SOURCE)
 target_pages=html_pages(TARGET)
@@ -103,24 +109,30 @@ visible_lines=[]
 for rel in target_pages:
     soup=soup_for(TARGET,rel)
     for i,(tag,t) in enumerate(visible_nodes(soup),1):
-        visible_lines.append(f'{rel}\t{i}\t{tag}\t{t}')
+        visible_lines.append(f'{rel}\t{i}\t{tag.name}\t{t}')
         reasons=[]
-        if VIET_RE.search(t): reasons.append('Vietnamese-diacritic text')
+        office=in_office_block(tag)
+        # Vietnamese spelling is intentional inside official Vietnamese office addresses.
+        # The student name Mai Anh Ngô is also intentionally preserved.
+        if VIET_RE.search(t) and not office and 'Mai Anh Ngô' not in t:
+            reasons.append('Vietnamese-diacritic text')
         if re.search(r'(?<!장)학금',t): reasons.append('suspicious:standalone 학금')
         for bad in SUSPICIOUS:
             if bad in t: reasons.append('suspicious:'+bad)
-        if re.search(r'\b(?:và|của|cho|với|được|sinh viên|học phí|tuyển sinh|ngành học)\b',t,re.I):
+        if not office and re.search(r'\b(?:và|của|cho|với|được|sinh viên|học phí|tuyển sinh|ngành học)\b',t,re.I):
             reasons.append('Vietnamese phrase')
-        if t in {'.',',',';',':'}:
-            reasons.append('standalone punctuation')
+        # Only flag punctuation when the entire containing element is punctuation;
+        # punctuation text nodes next to inline links/strong tags are normal HTML.
+        if t in {'.',',',';',':'} and tag.get_text(' ',strip=True)==t:
+            reasons.append('standalone punctuation block')
         if reasons:
-            translation_flags.append({'page':rel,'node':i,'tag':tag,'text':t,'reasons':reasons})
+            translation_flags.append({'page':rel,'node':i,'tag':tag.name,'text':t,'reasons':reasons})
 
 source_visible=[]
 for rel in source_pages:
     soup=soup_for(SOURCE,rel)
     for i,(tag,t) in enumerate(visible_nodes(soup),1):
-        source_visible.append(f'{rel}\t{i}\t{tag}\t{t}')
+        source_visible.append(f'{rel}\t{i}\t{tag.name}\t{t}')
 
 report={
     'source_branch':'preview/home-hero-copy-20260908',
