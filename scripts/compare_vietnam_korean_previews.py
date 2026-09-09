@@ -92,7 +92,6 @@ for rel in matched:
         'korean_youtube_ids': youtube_ids(k),
     }
 
-# Korean language QA over all current Korean pages.
 translation_flags=[]
 visible_lines=[]
 for rel in target_pages:
@@ -103,11 +102,16 @@ for rel in target_pages:
         if VIET_RE.search(t): reasons.append('Vietnamese-diacritic text')
         for bad in SUSPICIOUS:
             if bad in t: reasons.append('suspicious:'+bad)
-        # flag long visible strings that contain Latin-heavy Vietnamese-looking connective words
         if re.search(r'\b(?:và|của|cho|với|được|sinh viên|học phí|tuyển sinh|ngành học)\b',t,re.I):
             reasons.append('Vietnamese phrase')
         if reasons:
             translation_flags.append({'page':rel,'node':i,'text':t,'reasons':reasons})
+
+source_visible=[]
+for rel in source_pages:
+    soup=soup_for(SOURCE,rel)
+    for i,(tag,t) in enumerate(visible_nodes(soup),1):
+        source_visible.append(f'{rel}\t{i}\t{tag}\t{t}')
 
 report={
     'source_branch':'preview/home-hero-copy-20260908',
@@ -122,6 +126,7 @@ report={
 }
 Path('preview-parity-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 Path('review-visible-text-current.txt').write_text('\n'.join(visible_lines)+'\n',encoding='utf-8')
+Path('vietnam-visible-text-current.txt').write_text('\n'.join(source_visible)+'\n',encoding='utf-8')
 
 print('source pages:',len(source_pages))
 print('korean pages:',len(target_pages))
