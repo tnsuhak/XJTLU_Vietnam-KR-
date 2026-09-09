@@ -39,6 +39,15 @@ def add_after_first_available_href(menu: str, hrefs, new_anchor: str):
     raise RuntimeError(f'no anchor found from: {hrefs}')
 
 
+def add_after_last_href(menu: str, href: str, new_anchor: str):
+    pat = re.compile(r'<a\b[^>]*href=["\']' + re.escape(href) + r'["\'][^>]*>.*?</a>', re.I | re.S)
+    matches = list(pat.finditer(menu))
+    if not matches:
+        raise RuntimeError(f'anchor not found: {href}')
+    m = matches[-1]
+    return menu[:m.end()] + new_anchor + menu[m.end():]
+
+
 def add_after_last_studentlife_href(menu: str, new_anchor: str):
     pat = re.compile(r'<a\b[^>]*href=["\']/xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo\.html(?:#[^"\']*)?["\'][^>]*>.*?</a>', re.I | re.S)
     matches = list(pat.finditer(menu))
@@ -62,6 +71,13 @@ for p in PAGES:
         flags=re.I | re.S,
     )
 
+    menu = re.sub(
+        r'(<h3\b[^>]*>.*?)(<a\b[^>]*href=["\']' + re.escape(COST_HREF) + r'["\'][^>]*>.*?</a>)(</h3>)',
+        r'\1\3',
+        menu,
+        flags=re.I | re.S,
+    )
+
     if f'href="{CITY_HREF}"' not in menu and f"href='{CITY_HREF}'" not in menu:
         menu = add_after_first_available_href(
             menu,
@@ -70,9 +86,9 @@ for p in PAGES:
         )
 
     if f'href="{COST_HREF}"' not in menu and f"href='{COST_HREF}'" not in menu:
-        menu = add_after_first_available_href(
+        menu = add_after_last_href(
             menu,
-            ['/xjtlu-hoc-phi-hoc-bong-2027.html'],
+            '/xjtlu-hoc-phi-hoc-bong-2027.html',
             f'<a href="{COST_HREF}">XJTLU 생활비 2027</a>',
         )
 
@@ -87,6 +103,8 @@ for p in PAGES:
             raise RuntimeError(f'{p}: missing menu href {href}')
     if RANK_HREF in menu:
         raise RuntimeError(f'{p}: stale ranking menu href')
+    if re.search(r'<h3\b[^>]*>.*?' + re.escape(COST_HREF) + r'.*?</h3>', menu, re.I | re.S):
+        raise RuntimeError(f'{p}: living-cost link nested inside heading')
 
     new_text = before + menu + after
     if new_text != text:
