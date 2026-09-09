@@ -56,6 +56,23 @@ def add_after_last_studentlife_href(menu: str, new_anchor: str):
     m = matches[-1]
     return menu[:m.end()] + new_anchor + menu[m.end():]
 
+
+def remove_cost_link_from_heading(menu: str) -> str:
+    def clean_h3(match):
+        block = match.group(0)
+        return re.sub(
+            r'<a\b[^>]*href=["\']' + re.escape(COST_HREF) + r'["\'][^>]*>.*?</a>',
+            '',
+            block,
+            flags=re.I | re.S,
+        )
+    return re.sub(r'<h3\b[^>]*>.*?</h3>', clean_h3, menu, flags=re.I | re.S)
+
+
+def cost_link_nested_in_heading(menu: str) -> bool:
+    return any(COST_HREF in block for block in re.findall(r'<h3\b[^>]*>.*?</h3>', menu, flags=re.I | re.S))
+
+
 changed = []
 for p in PAGES:
     text = p.read_text(encoding='utf-8')
@@ -71,12 +88,7 @@ for p in PAGES:
         flags=re.I | re.S,
     )
 
-    menu = re.sub(
-        r'(<h3\b[^>]*>.*?)(<a\b[^>]*href=["\']' + re.escape(COST_HREF) + r'["\'][^>]*>.*?</a>)(</h3>)',
-        r'\1\3',
-        menu,
-        flags=re.I | re.S,
-    )
+    menu = remove_cost_link_from_heading(menu)
 
     if f'href="{CITY_HREF}"' not in menu and f"href='{CITY_HREF}'" not in menu:
         menu = add_after_first_available_href(
@@ -103,7 +115,7 @@ for p in PAGES:
             raise RuntimeError(f'{p}: missing menu href {href}')
     if RANK_HREF in menu:
         raise RuntimeError(f'{p}: stale ranking menu href')
-    if re.search(r'<h3\b[^>]*>.*?' + re.escape(COST_HREF) + r'.*?</h3>', menu, re.I | re.S):
+    if cost_link_nested_in_heading(menu):
         raise RuntimeError(f'{p}: living-cost link nested inside heading')
 
     new_text = before + menu + after
