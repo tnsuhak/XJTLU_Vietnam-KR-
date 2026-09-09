@@ -10,6 +10,7 @@ on:
       - 'scripts/final_review_pass4.py'
       - 'scripts/final_review_pass5.py'
       - 'scripts/final_review_pass6.py'
+      - 'scripts/final_review_pass7.py'
       - 'scripts/standardize_subpage_contacts_20260908.py'
       - 'scripts/remove_homepage_cta_band_20260908.py'
       - 'scripts/remove_subpage_source_footers_20260909.py'
@@ -38,17 +39,18 @@ jobs:
           python scripts/final_review_pass4.py
           python scripts/final_review_pass5.py
           python scripts/final_review_pass6.py
+          python scripts/final_review_pass7.py
           python scripts/standardize_subpage_contacts_20260908.py
           python scripts/remove_homepage_cta_band_20260908.py
           python scripts/remove_subpage_source_footers_20260909.py
-      - name: Validate Korean review after ranking removal
+      - name: Validate current Korean review
         run: |
           python - <<'PY'
           from pathlib import Path
           from bs4 import BeautifulSoup
           import re
           pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
-          assert len(pages)==23, len(pages)
+          assert len(pages)==26, len(pages)
           assert not Path('xjtlu-ranking-2027.html').exists()
           for p in pages:
               raw=p.read_text(encoding='utf-8')
@@ -61,7 +63,7 @@ jobs:
           homepage=Path('index.html').read_text(encoding='utf-8')
           assert 'xjtlu-ranking-2027.html' not in homepage
           subpages=[p for p in pages if p!=Path('index.html')]
-          assert len(subpages)==22,len(subpages)
+          assert len(subpages)==25,len(subpages)
           for p in subpages:
               raw=p.read_text(encoding='utf-8')
               assert raw.count('TNS_SUBPAGE_CONTACT_START')==1,p
@@ -70,14 +72,21 @@ jobs:
           guide_pages=[p for p in Path('.').glob('*.html') if p.name!='index.html']
           for p in guide_pages:
               raw=p.read_text(encoding='utf-8')
-              assert not re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b',raw,re.I),p
+              assert not re.search(r'class=["\'][^"\']*\b(?:sources|source|source-footer)\b',raw,re.I),p
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
           admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
+          living=Path('xjtlu-chi-phi-sinh-hoat-2027.html').read_text(encoding='utf-8')
+          dorm=Path('xjtlu-ky-tuc-xa-sip-taicang.html').read_text(encoding='utf-8')
+          city=Path('xjtlu-to-chau-thuong-hai-viet-nam.html').read_text(encoding='utf-8')
           assert '99,000 RMB' in fee
           assert 'IELTS 5.0' in admissions and 'TOEFL iBT 62' in admissions
+          assert '3,700 RMB' in living and '6,450 RMB' in living and '9,600 RMB' in living
+          assert '6,000 RMB' in dorm and '14,000 RMB' in dorm and '5–15분' in dorm
+          assert '2,047.5억 RMB' in city and '25–30분' in city
+          assert '베트남 학생의 상세 입학조건은' in Path('du-hoc-trung-quoc-2027.html').read_text(encoding='utf-8')
           assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
-          print('Korean review validation passed:',len(pages),'pages; ranking removed')
+          print('Korean review validation passed:',len(pages),'pages')
           PY
       - name: Commit final Korean review
         run: |
@@ -85,6 +94,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add -A '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Remove XJTLU ranking guide and links'
+          git commit -m 'Polish current 26-page Korean review'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
