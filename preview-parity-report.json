@@ -1,0 +1,1793 @@
+{
+  "source_branch": "preview/home-hero-copy-20260908",
+  "source_html_pages": 26,
+  "korean_html_pages": 23,
+  "missing_in_korean": [
+    "xjtlu-chi-phi-sinh-hoat-2027.html",
+    "xjtlu-ky-tuc-xa-sip-taicang.html",
+    "xjtlu-to-chau-thuong-hai-viet-nam.html"
+  ],
+  "extra_in_korean": [],
+  "matched_pages": 23,
+  "page_reports": {
+    "du-hoc-trung-quoc-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 10,
+        "section": 9,
+        "details": 0,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 10,
+        "section": 9,
+        "details": 0,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 7,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 7,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "index.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 12,
+        "h3": 15,
+        "section": 19,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 21
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 12,
+        "h3": 15,
+        "section": 19,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 18
+      },
+      "missing_internal_hrefs_in_korean": [
+        "/xjtlu-chi-phi-sinh-hoat-2027.html",
+        "/xjtlu-ky-tuc-xa-sip-taicang.html",
+        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
+      ],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/index.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 13,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 26
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 13,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 26
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-alumni-australia-2026.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-alumni-singapore-2026.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-class-2026-liverpool-degrees.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-della-vivo-vietnam-southeast-asia.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-filmmaking-to-columbia-university.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-harvard-cambridge-linguistics.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-thai-graduate-cp-group.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-to-oxford-english-literature.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-to-tsinghua-indonesian-student.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-to-upenn-behavioral-decision-sciences.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "university-of-liverpool-vietnam.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 15,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 15,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-2plus2-liverpool.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 15,
+        "section": 15,
+        "details": 0,
+        "table": 0,
+        "iframe": 2,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 15,
+        "section": 14,
+        "details": 0,
+        "table": 0,
+        "iframe": 2,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [
+        "/xjtlu-chi-phi-sinh-hoat-2027.html",
+        "/xjtlu-ky-tuc-xa-sip-taicang.html",
+        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
+      ],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-hoc-phi-hoc-bong-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 13,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 13,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 12,
+        "details": 1,
+        "table": 2,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 12,
+        "details": 1,
+        "table": 2,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-nganh-hoc-nghe-nghiep.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 21,
+        "section": 16,
+        "details": 4,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 17,
+        "section": 15,
+        "details": 4,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [
+        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
+      ],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    }
+  },
+  "translation_flag_count": 146,
+  "translation_flags": [
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 2,
+      "text": "[한글 검수판] 2027 중국 유학 | 조건·비용·장학금·비자",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 37,
+      "text": "2027 중국 유학: 입학 조건, 비용, 장학금과 비자",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 38,
+      "text": "중국 유학을 준비할 때 무엇부터 확인해야 하는지 순서대로 정리했습니다. 수업 언어 선택, 입학조건 확인, 예산 계산, 장학금 탐색, 비자 준비, 학교 선택까지 한 번에 살펴볼 수 있습니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 49,
+      "text": "장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 50,
+      "text": "정부 · 지방정부 · 대학별 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 57,
+      "text": "4. 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 64,
+      "text": "학사·대학원 진학 여부와 함께 장학금, 비용, 대학의 위상, 전공, 중국 시장 경험 등 자신의 우선순위를 먼저 정하는 것이 좋습니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 83,
+      "text": "장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 86,
+      "text": "XJTLU 2027 학비·숙소·장학금 가이드",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 88,
+      "text": "4. 중국 유학 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 89,
+      "text": "중국 유학 장학금은 중앙정부, 지방정부, 대학 자체 장학금 등 여러 형태가 있습니다. 지원조건과 혜택이 크게 다르므로 ‘중국 장학금’ 하나로 보지 말고 목표 대학과 프로그램별로 확인해야 합니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 107,
+      "text": "반대로 중국어 어학연수, 중국정부 장학금 중심의 전통적인 공립대 진학이 주목적이라면 다른 선택이 더 적합할 수 있습니다. 이 페이지는 중국에서 영어로 국제 학위과정을 공부하려는 학생을 중심으로 설명합니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 112,
+      "text": "학비 & 장학금 보기",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 119,
+      "text": "먼저 예산과 원하는 수업 언어를 정한 뒤 학교를 좁히는 편이 좋습니다. 중국 유학은 학교별 학비, 장학금, 생활비 차이가 크기 때문입니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 133,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-2027.html",
+      "node": 136,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
+      "node": 60,
+      "text": "4+0과 2+2 차이, 리버풀 학비와 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
+      "node": 68,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
+      "node": 79,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
+      "node": 82,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 2,
+      "text": "[한글 검수판] XJTLU 베트남 2027 | 학비·장학금·입학·영국 학위",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 9,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 32,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 34,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 89,
+      "text": "50%까지의 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 204,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 206,
+      "text": "메인에서는 핵심 금액만 확인하고, 세부 조건은 학비·장학금 가이드에서 확인하세요.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 213,
+      "text": "학비·장학금·비용 자세히 보기 →",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 238,
+      "text": "베트남 학생 Mai Anh Ngô는 XJTLU 소속으로 2025 화동지역 중국어 스피치 대회에서 2등상을 받았습니다.",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 284,
+      "text": "입학조건 · 전공선택 · 장학금 · 비자 · 기숙사",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 286,
+      "text": "3층, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 292,
+      "text": "6층, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
+      "node": 72,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
+      "node": 80,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
+      "node": 83,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 72,
+      "text": "XJTLU에서 Harvard 전액 장학금까지: Stanford·Yale·Oxford offer 사례",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 73,
+      "text": "Biomedical Statistics 전공 Jiayi Li는 Harvard 석사 전액 장학금을 받고 Stanford, Yale, Oxford에서도 offer를 받았습니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 85,
+      "text": "XJTLU Filmmaking 졸업생은 Columbia University, American Film Institute 등 미국 주요 영화대학에서 offer를 받았고 Chapman University에서는 40,000달러 장학금을 받았습니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 93,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "node": 96,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-australia-2026.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-australia-2026.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-australia-2026.html",
+      "node": 70,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-australia-2026.html",
+      "node": 73,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-singapore-2026.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-singapore-2026.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-singapore-2026.html",
+      "node": 64,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-singapore-2026.html",
+      "node": 70,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-alumni-singapore-2026.html",
+      "node": 73,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
+      "node": 67,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
+      "node": 74,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
+      "node": 77,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
+      "node": 64,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
+      "node": 70,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
+      "node": 73,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
+      "node": 50,
+      "text": "40,000달러의 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
+      "node": 72,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
+      "node": 75,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
+      "node": 57,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
+      "node": 64,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
+      "node": 67,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 2,
+      "text": "[한글 검수판] XJTLU → Harvard 전액 장학금 | Stanford·Yale·Oxford offer",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 37,
+      "text": "XJTLU에서 Harvard 전액 장학금까지: Stanford·Yale·Oxford offer 사례",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 43,
+      "text": "Harvard University 석사 전액 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 61,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 68,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
+      "node": 71,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-thai-graduate-cp-group.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-thai-graduate-cp-group.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-thai-graduate-cp-group.html",
+      "node": 57,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-thai-graduate-cp-group.html",
+      "node": 64,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-thai-graduate-cp-group.html",
+      "node": 67,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-oxford-english-literature.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-oxford-english-literature.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-oxford-english-literature.html",
+      "node": 63,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-oxford-english-literature.html",
+      "node": 66,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
+      "node": 57,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
+      "node": 64,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
+      "node": 67,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
+      "node": 64,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
+      "node": 70,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
+      "node": 73,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "university-of-liverpool-vietnam.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "university-of-liverpool-vietnam.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "university-of-liverpool-vietnam.html",
+      "node": 104,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "university-of-liverpool-vietnam.html",
+      "node": 107,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 71,
+      "text": "리버풀 이동 시 학비와 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 79,
+      "text": "에 해당하면서 STEM은 평균 80% 이상, 비-STEM은 평균 70% 이상 기준을 충족하면 30% Merit Scholarship 대상이 될 수 있습니다. 이 장학금은 10% Partnership Discount와 중복 적용되지 않습니다. 실제 적용기준은 해당 연도 리버풀대학교 안내를 확인해야 합니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 108,
+      "text": "XJTLU 학비와 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 113,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-2plus2-liverpool.html",
+      "node": 116,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 46,
+      "text": "장학금 / 3학년 편입 관련 마감",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 95,
+      "text": "장학금 신청 마감",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 98,
+      "text": "장학금 심사, 영어조건 충족, 비자 준비 시간을 고려하면 최종 마감일보다 여유 있게 지원하는 것이 좋습니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 122,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
+      "node": 125,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
+      "node": 88,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
+      "node": 99,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
+      "node": 102,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 2,
+      "text": "[한글 검수판] XJTLU 2027 학비·장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 36,
+      "text": "2027 학비 · 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 37,
+      "text": "XJTLU 2027 학비와 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 51,
+      "text": "주요 장학금 및 혜택",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 87,
+      "text": "4+0, 2+2와 장학금을 비교해보세요",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 94,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
+      "node": 97,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
+      "node": 300,
+      "text": "Harvard 전액 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
+      "node": 301,
+      "text": "Jiayi Li는 Harvard 장학금과 함께 Stanford, Yale, Oxford 등에서도 offer를 받았습니다.",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
+      "node": 310,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
+      "node": 313,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-nganh-hoc-nghe-nghiep.html",
+      "node": 18,
+      "text": "학비 & 장학금",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-nganh-hoc-nghe-nghiep.html",
+      "node": 20,
+      "text": "학비, 장학금 & 2027 주요 일정",
+      "reasons": [
+        "suspicious:학금"
+      ]
+    },
+    {
+      "page": "xjtlu-nganh-hoc-nghe-nghiep.html",
+      "node": 128,
+      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "xjtlu-nganh-hoc-nghe-nghiep.html",
+      "node": 131,
+      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    }
+  ]
+}
