@@ -5,6 +5,7 @@ on:
     branches: [preview/sync-vietnam-site-ko-20260908]
     paths:
       - 'scripts/sync_current_vietnam_guides_human_ko.py'
+      - 'scripts/reconcile_current_vietnam_structure.py'
       - '.github/workflows/sync-current-vietnam-guides-human-ko.yml'
   workflow_dispatch:
 
@@ -32,7 +33,9 @@ jobs:
           rm -rf /tmp/xjtlu-vietnam-source
           git clone --depth 1 --branch preview/home-hero-copy-20260908 https://github.com/tnsuhak/XJTLU_Vietnam.git /tmp/xjtlu-vietnam-source
       - name: Apply human Korean parity additions
-        run: python scripts/sync_current_vietnam_guides_human_ko.py /tmp/xjtlu-vietnam-source
+        run: |
+          python scripts/sync_current_vietnam_guides_human_ko.py /tmp/xjtlu-vietnam-source
+          python scripts/reconcile_current_vietnam_structure.py /tmp/xjtlu-vietnam-source
       - name: Validate current parity essentials
         run: |
           python - <<'PY'
