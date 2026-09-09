@@ -19,6 +19,7 @@ NUM_REPL = {
     '204,75 tỷ RMB':'2,047.5억 RMB', '204.75 billion RMB':'2,047.5억 RMB',
     '25–30 phút':'25–30분', '5–15 phút':'5–15분',
     'Tô Châu & Thượng Hải':'쑤저우 & 상하이',
+    'Tô Châu &amp; Thượng Hải':'쑤저우 &amp; 상하이',
 }
 for p in NEW_PAGES:
     if not p.exists():
@@ -26,7 +27,12 @@ for p in NEW_PAGES:
     s=p.read_text(encoding='utf-8')
     for a,b in NUM_REPL.items():
         s=s.replace(a,b)
-    p.write_text(s,encoding='utf-8')
+    # Also translate any surviving visible anchor text after HTML escaping.
+    soup=BeautifulSoup(s,'html.parser')
+    for a in soup.find_all('a'):
+        if a.get_text(' ',strip=True)=='Tô Châu & Thượng Hải':
+            a.string='쑤저우 & 상하이'
+    p.write_text(str(soup),encoding='utf-8')
 
 # Repair two Korean sentences whose linked anchor split the original Vietnamese
 # sentence and left unnatural Korean fragments.
