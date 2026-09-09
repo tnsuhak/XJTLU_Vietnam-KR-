@@ -1,17 +1,15 @@
 from pathlib import Path
 import re
 
-# Remove the small '자료 출처' footer blocks from ordinary guide pages only.
-# News articles are intentionally excluded so their original-source links remain.
-pages = [p for p in Path('.').glob('*.html') if p.name != 'index.html']
-removed_total = 0
+RANKING = 'xjtlu-ranking-2027.html'
 
+guide_pages = [p for p in Path('.').glob('*.html') if p.name not in {'index.html', RANKING}]
+removed_total = 0
 patterns = [
     r'\n?\s*<(?:div|section|p)\b[^>]*class=["\'][^"\']*\bsources\b[^"\']*["\'][^>]*>.*?</(?:div|section|p)>\s*',
     r'\n?\s*<(?:div|section|p)\b[^>]*class=["\'][^"\']*\bsource-footer\b[^"\']*["\'][^>]*>.*?</(?:div|section|p)>\s*',
 ]
-
-for page in pages:
+for page in guide_pages:
     text = page.read_text(encoding='utf-8')
     original = text
     for pattern in patterns:
@@ -19,14 +17,29 @@ for page in pages:
         removed_total += count
     if text != original:
         page.write_text(text, encoding='utf-8')
-        print('removed source footer:', page)
 
-leftovers = []
-for page in pages:
+all_html = sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html'))
+link_re = re.compile(
+    r'<a\b[^>]*href=["\'](?:https?://[^"\']+)?/?xjtlu-ranking-2027\.html(?:#[^"\']*)?["\'][^>]*>.*?</a>',
+    re.I | re.S,
+)
+for page in all_html:
+    if page.name == RANKING:
+        continue
     text = page.read_text(encoding='utf-8')
-    if re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b', text, flags=re.I):
-        leftovers.append(str(page))
-if leftovers:
-    raise SystemExit(f'source footer still present: {leftovers}')
+    text = link_re.sub('', text)
+    page.write_text(text, encoding='utf-8')
 
-print('ordinary Korean guide pages checked:', len(pages), 'removed blocks:', removed_total)
+ranking = Path(RANKING)
+if ranking.exists():
+    ranking.unlink()
+
+assert not ranking.exists()
+for page in sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html')):
+    raw = page.read_text(encoding='utf-8')
+    assert RANKING not in raw, page
+for page in guide_pages:
+    if page.exists():
+        raw = page.read_text(encoding='utf-8')
+        assert not re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b', raw, re.I), page
+print('Korean ranking guide removed; source footers removed:', removed_total)
