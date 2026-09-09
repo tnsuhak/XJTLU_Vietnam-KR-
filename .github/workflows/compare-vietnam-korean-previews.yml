@@ -1,0 +1,47 @@
+name: Compare Vietnam and Korean Previews
+
+on:
+  push:
+    branches: [preview/sync-vietnam-site-ko-20260908]
+    paths:
+      - 'scripts/compare_vietnam_korean_previews.py'
+      - '.github/workflows/compare-vietnam-korean-previews.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: compare-vi-ko-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --disable-pip-version-check beautifulsoup4
+      - name: Fetch current Vietnamese preview source
+        run: |
+          rm -rf /tmp/xjtlu-vietnam-source
+          git clone --depth 1 --branch preview/home-hero-copy-20260908 https://github.com/tnsuhak/XJTLU_Vietnam.git /tmp/xjtlu-vietnam-source
+      - name: Compare structure and scan Korean text
+        run: python scripts/compare_vietnam_korean_previews.py
+      - name: Commit QA reports
+        run: |
+          git config user.name 'TNS Site Manager'
+          git config user.email 'actions@users.noreply.github.com'
+          git add preview-parity-report.json review-visible-text-current.txt
+          if git diff --cached --quiet; then
+            echo 'QA reports unchanged'
+            exit 0
+          fi
+          git commit -m 'Refresh Vietnam Korean preview parity QA'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
