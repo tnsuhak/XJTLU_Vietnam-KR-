@@ -6,8 +6,7 @@ RANKING = 'xjtlu-ranking-2027.html'
 guide_pages = [p for p in Path('.').glob('*.html') if p.name not in {'index.html', RANKING}]
 removed_total = 0
 patterns = [
-    r'\n?\s*<(?:div|section|p)\b[^>]*class=["\'][^"\']*\bsources\b[^"\']*["\'][^>]*>.*?</(?:div|section|p)>\s*',
-    r'\n?\s*<(?:div|section|p)\b[^>]*class=["\'][^"\']*\bsource-footer\b[^"\']*["\'][^>]*>.*?</(?:div|section|p)>\s*',
+    r'\n?\s*<(?:div|section|p)\b[^>]*class=["\'][^"\']*\b(?:sources|source|source-footer)\b[^"\']*["\'][^>]*>.*?</(?:div|section|p)>\s*',
 ]
 for page in guide_pages:
     text = page.read_text(encoding='utf-8')
@@ -41,5 +40,5 @@ for page in sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html'
 for page in guide_pages:
     if page.exists():
         raw = page.read_text(encoding='utf-8')
-        assert not re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b', raw, re.I), page
-print('Korean ranking guide removed; source footers removed:', removed_total)
+        assert not re.search(r'class=["\'][^"\']*\b(?:sources|source|source-footer)\b', raw, re.I), page
+print('Korean ranking guide removed; ordinary guide source footers removed:', removed_total)
