@@ -4,6 +4,8 @@ on:
   push:
     branches: [preview/sync-vietnam-site-ko-20260908]
     paths:
+      - '*.html'
+      - 'news/*.html'
       - 'scripts/compare_vietnam_korean_previews.py'
       - '.github/workflows/compare-vietnam-korean-previews.yml'
   workflow_dispatch:
