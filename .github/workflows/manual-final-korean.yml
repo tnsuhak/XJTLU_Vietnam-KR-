@@ -14,6 +14,7 @@ on:
       - 'scripts/standardize_subpage_contacts_20260908.py'
       - 'scripts/remove_homepage_cta_band_20260908.py'
       - 'scripts/remove_subpage_source_footers_20260909.py'
+      - 'scripts/normalize_menu_links_20260909.py'
       - '.github/workflows/manual-final-korean.yml'
 permissions:
   contents: write
@@ -43,6 +44,7 @@ jobs:
           python scripts/standardize_subpage_contacts_20260908.py
           python scripts/remove_homepage_cta_band_20260908.py
           python scripts/remove_subpage_source_footers_20260909.py
+          python scripts/normalize_menu_links_20260909.py
       - name: Validate current Korean review
         run: |
           python - <<'PY'
@@ -52,6 +54,11 @@ jobs:
           pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
           assert len(pages)==26, len(pages)
           assert not Path('xjtlu-ranking-2027.html').exists()
+          menu_links=(
+              '/xjtlu-to-chau-thuong-hai-viet-nam.html',
+              '/xjtlu-chi-phi-sinh-hoat-2027.html',
+              '/xjtlu-ky-tuc-xa-sip-taicang.html',
+          )
           for p in pages:
               raw=p.read_text(encoding='utf-8')
               assert 'xjtlu-ranking-2027.html' not in raw,p
@@ -60,6 +67,11 @@ jobs:
               robots=soup.find('meta',attrs={'name':'robots'})
               assert robots and 'noindex' in robots.get('content',''),p
               assert len(soup.find_all('h1'))==1,p
+              menu=soup.find(id='siteMenu')
+              assert menu,p
+              hrefs={a.get('href') for a in menu.find_all('a',href=True)}
+              for href in menu_links:
+                  assert href in hrefs,(p,href)
           homepage=Path('index.html').read_text(encoding='utf-8')
           assert 'xjtlu-ranking-2027.html' not in homepage
           subpages=[p for p in pages if p!=Path('index.html')]
@@ -94,6 +106,6 @@ jobs:
           git config user.email 'actions@users.noreply.github.com'
           git add -A '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Polish current 26-page Korean review'
+          git commit -m 'Normalize current guide links in Korean menus'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
