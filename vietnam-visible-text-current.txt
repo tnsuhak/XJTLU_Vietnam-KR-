@@ -117,24 +117,15 @@ du-hoc-trung-quoc-2027.html	116	h3	Visa X1 và X2 khác nhau thế nào?
 du-hoc-trung-quoc-2027.html	117	p	X1 dành cho thời gian học trên 180 ngày; X2 dành cho thời gian không quá 180 ngày theo hướng dẫn của cơ quan lãnh sự Trung Quốc.
 du-hoc-trung-quoc-2027.html	118	h3	Nên chọn trường trước hay tính chi phí trước?
 du-hoc-trung-quoc-2027.html	119	p	Nên xác định ngân sách và ngôn ngữ học trước, sau đó lập danh sách trường phù hợp. Cùng là du học Trung Quốc nhưng học phí, học bổng và chi phí sinh hoạt có thể khác rất xa.
-du-hoc-trung-quoc-2027.html	120	div	Nguồn chính:
-du-hoc-trung-quoc-2027.html	121	a	XJTLU Country/Region Entry Requirements
-du-hoc-trung-quoc-2027.html	122	div	·
-du-hoc-trung-quoc-2027.html	123	a	XJTLU Undergraduate Entry Requirements
-du-hoc-trung-quoc-2027.html	124	div	·
-du-hoc-trung-quoc-2027.html	125	a	XJTLU Fees & Scholarships
-du-hoc-trung-quoc-2027.html	126	div	·
-du-hoc-trung-quoc-2027.html	127	a	Embassy of China in Vietnam – Visa categories
-du-hoc-trung-quoc-2027.html	128	div	. Cập nhật nội dung: 30/08/2026.
-du-hoc-trung-quoc-2027.html	129	a	Tư vấn điện thoại TP.HCM
-du-hoc-trung-quoc-2027.html	130	a	Tư vấn điện thoại Hà Nội
-du-hoc-trung-quoc-2027.html	131	a	Tư vấn Zalo
-du-hoc-trung-quoc-2027.html	132	b	SOS TP.HCM
-du-hoc-trung-quoc-2027.html	133	div	Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·
-du-hoc-trung-quoc-2027.html	134	a	+84 28 3823 3266
-du-hoc-trung-quoc-2027.html	135	b	SOS Hà Nội
-du-hoc-trung-quoc-2027.html	136	div	Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·
-du-hoc-trung-quoc-2027.html	137	a	+84 24 3232 1239
+du-hoc-trung-quoc-2027.html	120	a	Tư vấn điện thoại TP.HCM
+du-hoc-trung-quoc-2027.html	121	a	Tư vấn điện thoại Hà Nội
+du-hoc-trung-quoc-2027.html	122	a	Tư vấn Zalo
+du-hoc-trung-quoc-2027.html	123	b	SOS TP.HCM
+du-hoc-trung-quoc-2027.html	124	div	Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·
+du-hoc-trung-quoc-2027.html	125	a	+84 28 3823 3266
+du-hoc-trung-quoc-2027.html	126	b	SOS Hà Nội
+du-hoc-trung-quoc-2027.html	127	div	Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·
+du-hoc-trung-quoc-2027.html	128	a	+84 24 3232 1239
 du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	1	[document]	html
 du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	2	title	Đại học Liverpool tại Trung Quốc? XJTLU & du học bằng tiếng Anh
 du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	3	a	XJTLU Việt Nam
@@ -204,20 +195,15 @@ du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	66	a	Xem XJTLU là trường gì
 du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	67	a	Ngành học & nghề nghiệp
 du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	68	a	Học phí & học bổng
 du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	69	a	Điều kiện tuyển sinh
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	70	div	Nguồn tham khảo:
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	71	a	XJTLU · About
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	72	div	, XJTLU 2027 Mini Brochure và
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	73	a	University of Liverpool · XJTLU partnership
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	74	div	.
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	75	a	Tư vấn điện thoại TP.HCM
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	76	a	Tư vấn điện thoại Hà Nội
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	77	a	Tư vấn Zalo
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	78	b	SOS TP.HCM
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	79	div	Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	80	a	+84 28 3823 3266
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	81	b	SOS Hà Nội
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	82	div	Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·
-du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	83	a	+84 24 3232 1239
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	70	a	Tư vấn điện thoại TP.HCM
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	71	a	Tư vấn điện thoại Hà Nội
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	72	a	Tư vấn Zalo
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	73	b	SOS TP.HCM
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	74	div	Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	75	a	+84 28 3823 3266
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	76	b	SOS Hà Nội
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	77	div	Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·
+du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html	78	a	+84 24 3232 1239
 index.html	1	[document]	html
 index.html	2	title	XJTLU Việt Nam 2027 | Học phí, học bổng & tuyển sinh
 index.html	3	span	📍 Trang thông tin tiếng Việt về XJTLU · Tư vấn tuyển sinh bởi SOS International

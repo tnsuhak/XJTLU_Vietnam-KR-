@@ -5,30 +5,8 @@
   "missing_in_korean": [],
   "extra_in_korean": [],
   "matched_pages": 26,
-  "structural_mismatch_count": 21,
-  "structural_mismatches": [
-    "du-hoc-trung-quoc-2027.html",
-    "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
-    "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
-    "news/index.html",
-    "news/xjtlu-alumni-australia-2026.html",
-    "news/xjtlu-alumni-singapore-2026.html",
-    "news/xjtlu-class-2026-liverpool-degrees.html",
-    "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
-    "news/xjtlu-filmmaking-to-columbia-university.html",
-    "news/xjtlu-harvard-cambridge-linguistics.html",
-    "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
-    "news/xjtlu-thai-graduate-cp-group.html",
-    "news/xjtlu-to-oxford-english-literature.html",
-    "news/xjtlu-to-tsinghua-indonesian-student.html",
-    "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
-    "university-of-liverpool-vietnam.html",
-    "xjtlu-2plus2-liverpool.html",
-    "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
-    "xjtlu-hoc-phi-hoc-bong-2027.html",
-    "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
-    "xjtlu-nganh-hoc-nghe-nghiep.html"
-  ],
+  "structural_mismatch_count": 0,
+  "structural_mismatches": [],
   "page_reports": {
     "du-hoc-trung-quoc-2027.html": {
       "source_metrics": {
@@ -49,14 +27,10 @@
         "details": 0,
         "table": 1,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -79,14 +53,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 18
+        "internal_links": 15
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -135,14 +105,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -165,14 +131,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 29
+        "internal_links": 26
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -195,14 +157,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -225,14 +183,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -255,14 +209,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -285,14 +235,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -315,14 +261,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -345,14 +287,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -375,14 +313,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -405,14 +339,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -435,14 +365,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -465,14 +391,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -495,14 +417,10 @@
         "details": 0,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -525,14 +443,10 @@
         "details": 3,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -555,14 +469,10 @@
         "details": 4,
         "table": 1,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -611,14 +521,10 @@
         "details": 3,
         "table": 1,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -667,14 +573,10 @@
         "details": 3,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 14
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -697,14 +599,10 @@
         "details": 1,
         "table": 2,
         "iframe": 0,
-        "internal_links": 20
+        "internal_links": 17
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html",
-        "/xjtlu-to-chau-thuong-hai-viet-nam.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -753,13 +651,10 @@
         "details": 4,
         "table": 0,
         "iframe": 0,
-        "internal_links": 17
+        "internal_links": 15
       },
       "missing_internal_hrefs_in_korean": [],
-      "extra_internal_hrefs_in_korean": [
-        "/xjtlu-chi-phi-sinh-hoat-2027.html",
-        "/xjtlu-ky-tuc-xa-sip-taicang.html"
-      ],
+      "extra_internal_hrefs_in_korean": [],
       "source_youtube_ids": [],
       "korean_youtube_ids": []
     },
@@ -790,80 +685,8 @@
       "korean_youtube_ids": []
     }
   },
-  "translation_flag_count": 70,
+  "translation_flag_count": 3,
   "translation_flags": [
-    {
-      "page": "du-hoc-trung-quoc-2027.html",
-      "node": 76,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "du-hoc-trung-quoc-2027.html",
-      "node": 99,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "du-hoc-trung-quoc-2027.html",
-      "node": 137,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "du-hoc-trung-quoc-2027.html",
-      "node": 140,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
-      "node": 78,
-      "tag": "div",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
-      "node": 83,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html",
-      "node": 86,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "index.html",
-      "node": 242,
-      "tag": "span",
-      "text": "베트남 학생 Mai Anh Ngô는 XJTLU 소속으로 2025 화동지역 중국어 스피치 대회에서 2등상을 받았습니다.",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
     {
       "page": "index.html",
       "node": 290,
@@ -883,541 +706,10 @@
       ]
     },
     {
-      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
-      "node": 57,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
-      "node": 84,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html",
-      "node": 87,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/index.html",
-      "node": 97,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/index.html",
-      "node": 100,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-alumni-australia-2026.html",
-      "node": 74,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-alumni-australia-2026.html",
-      "node": 77,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-alumni-singapore-2026.html",
-      "node": 74,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-alumni-singapore-2026.html",
-      "node": 77,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
-      "node": 56,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
-      "node": 78,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-class-2026-liverpool-degrees.html",
-      "node": 81,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
-      "node": 61,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
-      "node": 74,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-della-vivo-vietnam-southeast-asia.html",
-      "node": 77,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
-      "node": 49,
-      "tag": "p",
-      "text": ",",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
-      "node": 51,
-      "tag": "p",
-      "text": ",",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
-      "node": 76,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-filmmaking-to-columbia-university.html",
-      "node": 79,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
-      "node": 48,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
-      "node": 68,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-harvard-cambridge-linguistics.html",
-      "node": 71,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
-      "node": 72,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html",
-      "node": 75,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-thai-graduate-cp-group.html",
-      "node": 68,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-thai-graduate-cp-group.html",
-      "node": 71,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-oxford-english-literature.html",
-      "node": 48,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-oxford-english-literature.html",
-      "node": 67,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-oxford-english-literature.html",
-      "node": 70,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
-      "node": 48,
-      "tag": "p",
-      "text": ".",
-      "reasons": [
-        "standalone punctuation"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
-      "node": 68,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-tsinghua-indonesian-student.html",
-      "node": 71,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
-      "node": 74,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "news/xjtlu-to-upenn-behavioral-decision-sciences.html",
-      "node": 77,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "university-of-liverpool-vietnam.html",
-      "node": 108,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "university-of-liverpool-vietnam.html",
-      "node": 111,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-2plus2-liverpool.html",
-      "node": 117,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-2plus2-liverpool.html",
-      "node": 120,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-chi-phi-sinh-hoat-2027.html",
-      "node": 155,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-chi-phi-sinh-hoat-2027.html",
-      "node": 158,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
-      "node": 126,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html",
-      "node": 129,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
-      "node": 111,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html",
-      "node": 114,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
-      "node": 98,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-hoc-phi-hoc-bong-2027.html",
-      "node": 101,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
-      "node": 314,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html",
-      "node": 317,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-ky-tuc-xa-sip-taicang.html",
-      "node": 67,
-      "tag": "b",
-      "text": "5–15 phút",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
       "page": "xjtlu-ky-tuc-xa-sip-taicang.html",
       "node": 140,
       "tag": "a",
       "text": "Tô Châu & Thượng Hải",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-ky-tuc-xa-sip-taicang.html",
-      "node": 146,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-ky-tuc-xa-sip-taicang.html",
-      "node": 149,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-nganh-hoc-nghe-nghiep.html",
-      "node": 144,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-nganh-hoc-nghe-nghiep.html",
-      "node": 147,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-to-chau-thuong-hai-viet-nam.html",
-      "node": 67,
-      "tag": "b",
-      "text": "204,75 tỷ RMB",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-to-chau-thuong-hai-viet-nam.html",
-      "node": 69,
-      "tag": "b",
-      "text": "25–30 phút",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-to-chau-thuong-hai-viet-nam.html",
-      "node": 77,
-      "tag": "strong",
-      "text": "204,75 tỷ RMB",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-to-chau-thuong-hai-viet-nam.html",
-      "node": 79,
-      "tag": "b",
-      "text": "204,75 tỷ RMB",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-to-chau-thuong-hai-viet-nam.html",
-      "node": 127,
-      "tag": "div",
-      "text": "Tầng 3, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM ·",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-to-chau-thuong-hai-viet-nam.html",
-      "node": 130,
-      "tag": "div",
-      "text": "Tầng 6, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội ·",
       "reasons": [
         "Vietnamese-diacritic text"
       ]
