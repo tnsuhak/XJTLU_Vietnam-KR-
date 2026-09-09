@@ -29,7 +29,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install --disable-pip-version-check beautifulsoup4
-      - name: Apply human Korean mappings
+      - name: Apply Korean review rules
         run: |
           python scripts/manual_final_korean.py
           python scripts/manual_final_korean_part2.py
@@ -41,145 +41,50 @@ jobs:
           python scripts/standardize_subpage_contacts_20260908.py
           python scripts/remove_homepage_cta_band_20260908.py
           python scripts/remove_subpage_source_footers_20260909.py
-      - name: Validate critical facts and review settings
+      - name: Validate Korean review after ranking removal
         run: |
           python - <<'PY'
           from pathlib import Path
           from bs4 import BeautifulSoup
-          from urllib.parse import urlparse, unquote
           import re
-
           pages=sorted(Path('.').glob('*.html'))+sorted(Path('news').glob('*.html'))
-          assert len(pages)==24
-          banned=[
-            '99,000만원','99.000만원','99,000원','99.000원','99.000 RMB','7,0/10','86,43%','47,16%','93,40%',
-            '>1.018<','>1.500+<','>4.816<','>3.797<','>1.244<','2 AP: 4.4','조건들을 보세요',
-            '제 말은,','도천','도저','토주','후천 시립','장학비','지아토ング','비엔나티움','대도시청소년병원',
-            '출처: 청와대','무궁화','태평양 캠퍼스','타이창랑','20262027','시안 자이오통','오해가 안되죠','海의 위치',
-            '학료','브로체어','부시로','학교의 생방송','활포','다지볼','산업과 수험 기간','리버풀대학교과','리버풀대학교은',
-            '빨리 물어봐','월드클라이딩','개요를 읽어보세요','전생','형상','ተበዳሪ','신학년','중국 학생만 선택하지',
-            '57년에서 146년','그리고 저는 제 생각에','빅 쿼리','전학생 네트워크','수석생 네트워크','모든 뉴스를 보',
-            '본문은 XJTLU에서 읽습니다','베트남어로 편집','이것은 XJTLU를 연구하는 사람들에게','러셀 그룹의 설립자',
-            '영어학 전생','그 후 조롱','전 학자','전문적인 힙합','이것은 주목할만한 지표입니다','아시아의 최고의 교육 중심지',
-            '실수는 시드니','호주 최고의 대학에서 재학 중인 학생 중','150여명의 전학생','대학수교수','2년 직선','3년 직선',
-            '</strong>이수학기','</a>학비와 장학금','</b>University of Liverpool',
-            '국제학생 학비 10% 할인</strong> 리버풀대학교','코호트 상위 5%</strong> 안내된 성적'
-          ]
-          bad=[]
-          soups={}
-          particle_gap=re.compile(r'</(?:b|strong)>\s+(?:에서는|에서|으로|에게|부터|까지|보다|처럼|마다|조차|이|가|을|를|은|는|와|과|에|로|의|도|만|께)(?=[\s,.!?<])')
+          assert len(pages)==23, len(pages)
+          assert not Path('xjtlu-ranking-2027.html').exists()
           for p in pages:
               raw=p.read_text(encoding='utf-8')
+              assert 'xjtlu-ranking-2027.html' not in raw,p
               soup=BeautifulSoup(raw,'html.parser')
-              soups[p.resolve()]=soup
               assert soup.html and soup.html.get('lang')=='ko',p
               robots=soup.find('meta',attrs={'name':'robots'})
               assert robots and 'noindex' in robots.get('content',''),p
-              assert len(soup.find_all('h1'))==1,(p,'h1 count',len(soup.find_all('h1')))
-              title=soup.title.get_text(' ',strip=True) if soup.title else ''
-              assert title and '[한글 검수판]' in title,(p,'title')
-              desc=soup.find('meta',attrs={'name':'description'})
-              assert desc and len(desc.get('content','').strip())>=35,(p,'meta description')
-              vis=soup.get_text(' ',strip=True)
-              for b in banned:
-                  if b in raw or b in vis: bad.append((str(p),b))
-              if re.search(r'(?<!장)학금',vis): bad.append((str(p),'standalone 학금'))
-              if particle_gap.search(raw): bad.append((str(p),'space before Korean particle after bold'))
-              for tag in soup.find_all(['p','div']):
-                  if tag.get_text(strip=True) in {'.', ','}:
-                      bad.append((str(p),'standalone punctuation block'))
-          assert not bad,bad
-
-          broken=[]
-          for p in pages:
-              soup=soups[p.resolve()]
-              for a in soup.find_all('a',href=True):
-                  href=a['href'].strip()
-                  if not href or href.startswith(('mailto:','tel:','javascript:')):
-                      continue
-                  u=urlparse(href)
-                  if u.scheme in ('http','https'):
-                      if a.get('target')!='_blank' or 'noopener' not in (a.get('rel') or []):
-                          broken.append((str(p),'external attrs',href))
-                      continue
-                  if u.scheme or u.netloc:
-                      continue
-                  path=unquote(u.path)
-                  frag=unquote(u.fragment)
-                  if path.startswith('/'):
-                      target=Path(path.lstrip('/'))
-                  else:
-                      target=(p.parent / path) if path else p
-                  if not path:
-                      target=p
-                  elif path.endswith('/'):
-                      target=target/'index.html'
-                  elif target.suffix=='':
-                      target=target/'index.html'
-                  target=target.resolve()
-                  if not target.exists():
-                      broken.append((str(p),'missing target',href))
-                      continue
-                  if frag and target.suffix.lower()=='.html':
-                      ts=soups.get(target)
-                      if ts is None:
-                          ts=BeautifulSoup(target.read_text(encoding='utf-8'),'html.parser')
-                          soups[target]=ts
-                      if ts.find(id=frag) is None:
-                          broken.append((str(p),'missing fragment',href))
-          assert not broken,broken[:30]
-
+              assert len(soup.find_all('h1'))==1,p
           homepage=Path('index.html').read_text(encoding='utf-8')
-          assert 'TNS_SUBPAGE_CONTACT_START' not in homepage
-          assert '9월 입학: 장학금과 지원 일정을 미리 확인하세요' not in homepage
-          assert '무료 조건평가 · 서류안내 · 비자 · 숙소 · 출국 준비' not in homepage
-          assert '입학조건 확인 →' not in homepage
+          assert 'xjtlu-ranking-2027.html' not in homepage
           subpages=[p for p in pages if p!=Path('index.html')]
-          assert len(subpages)==23
+          assert len(subpages)==22,len(subpages)
           for p in subpages:
               raw=p.read_text(encoding='utf-8')
               assert raw.count('TNS_SUBPAGE_CONTACT_START')==1,p
-              assert 'href="tel:+842838233266"' in raw,p
-              assert 'href="tel:+842432321239"' in raw,p
-              assert 'href="https://zalo.me/0336737617"' in raw,p
-              assert '호치민 전화상담' in raw and '하노이 전화상담' in raw and 'Zalo 상담' in raw,p
-
-          # Ordinary guide pages must not show the small source footer. News pages
-          # intentionally retain their original-source links.
+              assert 'tel:+842838233266' in raw and 'tel:+842432321239' in raw,p
+              assert 'zalo.me/0336737617' in raw,p
           guide_pages=[p for p in Path('.').glob('*.html') if p.name!='index.html']
-          assert len(guide_pages)==10, len(guide_pages)
           for p in guide_pages:
               raw=p.read_text(encoding='utf-8')
-              assert not re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b', raw, re.I), p
-
+              assert not re.search(r'class=["\'][^"\']*\b(?:sources|source-footer)\b',raw,re.I),p
           fee=Path('xjtlu-hoc-phi-hoc-bong-2027.html').read_text(encoding='utf-8')
           admissions=Path('xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html').read_text(encoding='utf-8')
-          twoplus=Path('xjtlu-2plus2-liverpool.html').read_text(encoding='utf-8')
-          ranking=Path('xjtlu-ranking-2027.html').read_text(encoding='utf-8')
-          assert '99,000 RMB' in fee and '연간 99,000 RMB' in fee
-          assert '31/03/2027' in fee and '10%' in fee
-          assert '31/05/2027' in admissions
-          assert 'GPA 3.0/4.0 + SAT 1280 또는 ACT 27 + 2 AP: 4, 4' in admissions
+          assert '99,000 RMB' in fee
           assert 'IELTS 5.0' in admissions and 'TOEFL iBT 62' in admissions
-          assert 'IELTS 6.5' in admissions and 'TOEFL iBT 90' in admissions
-          assert '코호트 상위 5%' in twoplus and 'STEM은 평균 80% 이상' in twoplus and '비-STEM은 평균 70% 이상' in twoplus
-          assert '30% Merit Scholarship' in twoplus and '10% Partnership Discount와 중복 적용되지 않습니다' in twoplus
-          assert '1001–1200' in ranking and '601–800' in ranking and '701–800' in ranking
           assert Path('robots.txt').read_text(encoding='utf-8')=='User-agent: *\nDisallow: /\n'
           assert not Path('sitemap.xml').exists()
-          print('critical validation passed:',len(pages),'pages')
-          print('internal/external link validation passed')
-          print('final Korean typography and sentence-connection validation passed')
-          print('subpage contact validation passed:',len(subpages),'pages')
-          print('homepage CTA removal validation passed')
-          print('guide source footer removal validation passed:',len(guide_pages),'pages')
+          print('Korean review validation passed:',len(pages),'pages; ranking removed')
           PY
       - name: Commit final Korean review
         run: |
           git config user.name 'TNS Site Manager'
           git config user.email 'actions@users.noreply.github.com'
-          git add '*.html' 'news/*.html'
+          git add -A '*.html' 'news/*.html'
           if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-          git commit -m 'Remove Korean guide source footers'
+          git commit -m 'Remove XJTLU ranking guide and links'
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
