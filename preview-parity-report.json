@@ -1,0 +1,709 @@
+{
+  "source_branch": "preview/home-hero-copy-20260908",
+  "source_html_pages": 26,
+  "korean_html_pages": 26,
+  "missing_in_korean": [],
+  "extra_in_korean": [],
+  "matched_pages": 26,
+  "structural_mismatch_count": 0,
+  "structural_mismatches": [],
+  "page_reports": {
+    "du-hoc-trung-quoc-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 10,
+        "section": 9,
+        "details": 0,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 11,
+        "h3": 10,
+        "section": 9,
+        "details": 0,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "du-hoc-trung-quoc-bang-tieng-anh-xjtlu.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 7,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 7,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "index.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 12,
+        "h3": 15,
+        "section": 19,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 21
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 12,
+        "h3": 15,
+        "section": 19,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 21
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/700-sinh-vien-indonesia-xjtlu-dong-nam-a.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/index.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 13,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 26
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 13,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 26
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-alumni-australia-2026.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-alumni-singapore-2026.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-class-2026-liverpool-degrees.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-della-vivo-vietnam-southeast-asia.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-filmmaking-to-columbia-university.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-harvard-cambridge-linguistics.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-harvard-full-scholarship-stanford-yale-oxford.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-thai-graduate-cp-group.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-to-oxford-english-literature.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-to-tsinghua-indonesian-student.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "news/xjtlu-to-upenn-behavioral-decision-sciences.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 3,
+        "h3": 7,
+        "section": 8,
+        "details": 0,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "university-of-liverpool-vietnam.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 15,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 15,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-2plus2-liverpool.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 4,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-chi-phi-sinh-hoat-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 22,
+        "section": 21,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 22,
+        "section": 21,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-dieu-kien-tuyen-sinh-vietnam-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 11,
+        "section": 16,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 15,
+        "section": 15,
+        "details": 0,
+        "table": 0,
+        "iframe": 2,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 15,
+        "section": 15,
+        "details": 0,
+        "table": 0,
+        "iframe": 2,
+        "internal_links": 17
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-hoc-phi-hoc-bong-2027.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 13,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 8,
+        "h3": 13,
+        "section": 15,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 14
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-ket-qua-hoc-len-sau-tot-nghiep-2025.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 12,
+        "details": 1,
+        "table": 2,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 4,
+        "h3": 7,
+        "section": 12,
+        "details": 1,
+        "table": 2,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-ky-tuc-xa-sip-taicang.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 22,
+        "section": 22,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 22,
+        "section": 22,
+        "details": 3,
+        "table": 1,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-nganh-hoc-nghe-nghiep.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 21,
+        "section": 16,
+        "details": 4,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 21,
+        "section": 16,
+        "details": 4,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 15
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    },
+    "xjtlu-to-chau-thuong-hai-viet-nam.html": {
+      "source_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 22,
+        "section": 22,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "korean_metrics": {
+        "h1": 1,
+        "h2": 9,
+        "h3": 22,
+        "section": 22,
+        "details": 3,
+        "table": 0,
+        "iframe": 0,
+        "internal_links": 17
+      },
+      "missing_internal_hrefs_in_korean": [],
+      "extra_internal_hrefs_in_korean": [],
+      "source_youtube_ids": [],
+      "korean_youtube_ids": []
+    }
+  },
+  "translation_flag_count": 2,
+  "translation_flags": [
+    {
+      "page": "index.html",
+      "node": 290,
+      "tag": "div",
+      "text": "3층, Bcons Tower II, 42/1 Ung Văn Khiêm, P. Thạnh Mỹ Tây, TP.HCM",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    },
+    {
+      "page": "index.html",
+      "node": 296,
+      "tag": "div",
+      "text": "6층, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội",
+      "reasons": [
+        "Vietnamese-diacritic text"
+      ]
+    }
+  ]
+}

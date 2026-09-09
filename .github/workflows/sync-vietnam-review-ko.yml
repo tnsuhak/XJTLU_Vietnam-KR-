@@ -1,0 +1,96 @@
+name: Sync XJTLU Vietnam Korean Review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - preview/sync-vietnam-site-ko-20260908
+    paths:
+      - 'scripts/sync_vi_to_ko_review.py'
+      - '.github/workflows/sync-vietnam-review-ko.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-vietnam-ko-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TOKENIZERS_PARALLELISM: 'false'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    steps:
+      - name: Checkout Korean review repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install review translation dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --upgrade pip
+          python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu torch
+          python -m pip install --disable-pip-version-check beautifulsoup4 sentencepiece sacremoses 'transformers<5'
+          python - <<'PY'
+          import torch, transformers
+          print('torch:', torch.__version__)
+          print('transformers:', transformers.__version__)
+          PY
+
+      - name: Fetch latest approved Vietnamese preview source
+        run: |
+          rm -rf /tmp/xjtlu-vietnam-source
+          git clone --depth 1 --branch preview/homepage-youtube-7co9mt5a9yu-20260908 https://github.com/tnsuhak/XJTLU_Vietnam.git /tmp/xjtlu-vietnam-source
+          echo "SOURCE_COMMIT=$(git -C /tmp/xjtlu-vietnam-source rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: Mirror structure and translate visible content to Korean
+        run: python scripts/sync_vi_to_ko_review.py /tmp/xjtlu-vietnam-source "$GITHUB_WORKSPACE"
+
+      - name: Verify Korean review build
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          from bs4 import BeautifulSoup
+
+          pages = sorted(Path('.').glob('*.html')) + sorted(Path('news').glob('*.html'))
+          assert len(pages) == 24, f'Expected 24 HTML pages, got {len(pages)}'
+          for p in pages:
+              text = p.read_text(encoding='utf-8')
+              soup = BeautifulSoup(text, 'html.parser')
+              assert soup.html and soup.html.get('lang') == 'ko', p
+              robots = soup.find('meta', attrs={'name':'robots'})
+              assert robots and 'noindex' in robots.get('content',''), p
+              assert not soup.find('link', rel=lambda v: v and 'canonical' in v), p
+              assert 'xjtlu-vietnam.netlify.app' not in text, p
+              assert soup.find('h1'), f'Missing H1: {p}'
+          assert Path('robots.txt').read_text(encoding='utf-8') == 'User-agent: *\nDisallow: /\n'
+          assert not Path('sitemap.xml').exists()
+          report = json.loads(Path('review-sync-report.json').read_text(encoding='utf-8'))
+          assert report['html_pages'] == 24
+          assert not report['model_errors'], report['model_errors']
+          print('Korean review verification passed for', len(pages), 'pages')
+          print('Visible Vietnamese scan:', report['visible_untranslated_scan'])
+          PY
+
+      - name: Commit generated Korean review site
+        run: |
+          git config user.name 'TNS Site Manager'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'Korean review site already synchronized'
+            exit 0
+          fi
+          git commit -m 'Sync Korean review site with latest Vietnam preview'
+          BRANCH="${GITHUB_REF_NAME}"
+          git pull --rebase origin "$BRANCH"
+          git push origin "HEAD:$BRANCH"

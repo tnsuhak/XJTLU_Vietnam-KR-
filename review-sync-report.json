@@ -1,0 +1,11 @@
+{
+  "source_repo": "tnsuhak/XJTLU_Vietnam",
+  "source_branch": "preview/homepage-youtube-7co9mt5a9yu-20260908",
+  "source_commit": "534d5d5a42cc6feb74bbc83b7613dc4ab4adfa1c",
+  "translation_backend": "facebook/nllb-200-distilled-600M direct vie_Latn -> kor_Hang",
+  "html_pages": 24,
+  "unique_translations": 1021,
+  "model_errors": [],
+  "visible_untranslated_scan": [],
+  "review_policy": "noindex,nofollow + robots Disallow /"
+}

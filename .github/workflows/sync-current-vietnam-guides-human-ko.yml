@@ -1,0 +1,83 @@
+name: Sync Current Vietnam Additions to Korean Review
+
+on:
+  push:
+    branches: [preview/sync-vietnam-site-ko-20260908]
+    paths:
+      - 'scripts/sync_current_vietnam_guides_human_ko.py'
+      - 'scripts/reconcile_current_vietnam_structure.py'
+      - '.github/workflows/sync-current-vietnam-guides-human-ko.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-current-vi-ko-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --disable-pip-version-check beautifulsoup4
+      - name: Fetch current Vietnamese preview source
+        run: |
+          rm -rf /tmp/xjtlu-vietnam-source
+          git clone --depth 1 --branch preview/home-hero-copy-20260908 https://github.com/tnsuhak/XJTLU_Vietnam.git /tmp/xjtlu-vietnam-source
+      - name: Apply human Korean parity additions
+        run: |
+          python scripts/sync_current_vietnam_guides_human_ko.py /tmp/xjtlu-vietnam-source
+          python scripts/reconcile_current_vietnam_structure.py /tmp/xjtlu-vietnam-source
+      - name: Validate current parity essentials
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          from urllib.parse import urlparse
+
+          src=Path('/tmp/xjtlu-vietnam-source')
+          src_pages=sorted([p.relative_to(src).as_posix() for p in src.glob('*.html')]+[p.relative_to(src).as_posix() for p in (src/'news').glob('*.html')])
+          ko_pages=sorted([p.as_posix() for p in Path('.').glob('*.html')]+[p.as_posix() for p in Path('news').glob('*.html')])
+          assert len(src_pages)==26, len(src_pages)
+          assert src_pages==ko_pages, (set(src_pages)-set(ko_pages),set(ko_pages)-set(src_pages))
+          assert 'xjtlu-ranking-2027.html' not in ko_pages
+          new_pages={'xjtlu-chi-phi-sinh-hoat-2027.html','xjtlu-ky-tuc-xa-sip-taicang.html','xjtlu-to-chau-thuong-hai-viet-nam.html'}
+          for rel in ko_pages:
+              raw=Path(rel).read_text(encoding='utf-8')
+              soup=BeautifulSoup(raw,'html.parser')
+              assert soup.html and soup.html.get('lang')=='ko', rel
+              robots=soup.find('meta',attrs={'name':'robots'})
+              assert robots and 'noindex' in robots.get('content',''), rel
+              assert not soup.find('link',attrs={'rel':lambda x:x and 'canonical' in x}), rel
+              assert not soup.find('meta',attrs={'property':'og:url'}), rel
+              assert 'xjtlu-ranking-2027.html' not in raw, rel
+              if rel!='index.html':
+                  assert 'tel:+842838233266' in raw and 'tel:+842432321239' in raw and 'zalo.me/0336737617' in raw, rel
+          home=Path('index.html').read_text(encoding='utf-8')
+          for rel in new_pages: assert '/'+rel in home, rel
+          life=Path('xjtlu-doi-song-sinh-vien-the-thao-cau-lac-bo.html').read_text(encoding='utf-8')
+          for rel in new_pages: assert '/'+rel in life, rel
+          major=Path('xjtlu-nganh-hoc-nghe-nghiep.html').read_text(encoding='utf-8')
+          assert '/xjtlu-to-chau-thuong-hai-viet-nam.html' in major
+          print('Korean current-preview parity essentials passed:',len(ko_pages),'pages')
+          PY
+      - name: Commit synchronized Korean review pages
+        run: |
+          git config user.name 'TNS Site Manager'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A '*.html' 'news/*.html'
+          if git diff --cached --quiet; then
+            echo 'Korean review already matches current Vietnam additions'
+            exit 0
+          fi
+          git commit -m 'Sync current Vietnam preview additions in Korean'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"

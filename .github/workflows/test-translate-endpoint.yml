@@ -1,0 +1,27 @@
+name: Test Translation Endpoint
+on:
+  push:
+    branches:
+      - preview/sync-vietnam-site-ko-20260908
+    paths:
+      - '.github/workflows/test-translate-endpoint.yml'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Test Hugging Face model access
+        run: |
+          set -e
+          python - <<'PY'
+          import urllib.request, time
+          urls = [
+            'https://huggingface.co/Helsinki-NLP/opus-mt-vi-en/resolve/main/config.json',
+            'https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-ko/resolve/main/config.json',
+          ]
+          for url in urls:
+              t=time.time()
+              with urllib.request.urlopen(url, timeout=10) as r:
+                  body=r.read(200)
+              print(url, 'ok', len(body), 'elapsed', round(time.time()-t,3))
+          PY
