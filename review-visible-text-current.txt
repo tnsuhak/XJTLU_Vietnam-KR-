@@ -2688,7 +2688,7 @@ xjtlu-ky-tuc-xa-sip-taicang.html	136	a	2027 생활비
 xjtlu-ky-tuc-xa-sip-taicang.html	137	span	숙소비와 월 생활비 함께 계산
 xjtlu-ky-tuc-xa-sip-taicang.html	138	a	학생 생활
 xjtlu-ky-tuc-xa-sip-taicang.html	139	span	스포츠, 동아리와 캠퍼스 영상
-xjtlu-ky-tuc-xa-sip-taicang.html	140	a	Tô Châu & Thượng Hải
+xjtlu-ky-tuc-xa-sip-taicang.html	140	a	쑤저우 & 상하이
 xjtlu-ky-tuc-xa-sip-taicang.html	141	span	캠퍼스 주변 생활환경 확인
 xjtlu-ky-tuc-xa-sip-taicang.html	142	a	호치민 전화상담
 xjtlu-ky-tuc-xa-sip-taicang.html	143	a	하노이 전화상담

@@ -685,7 +685,7 @@
       "korean_youtube_ids": []
     }
   },
-  "translation_flag_count": 3,
+  "translation_flag_count": 2,
   "translation_flags": [
     {
       "page": "index.html",
@@ -701,15 +701,6 @@
       "node": 296,
       "tag": "div",
       "text": "6층, Tòa Veam Tây Hồ, Khu D1, P. Tây Hồ, Hà Nội",
-      "reasons": [
-        "Vietnamese-diacritic text"
-      ]
-    },
-    {
-      "page": "xjtlu-ky-tuc-xa-sip-taicang.html",
-      "node": 140,
-      "tag": "a",
-      "text": "Tô Châu & Thượng Hải",
       "reasons": [
         "Vietnamese-diacritic text"
       ]
